@@ -1,5 +1,5 @@
-from enum import Enum
 import requests
+from bs4 import BeautifulSoup
 
 URL = 'https://course-eval.portal.chalmers.se/sr/ar/4257/sv'
 HEADERS = {
@@ -21,23 +21,13 @@ HEADERS = {
     "Referrer-Policy": "strict-origin-when-cross-origin"
   }
 
-YEARS = { # Mapping of year to year code
-    '2013/2014': 49,
-}
-
-class MP(Enum): # master program
-    MPALG = 275,
-
-class BP(Enum): # bachelor program
-    TKAUT = 57,
-
 class Collector:
-    def __init__(self):
+    def __init__(self, programmes, years, lps=['1049','1050','1051','1052']):
         self.session = requests.Session()
         self.session.headers.update(HEADERS)
-        self.programmes = [] # MAX 5
-        self.years = [] # MAX 5 (only in bachelor programmes page)
-        self.lps = ['1049','1050','1051','1052'] # LP1, LP2, LP3, LP4
+        self.programmes = programmes # MAX 5
+        self.years = years # MAX 5 (only in bachelor programmes page)
+        self.lps = lps # LP1, LP2, LP3, LP4
 
     def get_data(self):
         if self.data is None:
@@ -67,6 +57,16 @@ class Collector:
     def export_html(self, filename):
         with open(filename, 'w') as f:
             f.write(self.data.text)
+
+    def update_mp_courses(self):
+        """
+            Updates the courses in the master program page.
+            The courses are saved in self.mp_courses
+        """
+        self.mp_courses = []
+        soup = BeautifulSoup(self.data.text, 'html.parser')
+        for course in soup.find_all('div', class_='course'):
+            self.mp_courses.append(course.find('a').text)
 
 collector = Collector()
 collector.programmes = ['275','1477','147','224','162'] # MPALG

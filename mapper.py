@@ -2,23 +2,14 @@
 mapper.py - mapping the input fields in the search page to their ids
 """
 import os
+import pandas as pd
+
 from datetime import date
 from bs4 import BeautifulSoup
 from seleniumwire import webdriver  # Import from seleniumwire
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-import pandas as pd
-
-
-class Course:
-    def __init__(self, tag, name, sid):
-        self.tag = tag
-        self.name = name
-        self.sid = sid # Search id
-
-    def __str__(self):
-        return f"({self.sid}) {self.tag} - {self.name}"
 
 class Mapper:
     def __init__(self):
@@ -52,6 +43,13 @@ class Mapper:
         # Set the interceptor on the driver
         self.driver.request_interceptor = interceptor
 
+        # Create data folder if it doesn't exist
+        today = date.today()
+        self.data_location = today.strftime("data_%Y%m%d")
+        os.makedirs(self.data_location, exist_ok=True)
+        os.makedirs(self.data_location+"/mp", exist_ok=True)
+        os.makedirs(self.data_location+"/bp", exist_ok=True)
+
     def get_data(self):
         if self.driver.page_source is None:
             print("No data collected")
@@ -80,26 +78,36 @@ class Mapper:
     def parse(self, text):
         """
             Parses the html and returns a dictionary of the input fields
-            and their ids.
+            and their ids and returns a list of data frames with the 
+            columns ['tag', 'name', 'sid'].
         """
         soup = BeautifulSoup(text, 'html.parser')
-        lis = soup.find_all('li')
+        categories = {
+            "Programme": soup.find("div", {"id": "treeCategories1"}),
+            "Year": soup.find("div", {"id": "treeCategories2"}),
+            "LP": soup.find("div", {"id": "treeCategories3"})
+          }
+        fields = {}
 
-        fields = pd.DataFrame(columns=['tag', 'name', 'sid'])
+        for category, div in categories.items():
+            lis = div.find_all('li')
+            field = pd.DataFrame(columns=['tag', 'name', 'sid'])
 
-        for li in lis:
-            if li.text != "Markera alla":
-                tag = li.text
-                name = ""
+            for li in lis:
+                if li.text != "Markera alla":
+                    # Has to handle ZBASS- Tekniskt basår, TSLOG - Sjöfart och logistik, 2013/2014 or Läsperiod 1
+                    tag = li.text
+                    name = ""
 
-                if "-" in li.text: # To handle both ZBASS- Tekniskt basår, TSLOG - Sjöfart och logistik, 2013/2014 or Läsperiod 1
-                    keys = li.text.split("-")
-                    tag = keys[0].strip()
-                    name = keys[1].strip()
-                
-                sid = li.find('input')['tag']
-                # use concat to add a new row to the dataframe
-                fields = pd.concat([fields, pd.DataFrame([[tag, name, sid]], columns=['tag', 'name', 'sid'])], ignore_index=True)
+                    if "-" in li.text: 
+                        keys = li.text.split("-")
+                        tag = keys[0].strip()
+                        name = keys[1].strip()
+                    
+                    sid = li.find('input')['tag']
+                    # use concat to add a new row to the dataframe
+                    field = pd.concat([field, pd.DataFrame([[tag, name, sid]], columns=['tag', 'name', 'sid'])], ignore_index=True)
+            fields[category] = field
 
         return fields
 
@@ -112,40 +120,43 @@ class Mapper:
             text = f.read()
         return self.parse(text)
 
-    def update_map(self, filename):
+    def update_map(self):
         """
-            Updates the map file with the new data
+            Updates the map files with the new data
         """
-        # Create data folder if it doesn't exist
-        today = date.today()
-        data_location = today.strftime("data_%Y%m%d")
-        os.makedirs(data_location, exist_ok=True)
 
+        # Fetch the data
         self.fetch(master=True)
-        self.save_html(data_location+"/mp_search.html")
+        self.save_html(self.data_location+"/mp/search.html")
         print("Saved master search page")
         self.fetch(master=False)
-        self.save_html(data_location+"/bp_search.html")
+        self.save_html(self.data_location+"/bp/search.html")
         print("Saved bachelor search page")
 
-        mp_fields = self.parse_file(data_location+"/mp_search.html")
+        # Parse the data
+        mp_fields = self.parse_file(self.data_location+"/mp/search.html")
         print("Parsed master search page")
-        bp_fields = self.parse_file(data_location+"/bp_search.html")
+        bp_fields = self.parse_file(self.data_location+"/bp/search.html")
         print("Parsed bachelor search page")
 
-        mp_fields.to_csv(data_location+"/mp_"+filename, index=False, sep=';')
+        # Save the data
+        for category, field in mp_fields.items():
+            field.to_csv(self.data_location+"/mp/"+category+"_map.csv", index=False, sep=';')
         print("Saved master map")
-        bp_fields.to_csv(data_location+"/bp_"+filename, index=False, sep=';')
+
+        for category, field in bp_fields.items():
+            field.to_csv(self.data_location+"/bp/"+category+"_map.csv", index=False, sep=';')
         print("Saved bachelor map")
 
 mapper = Mapper()
-mapper.update_map("map.csv")
+mapper.update_map()
+mapper.driver.quit()
+
 #mapper.fetch(master=True)
 #mapper.save_html("data/mp_search.html")
 #mapper.fetch(master=False)
 #mapper.save_html("data/bp_search.html")
-#parse = mapper.parse_file("data/bp_search.html")
-#parse.to_csv("test.csv", index=False, sep=';')
+#parse = mapper.parse_file("./data_20221116/bp_search.html")
+#for category, field in parse.items():
+#    field.to_csv(category+"_map.csv", index=False, sep=';')
 #print(parse.to_string(index=False))
-
-mapper.driver.quit()
