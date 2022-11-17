@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 BP_URL = 'https://course-eval.portal.chalmers.se/sr/ar/4257/sv'
 MP_URL = 'https://course-eval.portal.chalmers.se/sr/ar/4248/sv'
 
+# Headers to use when fetching the reports and doing the POST requests to bypass the login
 HEADERS = {
     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
     "accept-language": "en-GB,en;q=0.5",
@@ -39,16 +40,11 @@ class Collector:
         self.years = list(map(lambda x: str(x), years)) # MAX 5 (only in bachelor programmes page)
         self.lps = list(map(lambda x: str(x), lps)) # LP1, LP2, LP3, LP4
 
-    def get_data(self):
-        if self.data is None:
-            print("No data collected")
-        return self.data
-
     def fetch(self, search_page: str):
         """
             Preforms a search on courses using the programmes, years and 
             lps as filters for the search through a POST request and 
-            saves the resulting html in self.data. 
+            returns the html in the response. 
         """
         if not self.programmes or not self.years:
             print("No programmes or years selected")
@@ -67,6 +63,36 @@ class Collector:
     def export_html(self, filename):
         with open(filename, 'w') as f:
             f.write(self.data.text)
+            
+def get_report(report_id: int, save: bool = False):
+    """
+        Gets the report html from the given report id and returns the html
+        as a string.
+    """
+    url = f"https://course-eval.portal.chalmers.se/SR/Report/Token/{report_id}/0/0"
+    print(f"Getting report {report_id}")
+    r = requests.get(url, headers=HEADERS)
+    if r.status_code == 200:
+        print("  Success")
+        if save:
+            with open(f"./data/bp/reports/{report_id}.html", 'w') as f:
+                f.write(r.text)
+        return r.text
+    else:
+        print("  Failed")
+        return None
+
+def get_reports(report_ids: list, save: bool = False):
+    """
+        Gets the report html from the given report ids and returns a list of
+        tuples containing the report id and the html.
+    """
+    reports = []
+    for report_id in report_ids:
+        report = get_report(report_id, save)
+        if report is not None:
+            reports.append((report_id, report))
+    return reports
 
 def update_courses(search_page: str, map_location: str):
     """

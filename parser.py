@@ -7,8 +7,8 @@ from bs4 import BeautifulSoup
 
 def parse_search(search_path: str, save: bool = False):
     """
-        Parses the search htmls in the given path and returns a list of
-        tuples containing the course info and the report id.
+        Parses the search htmls in the given path and returns a data
+        frame containing the programme, course_tag and report_id.
     """
     cols = ['programme', 'course_tag', 'report_id']
     full_data = pd.DataFrame(columns=cols)
@@ -49,11 +49,11 @@ def parse_search(search_path: str, save: bool = False):
         
         print(f"  Done parsing directory {programme_dir}")
         if save:
-            data.to_csv(path+"/report_parse.csv", index=False, sep=";")
+            data.to_csv(path+"/report_map.csv", index=False, sep=";")
         full_data = pd.concat([full_data, data])
 
     if save:
-        full_data.to_csv(search_path+"/report_parse.csv", index=False, sep=";")
+        full_data.to_csv(search_path+"/report_map.csv", index=False, sep=";")
     print("Done parsing search path")
     return full_data
 
