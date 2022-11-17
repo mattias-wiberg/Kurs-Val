@@ -1,0 +1,312 @@
+name;ans_freq;report_id
+DAT060 Logic in computer science 2013/2014 LP1-LP1;37 (27,21%);2310
+DAT060 Logic in computer science 2014/2015 LP1-LP1;65 (46,76%);4181
+DAT060 Logic in computer science 2015/2016 LP1-LP1;51 (41,46%);6419
+DAT060 Logic in computer science 2016/2017 LP1-LP1;54 (39,42%);8443
+DAT060 Logic in computer science 2017/2018 LP1-LP1;60 (36,81%);11015
+DAT105 Computer architecture 2013/2014 LP2-LP2;28 (44,44%);2860
+DAT105 Computer architecture 2014/2015 LP2-LP2;11 (35,48%);4827
+DAT105 Computer architecture 2015/2016 LP2-LP2;9 (28,13%);6982
+DAT105 Computer architecture 2016/2017 LP2-LP2;14 (29,79%);9153
+DAT105 Computer architecture 2017/2018 LP2-LP2;24 (44,44%);11226
+DAT146 Advanced topics in computer systems and networks 2013/2014 LP1-LP1;18 (40,00%);2420
+DAT147 Technical writing in Computer Systems and Networks 2014/2015 LP1-LP2;28 (60,87%);4246
+DAT147 Technical writing in Computer Systems and Networks 2015/2016 LP1-LP1;17 (34,69%);6427
+DAT147 Technical writing in Computer Systems and Networks 2016/2017 LP1-LP1;21 (42,00%);8599
+DAT147 Technical writing in Computer Systems and Networks 2017/2018 LP1-LP1;23 (35,38%);10679
+DAT151 Programming language technology 2013/2014 LP3-LP3;41 (35,65%);1695
+DAT151 Programming language technology 2014/2015 LP3-LP3;40 (33,06%);5177
+DAT151 Programming language technology 2015/2016 LP2-LP2;37 (35,92%);6634
+DAT151 Programming language technology 2016/2017 LP2-LP2;34 (30,36%);9063
+DAT151 Programming language technology 2017/2018 LP2-LP2;58 (41,13%);11710
+DAT276 Energy aware computing 2013/2014 LP4-LP4;6 (54,55%);3648
+DAT276 Energy aware computing 2014/2015 LP4-LP4;10 (62,50%);5936
+DAT277 Energy aware computing 2015/2016 LP4-LP4;12 (66,67%);8338
+DAT277 Energy aware computing 2016/2017 LP4-LP4;10 (55,56%);10483
+DAT277 Energy aware computing 2017/2018 LP4-LP4;7 (46,67%);12629
+DAT295 Autonomous and cooperative vehicular systems 2014/2015 LP2-LP2;5 (35,71%);4387
+DAT295 Autonomous and cooperative vehicular systems 2015/2016 LP2-LP2;12 (54,55%);6896
+DAT295 Autonomous and cooperative vehicular systems 2016/2017 LP2-LP2;4 (40,00%);9295
+DAT295 Autonomous and cooperative vehicular systems 2017/2018 LP2-LP2;8 (38,10%);11604
+DAT300 Data-driven support for cyber-physical systems 2017/2018 LP1-LP1;7 (31,82%);11165
+DAT300 ICT Support for Adaptiveness and Security in the Smart Grid 2013/2014 LP4-LP4;3 (50,00%);3668
+DAT300 ICT support for adaptiveness and security in the smart grid 2014/2015 LP4-LP4;5 (45,45%);5926
+EDA092 Operating systems 2013/2014 LP2-LP2;36 (34,62%);2540
+EDA092 Operating systems 2014/2015 LP2-LP2;40 (40,40%);4701
+EDA092 Operating systems 2015/2016 LP2-LP2;33 (30,56%);7200
+EDA092 Operating systems 2016/2017 LP2-LP2;38 (33,04%);9389
+EDA093 Operating systems 2017/2018 LP1-LP1;43 (48,31%);11117
+EDA122 Fault-tolerant computer systems 2013/2014 LP1-LP1;28 (32,56%);2302
+EDA122 Fault-tolerant computer systems 2014/2015 LP1-LP1;51 (43,59%);4173
+EDA122 Fault-tolerant computer systems 2015/2016 LP1-LP1;55 (46,22%);6411
+EDA122 Fault-tolerant computer systems 2016/2017 LP1-LP1;57 (42,54%);8437
+EDA222 Real time systems 2013/2014 LP3-LP3;29 (37,18%);1793
+EDA222 Real time systems 2014/2015 LP3-LP3;24 (39,34%);5217
+EDA222 Real time systems 2015/2016 LP3-LP3;28 (35,90%);7404
+EDA222 Real time systems 2016/2017 LP3-LP3;27 (37,50%);9787
+EDA223 Real time systems 2017/2018 LP3-LP3;41 (54,67%);12297
+EDA263 Computer security 2013/2014 LP3-LP3;36 (30,00%);1381
+EDA263 Computer security 2014/2015 LP3-LP3;36 (28,80%);5313
+EDA263 Computer security 2015/2016 LP3-LP3;47 (30,52%);7590
+EDA263 Computer security 2016/2017 LP3-LP3;39 (33,33%);9643
+EDA263 Computer security 2017/2018 LP3-LP3;63 (40,13%);12185
+EDA282 Parallel computer organization and design 2013/2014 LP1-LP1;6 (46,15%);1960
+EDA282 Parallel computer organization and design 2014/2015 LP1-LP1;15 (57,69%);3739
+EDA283 Parallel computer organization and design 2015/2016 LP1-LP1;8 (53,33%);6577
+EDA283 Parallel computer organization and design 2016/2017 LP1-LP1;3 (23,08%);8781
+EDA283 Parallel computer organization and design 2017/2018 LP1-LP1;16 (55,17%);10795
+EDA387 Computer networks 2013/2014 LP1-LP1;41 (43,16%);1890
+EDA387 Computer networks 2014/2015 LP1-LP1;46 (47,42%);4089
+EDA387 Computer networks 2015/2016 LP1-LP1;41 (39,42%);6447
+EDA387 Computer networks 2016/2017 LP1-LP1;42 (37,84%);8853
+EDA387 Computer networks 2017/2018 LP1-LP1;36 (49,32%);10893
+EDA421 Parallel and distributed real-time systems 2013/2014 LP4-LP4;11 (42,31%);3372
+EDA421 Parallel and distributed real-time systems 2014/2015 LP4-LP4;11 (35,48%);5754
+EDA421 Parallel and distributed real-time systems 2015/2016 LP4-LP4;6 (35,29%);7936
+EDA421 Parallel and distributed real-time systems 2016/2017 LP4-LP4;12 (44,44%);10279
+EDA422 Parallel and distributed real-time systems 2017/2018 LP4-LP4;13 (37,14%);12887
+EDA491 Network security 2013/2014 LP4-LP4;40 (44,94%);3404
+EDA491 Network security 2014/2015 LP4-LP4;35 (40,70%);5534
+EDA491 Network security 2015/2016 LP4-LP4;30 (29,41%);8256
+EDA491 Network security 2016/2017 LP4-LP4;35 (30,97%);10441
+EDA491 Network security 2017/2018 LP4-LP4;26 (26,53%);12551
+LEU420 Routing and switching technology 2014/2015 LP2-LP2;13 (54,17%);4401
+LEU420 Routing and switching technology 2015/2016 LP2-LP2;12 (33,33%);7126
+LEU420 Routing and switching technology 2016/2017 LP2-LP2;9 (50,00%);9045
+LEU420 Routing and switching technology 2017/2018 LP2-LP2;12 (50,00%);11694
+LEU420 Routing technology 2013/2014 LP2-LP2;14 (58,33%);2448
+SSY121 Introduction to communication engineering 2013/2014 LP1-LP1;42 (93,33%);2104
+SSY121 Introduction to communication engineering 2014/2015 LP1-LP1;38 (92,68%);3961
+SSY121 Introduction to communication engineering 2015/2016 LP1-LP1;59 (92,19%);6071
+SSY121 Introduction to communication engineering 2016/2017 LP1-LP1;45 (90,00%);8377
+SSY121 Introduction to communication engineering 2017/2018 LP1-LP1;57 (90,48%);10633
+SSY145 Wireless networks 2013/2014 LP4-LP4;11 (84,62%);3426
+SSY145 Wireless networks 2014/2015 LP4-LP4;21 (91,30%);5511
+SSY145 Wireless networks 2015/2016 LP4-LP4;22 (84,62%);7828
+SSY145 Wireless networks 2016/2017 LP4-LP4;14 (50,00%);10123
+SSY145 Wireless networks 2017/2018 LP4-LP4;11 (47,83%);12833
+TDA183 Models of computation 2013/2014 LP2-LP2;14 (33,33%);2686
+TDA183 Models of computation 2014/2015 LP2-LP2;21 (35,59%);4557
+TDA183 Models of computation 2015/2016 LP2-LP2;12 (30,00%);6732
+TDA184 Models of computation 2016/2017 LP2-LP2;10 (52,63%);8953
+TDA184 Models of computation 2017/2018 LP2-LP2;5 (38,46%);11181
+TDA206 Discrete optimization 2013/2014 LP3-LP3;17 (44,74%);1611
+TDA206 Discrete optimization 2014/2015 LP3-LP3;28 (59,57%);5109
+TDA206 Discrete optimization 2015/2016 LP3-LP3;25 (32,05%);7682
+TDA206 Discrete optimization 2016/2017 LP3-LP3;25 (37,31%);9885
+TDA206 Discrete optimization 2017/2018 LP3-LP3;31 (38,75%);11981
+TDA251 Algorithms, advanced course 2013/2014 LP2-LP2;33 (42,86%);2606
+TDA251 Algorithms, advanced course 2014/2015 LP2-LP2;33 (45,21%);4315
+TDA251 Algorithms, advanced course 2015/2016 LP2-LP2;31 (45,59%);6890
+TDA251 Algorithms, advanced course 2016/2017 LP2-LP2;16 (23,53%);9291
+TDA251 Algorithms, advanced course 2017/2018 LP2-LP2;51 (43,22%);11594
+TDA282 Compiler construction 2013/2014 LP4-LP4;20 (39,22%);3428
+TDA283 Compiler construction 2014/2015 LP4-LP4;17 (29,82%);5990
+TDA283 Compiler construction 2015/2016 LP4-LP4;12 (30,00%);8146
+TDA283 Compiler construction 2016/2017 LP4-LP4;6 (23,08%);10545
+TDA283 Compiler construction 2017/2018 LP4-LP4;10 (32,26%);12685
+TDA297 Distributed systems, advanced course 2013/2014 LP3-LP3;24 (53,33%);1529
+TDA297 Distributed systems, advanced course 2014/2015 LP3-LP3;15 (37,50%);5021
+TDA297 Distributed systems, advanced course 2015/2016 LP3-LP3;20 (29,85%);7442
+TDA297 Distributed systems, advanced course 2016/2017 LP3-LP3;24 (37,50%);9971
+TDA297 Distributed systems, advanced course 2017/2018 LP3-LP3;12 (32,43%);12097
+TDA351 Cryptography 2013/2014 LP2-LP2;28 (26,42%);2732
+TDA351 Cryptography 2014/2015 LP2-LP2;52 (37,41%);4435
+TDA352 Cryptography 2015/2016 LP2-LP2;48 (36,92%);7238
+TDA352 Cryptography 2016/2017 LP2-LP2;46 (34,33%);9445
+TDA352 Cryptography 2017/2018 LP2-LP2;55 (37,93%);11494
+TDA361 Computer graphics 2013/2014 LP2-LP2;36 (36,36%);2866
+TDA361 Computer graphics 2014/2015 LP2-LP2;23 (24,73%);4835
+TDA361 Computer graphics 2015/2016 LP2-LP2;31 (38,75%);6988
+TDA361 Computer graphics 2016/2017 LP2-LP2;45 (37,82%);9529
+TDA362 Computer graphics 2017/2018 LP2-LP2;35 (35,00%);11782
+TDA382 Concurrent programming 2013/2014 LP1-LP1;19 (24,05%);2228
+TDA382 Concurrent programming 2013/2014 LP3-LP3;55 (33,95%);1673
+TDA383 Concurrent programming 2014/2015 LP1-LP1;46 (43,40%);4225
+TDA383 Concurrent programming 2014/2015 LP3-LP3;55 (34,38%);5439
+TDA383 Concurrent programming 2015/2016 LP1-LP1;55 (42,64%);6439
+TDA383 Concurrent programming 2015/2016 LP3-LP3;36 (28,13%);7564
+TDA383 Concurrent programming 2016/2017 LP1-LP1;39 (35,14%);8849
+TDA383 Concurrent programming 2016/2017 LP3-LP3;35 (29,91%);9627
+TDA384 Principles of Concurrent Programming 2017/2018 LP1-LP1;40 (36,04%);11155
+TDA384 Principles of Concurrent Programming 2017/2018 LP3-LP3;58 (43,28%);12321
+TDA452 Functional programming 2013/2014 LP2-LP2;47 (50,54%);2496
+TDA452 Functional programming 2014/2015 LP2-LP2;50 (46,73%);4277
+TDA452 Functional programming 2015/2016 LP2-LP2;56 (43,41%);6852
+TDA452 Functional programming 2016/2017 LP2-LP2;35 (30,97%);9263
+TDA452 Functional programming 2017/2018 LP2-LP2;45 (42,45%);11316
+TDA596 Distributed systems 2013/2014 LP2-LP2;35 (49,30%);2516
+TDA596 Distributed systems 2014/2015 LP2-LP2;53 (55,21%);4295
+TDA596 Distributed systems 2015/2016 LP2-LP2;45 (49,45%);6870
+TDA596 Distributed systems 2016/2017 LP2-LP2;37 (40,66%);9277
+TDA596 Distributed systems 2017/2018 LP2-LP2;40 (48,78%);11600
+TDA602 Language-based security 2013/2014 LP4-LP4;33 (50,77%);3478
+TDA602 Language-based security 2014/2015 LP4-LP4;25 (32,89%);5730
+TDA602 Language-based security 2015/2016 LP4-LP4;35 (38,89%);7912
+TDA602 Language-based security 2016/2017 LP4-LP4;26 (25,00%);10289
+TDA602 Language-based security 2017/2018 LP4-LP4;21 (31,82%);12439
+TIN092 Algorithms 2013/2014 LP1-LP1;30 (26,32%);2168
+TIN092 Algorithms 2013/2014 LP4-LP4;14 (20,29%);3450
+TIN093 Algorithms 2014/2015 LP1-LP1;79 (45,40%);4241
+TIN093 Algorithms 2014/2015 LP4-LP4;12 (19,35%);5509
+TIN093 Algorithms 2015/2016 LP1-LP1;92 (40,00%);6443
+TIN093 Algorithms 2015/2016 LP4-LP4;19 (27,54%);8136
+TIN093 Algorithms 2016/2017 LP1-LP1;81 (33,61%);8455
+TIN093 Algorithms 2016/2017 LP4-LP4;15 (21,74%);10163
+TIN093 Algorithms 2017/2018 LP1-LP1;75 (34,72%);11021
+TIN093 Algorithms 2017/2018 LP4-LP4;16 (20,25%);12773
+TIN172 Artificial intelligence 2013/2014 LP4-LP4;37 (35,58%);3662
+TIN172 Artificial intelligence 2014/2015 LP4-LP4;52 (55,91%);5497
+TIN173 Artificial intelligence 2015/2016 LP4-LP4;40 (35,40%);7836
+TIN174 Artificial intelligence 2016/2017 LP4-LP4;24 (22,86%);10077
+TIN175 Introduction to Artificial intelligence 2017/2018 LP3-LP3;43 (43,88%);12331
+DAT060 Logic in computer science 2018/2019 LP1-LP1;51 (39,23%);13180
+DAT060 Logic in computer science 2019/2020 LP1-LP1;38 (34,55%);15394
+DAT060 Logic in computer science 2020/2021 LP1-LP1;38 (34,23%);17689
+DAT060 Logic in computer science 2021/2022 LP1-LP1;28 (23,93%);19886
+DAT060 Logic in computer science 2022/2023 LP1-LP1;38 (31,15%);22342
+DAT105 Computer architecture 2018/2019 LP2-LP2;15 (29,41%);13491
+DAT105 Computer architecture 2019/2020 LP1-LP1;15 (22,06%);15416
+DAT105 Computer architecture 2020/2021 LP1-LP1;28 (34,15%);17527
+DAT105 Computer architecture 2021/2022 LP1-LP1;24 (35,82%);20110
+DAT105 Computer architecture 2022/2023 LP1-LP1;26 (34,67%);22374
+DAT147 Technical writing in Computer Systems and Networks 2018/2019 LP1-LP1;17 (47,22%);12950
+DAT147 Technical writing in Computer Systems and Networks 2019/2020 LP1-LP1;23 (50,00%);15344
+DAT147 Technical writing in Computer Systems and Networks 2020/2021 LP1-LP1;15 (23,81%);17583
+DAT147 Technical writing in Computer Systems and Networks 2021/2022 LP1-LP1;27 (36,99%);20200
+DAT147 Technical writing in Computer Systems and Networks 2022/2023 LP1-LP1;20 (31,25%);22256
+DAT151 Programming language technology 2018/2019 LP2-LP2;53 (35,81%);13833
+DAT151 Programming language technology 2019/2020 LP2-LP2;41 (32,28%);15835
+DAT151 Programming language technology 2020/2021 LP2-LP2;43 (33,59%);18153
+DAT151 Programming language technology 2021/2022 LP2-LP2;35 (32,41%);20855
+DAT246 Empirical software engineering 2021/2022 LP1-LP1;30 (30,61%);20084
+DAT246 Empirical software engineering 2022/2023 LP1-LP1;27 (27,84%);22534
+DAT278 Sustainable computing 2019/2020 LP2-LP2;11 (34,38%);16393
+DAT278 Sustainable computing 2020/2021 LP2-LP2;10 (31,25%);18073
+DAT278 Sustainable computing 2021/2022 LP2-LP2;13 (34,21%);20729
+DAT295 Autonomous and cooperative vehicular systems 2018/2019 LP2-LP2;6 (30,00%);13747
+DAT295 Autonomous and cooperative vehicular systems 2019/2020 LP2-LP2;7 (41,18%);15971
+DAT295 Autonomous and cooperative vehicular systems 2021/2022 LP2-LP2;12 (35,29%);20443
+DAT300 Data-driven support for cyber-physical systems 2018/2019 LP1-LP1;10 (71,43%);13082
+DAT300 Data-driven support for cyber-physical systems 2019/2020 LP1-LP1;10 (83,33%);15227
+DAT300 Data-driven support for cyber-physical systems 2021/2022 LP1-LP1;12 (60,00%);19754
+DAT300 Data-driven support for cyber-physical systems 2022/2023 LP1-LP1;4 (40,00%);22542
+DAT340 Applied Machine Learning 2021/2022 LP3-LP3;33 (30,28%);21459
+DAT340 Applied Machine Learning 2021/2022 LP4-LP4;5 (5,05%);21667
+DAT405 Introduction to data science and AI 2019/2020 LP3-LP3;17 (26,56%);16902
+DAT405 Introduction to data science and AI 2021/2022 LP2-LP2;56 (20,97%);20649
+DAT415 Computability 2019/2020 LP2-LP2;9 (39,13%);15778
+DAT415 Computability 2020/2021 LP2-LP2;5 (22,73%);18007
+DAT415 Computability 2021/2022 LP2-LP2;8 (50,00%);20292
+EDA093 Operating systems 2018/2019 LP1-LP1;51 (38,93%);13334
+EDA093 Operating systems 2019/2020 LP1-LP1;45 (36,89%);15502
+EDA093 Operating systems 2020/2021 LP1-LP1;37 (36,63%);17463
+EDA093 Operating systems 2021/2022 LP1-LP1;39 (33,91%);20030
+EDA093 Operating systems 2022/2023 LP1-LP1;49 (33,79%);22532
+EDA223 Real time systems 2018/2019 LP3-LP3;27 (45,76%);14533
+EDA223 Real time systems 2019/2020 LP3-LP3;22 (44,90%);16828
+EDA223 Real time systems 2020/2021 LP3-LP3;24 (42,11%);19023
+EDA223 Real time systems 2021/2022 LP3-LP3;18 (32,73%);21083
+EDA263 Computer security 2018/2019 LP3-LP3;45 (32,61%);14355
+EDA263 Computer security 2019/2020 LP3-LP3;50 (30,49%);16552
+EDA263 Computer security 2020/2021 LP3-LP3;39 (29,55%);19061
+EDA263 Computer security 2021/2022 LP3-LP3;32 (26,02%);21165
+EDA284 Parallel computer architecture 2018/2019 LP1-LP1;16 (69,57%);13416
+EDA284 Parallel computer architecture 2019/2020 LP3-LP3;10 (43,48%);16800
+EDA284 Parallel computer architecture 2020/2021 LP3-LP3;12 (44,44%);18775
+EDA284 Parallel computer architecture 2021/2022 LP3-LP3;12 (42,86%);21367
+EDA387 Computer networks 2018/2019 LP1-LP1;42 (46,67%);13372
+EDA387 Computer networks 2019/2020 LP1-LP1;41 (46,07%);15654
+EDA387 Computer networks 2020/2021 LP1-LP1;31 (31,00%);17803
+EDA387 Computer networks 2021/2022 LP1-LP1;28 (38,36%);20020
+EDA387 Computer networks 2022/2023 LP1-LP1;34 (35,79%);22300
+EDA422 Parallel and distributed real-time systems 2018/2019 LP4-LP4;5 (26,32%);15097
+EDA423 Dependable Real-Time Systems 2019/2020 LP4-LP4;9 (40,91%);17407
+EDA423 Dependable Real-Time Systems 2020/2021 LP4-LP4;8 (32,00%);19268
+EDA423 Dependable Real-Time Systems 2021/2022 LP4-LP4;6 (22,22%);21933
+EDA491 Network security 2018/2019 LP4-LP4;27 (31,03%);14801
+EDA491 Network security 2019/2020 LP4-LP4;29 (26,85%);17009
+EDA491 Network security 2020/2021 LP4-LP4;16 (16,67%);19658
+EDA491 Network security 2021/2022 LP4-LP4;22 (25,88%);22017
+EEN020 Computer vision 2018/2019 LP2-LP2;23 (40,35%);14113
+EEN020 Computer vision 2019/2020 LP2-LP2;32 (26,89%);16187
+EEN020 Computer vision 2020/2021 LP2-LP2;25 (26,60%);18375
+EEN020 Computer vision 2021/2022 LP2-LP2;29 (27,62%);20513
+LEU420 Routing and switching technology 2018/2019 LP2-LP2;7 (46,67%);13819
+LEU420 Routing and switching technology 2019/2020 LP2-LP2;12 (36,36%);15847
+MCC155 Quantum computing 2021/2022 LP2-LP2;11 (42,31%);20593
+SSY121 Introduction to communication engineering 2018/2019 LP1-LP1;30 (71,43%);13316
+SSY121 Introduction to communication engineering 2019/2020 LP1-LP1;14 (35,90%);15618
+SSY121 Introduction to communication engineering 2020/2021 LP1-LP1;23 (65,71%);17779
+SSY121 Introduction to communication engineering 2021/2022 LP1-LP1;29 (53,70%);19992
+SSY121 Introduction to communication engineering 2022/2023 LP1-LP1;29 (70,73%);22496
+SSY145 Wireless networks 2018/2019 LP4-LP4;5 (27,78%);14977
+SSY145 Wireless networks 2019/2020 LP4-LP4;11 (55,00%);17023
+SSY145 Wireless networks 2020/2021 LP4-LP4;13 (76,47%);19324
+SSY145 Wireless networks 2021/2022 LP4-LP4;17 (77,27%);22053
+SSY340 Deep machine learning 2019/2020 LP1-LP1;79 (48,17%);15566
+SSY340 Deep machine learning 2020/2021 LP1-LP1;67 (39,41%);17757
+SSY340 Deep machine learning 2021/2022 LP1-LP1;87 (42,65%);19978
+SSY340 Deep machine learning 2022/2023 LP1-LP1;48 (27,75%);22482
+TDA184 Models of computation 2018/2019 LP2-LP2;3 (18,75%);14137
+TDA206 Discrete optimization 2018/2019 LP3-LP3;25 (37,88%);14227
+TDA206 Discrete optimization 2019/2020 LP3-LP3;18 (28,13%);16482
+TDA206 Discrete optimization 2020/2021 LP3-LP3;20 (33,90%);19045
+TDA206 Discrete optimization 2021/2022 LP3-LP3;14 (25,93%);21135
+TDA232 Algorithms for machine learning and inference 2019/2020 LP4-LP4;42 (34,71%);17417
+TDA233 Algorithms for machine learning and inference 2020/2021 LP3-LP3;31 (27,43%);19161
+TDA251 Algorithms, advanced course 2018/2019 LP2-LP2;28 (30,77%);13737
+TDA251 Algorithms, advanced course 2019/2020 LP2-LP2;33 (36,26%);15965
+TDA251 Algorithms, advanced course 2020/2021 LP2-LP2;14 (18,92%);18571
+TDA251 Algorithms, advanced course 2021/2022 LP2-LP2;15 (19,74%);20441
+TDA283 Compiler construction 2018/2019 LP4-LP4;10 (31,25%);15127
+TDA283 Compiler construction 2019/2020 LP4-LP4;14 (34,15%);17301
+TDA283 Compiler construction 2020/2021 LP4-LP4;13 (24,07%);19264
+TDA283 Compiler construction 2021/2022 LP4-LP4;13 (23,64%);21929
+TDA297 Distributed systems, advanced course 2018/2019 LP3-LP3;19 (50,00%);14277
+TDA297 Distributed systems, advanced course 2019/2020 LP3-LP3;10 (28,57%);16774
+TDA297 Distributed systems, advanced course 2020/2021 LP3-LP3;18 (33,33%);18793
+TDA297 Distributed systems, advanced course 2021/2022 LP3-LP3;18 (43,90%);21401
+TDA352 Cryptography 2018/2019 LP2-LP2;51 (28,33%);13693
+TDA352 Cryptography 2019/2020 LP2-LP2;61 (40,40%);15895
+TDA352 Cryptography 2020/2021 LP2-LP2;39 (23,78%);18179
+TDA352 Cryptography 2021/2022 LP2-LP2;39 (26,17%);20877
+TDA362 Computer graphics 2018/2019 LP2-LP2;58 (35,80%);13875
+TDA362 Computer graphics 2019/2020 LP2-LP2;45 (39,13%);15867
+TDA362 Computer graphics 2020/2021 LP2-LP2;42 (37,17%);18465
+TDA362 Computer graphics 2021/2022 LP2-LP2;27 (27,27%);20657
+TDA384 Principles of Concurrent Programming 2018/2019 LP1-LP1;41 (33,61%);13322
+TDA384 Principles of Concurrent Programming 2018/2019 LP3-LP3;42 (32,56%);14323
+TDA384 Principles of Concurrent Programming 2019/2020 LP3-LP3;35 (22,01%);16736
+TDA384 Principles of Concurrent Programming 2020/2021 LP3-LP3;20 (16,67%);18733
+TDA384 Principles of Concurrent Programming 2021/2022 LP1-LP1;21 (20,39%);19984
+TDA384 Principles of Concurrent Programming 2021/2022 LP3-LP3;41 (27,15%);21297
+TDA384 Principles of Concurrent Programming 2022/2023 LP1-LP1;28 (28,57%);22488
+TDA452 Functional programming 2018/2019 LP2-LP2;46 (30,07%);13939
+TDA452 Functional programming 2019/2020 LP2-LP2;58 (41,73%);16263
+TDA452 Functional programming 2020/2021 LP2-LP2;30 (35,71%);18439
+TDA452 Functional programming 2021/2022 LP2-LP2;42 (40,00%);20621
+TDA507 Computational methods in bioinformatics 2021/2022 LP2-LP2;26 (31,71%);20377
+TDA596 Distributed systems 2018/2019 LP2-LP2;39 (36,11%);13743
+TDA596 Distributed systems 2019/2020 LP2-LP2;34 (39,08%);15933
+TDA596 Distributed systems 2020/2021 LP2-LP2;50 (37,88%);18039
+TDA596 Distributed systems 2021/2022 LP2-LP2;28 (31,46%);20699
+TDA602 Language-based security 2018/2019 LP4-LP4;33 (44,00%);15151
+TDA602 Language-based security 2019/2020 LP4-LP4;23 (28,05%);16989
+TDA602 Language-based security 2020/2021 LP4-LP4;20 (21,05%);19212
+TDA602 Language-based security 2021/2022 LP4-LP4;15 (21,13%);21632
+TEK650 Strategic management of technological innovation  2020/2021 LP1-LP1;4 (12,12%);17951
+TEK650 Strategic management of technological innovation  2021/2022 LP1-LP1;26 (50,98%);19936
+TEK650 Strategic management of technological innovation  2022/2023 LP1-LP1;18 (43,90%);22432
+TEK655 Creating technology-based ventures 2020/2021 LP2-LP2;8 (17,39%);18675
+TEK656 Creating technology-based ventures 2021/2022 LP2-LP2;9 (30,00%);20963
+TIN093 Algorithms 2018/2019 LP1-LP1;58 (32,40%);13184
+TIN093 Algorithms 2018/2019 LP3-LP3;21 (22,83%);14371
+TIN093 Algorithms 2019/2020 LP1-LP1;42 (30,66%);15396
+TIN093 Algorithms 2019/2020 LP3-LP3;19 (20,00%);16452
+TIN093 Algorithms 2020/2021 LP1-LP1;45 (31,47%);17615
+TIN093 Algorithms 2020/2021 LP3-LP3;27 (26,73%);18717
+TIN093 Algorithms 2021/2022 LP1-LP1;46 (26,59%);19750
+TIN093 Algorithms 2021/2022 LP3-LP3;20 (24,69%);21022
+TIN093 Algorithms 2022/2023 LP1-LP1;31 (18,90%);22202
+TIN175 Introduction to Artificial intelligence 2018/2019 LP3-LP3;51 (49,51%);14527

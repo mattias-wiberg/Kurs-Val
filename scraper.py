@@ -1,7 +1,13 @@
+import os
 import requests
+import pandas as pd
+
+from collections import namedtuple
 from bs4 import BeautifulSoup
 
-URL = 'https://course-eval.portal.chalmers.se/sr/ar/4257/sv'
+BP_URL = 'https://course-eval.portal.chalmers.se/sr/ar/4257/sv'
+MP_URL = 'https://course-eval.portal.chalmers.se/sr/ar/4248/sv'
+
 HEADERS = {
     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
     "accept-language": "en-GB,en;q=0.5",
@@ -22,19 +28,23 @@ HEADERS = {
   }
 
 class Collector:
-    def __init__(self, programmes, years, lps=['1049','1050','1051','1052']):
+    def __init__(self, programmes: list, years: list, lps=['1049','1050','1051','1052']):
+        """
+            programmes, years and lps has to be the correct id taken 
+            from mapper.py
+        """
         self.session = requests.Session()
         self.session.headers.update(HEADERS)
-        self.programmes = programmes # MAX 5
-        self.years = years # MAX 5 (only in bachelor programmes page)
-        self.lps = lps # LP1, LP2, LP3, LP4
+        self.programmes = list(map(lambda x: str(x), programmes)) # MAX 5
+        self.years = list(map(lambda x: str(x), years)) # MAX 5 (only in bachelor programmes page)
+        self.lps = list(map(lambda x: str(x), lps)) # LP1, LP2, LP3, LP4
 
     def get_data(self):
         if self.data is None:
             print("No data collected")
         return self.data
 
-    def fetch(self):
+    def fetch(self, search_page: str):
         """
             Preforms a search on courses using the programmes, years and 
             lps as filters for the search through a POST request and 
@@ -51,25 +61,40 @@ class Collector:
             "hfCategory1="+"%2C".join(self.programmes),
             "hfCategory2="+"%2C".join(self.years),
             "hfCategory3="+"%2C".join(self.lps)])
-        self.data = self.session.post(URL, data=data)
+        self.data = self.session.post(search_page, data=data)
         return self.data
 
     def export_html(self, filename):
         with open(filename, 'w') as f:
             f.write(self.data.text)
 
-    def update_mp_courses(self):
-        """
-            Updates the courses in the master program page.
-            The courses are saved in self.mp_courses
-        """
-        self.mp_courses = []
-        soup = BeautifulSoup(self.data.text, 'html.parser')
-        for course in soup.find_all('div', class_='course'):
-            self.mp_courses.append(course.find('a').text)
+def update_courses(search_page: str, map_location: str):
+    """
+        Updates the mapping of course id to the program and the reports
+        and then saves the mapping in a csv file.
+    """
+    lps = pd.read_csv(map_location+"LP_map.csv", sep=";")['sid'].tolist()
+    programmes = pd.read_csv(map_location+"Programme_map.csv", sep=";")
+    years = pd.read_csv(map_location+"Year_map.csv", sep=";")['sid'].tolist()
 
-collector = Collector()
-collector.programmes = ['275','1477','147','224','162'] # MPALG
-collector.years = ['49'] # 2013/2014
-collector.fetch()
-collector.export_html('data/test.html')
+    for index, program in programmes.iterrows():
+        i = 0
+        print(f"Fetching {program['name']} ({i})... ({index+1}/{len(programmes)})")
+        for j in range(0, len(years), 5):
+            collector = Collector([program['sid']], years[j:j+5], lps)
+            location = map_location+"search/"+program['tag']+"/"
+            os.makedirs(location, exist_ok=True)
+            
+            collector.fetch(search_page)
+            collector.export_html(location + str(i) + ".html")
+            i += 1
+
+# Load the csv data
+update_courses(BP_URL, "./data/bp/")
+update_courses(MP_URL, "./data/mp/")
+#df = pd.read_csv(data_path+'data.csv')
+#collector = Collector()
+#collector.programmes = ['275','1477','147','224','162'] # MPALG
+#collector.years = ['49'] # 2013/2014
+#collector.fetch()
+#collector.export_html('data/test.html')

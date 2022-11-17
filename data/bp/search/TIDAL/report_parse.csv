@@ -1,0 +1,373 @@
+name;ans_freq;report_id
+DAT050 Objektorienterad programmering 2013/2014 LP2-LP2;21 (30,43%);2752
+DAT050 Objektorienterad programmering 2014/2015 LP2-LP2;24 (32,88%);4407
+DAT050 Objektorienterad programmering 2015/2016 LP2-LP2;19 (27,94%);7130
+DAT050 Objektorienterad programmering 2016/2017 LP1-LP1;16 (30,77%);8497
+DAT050 Objektorienterad programmering 2017/2018 LP1-LP1;16 (24,62%);11051
+DAT055 Objektorienterade applikationer 2013/2014 LP3-LP3;17 (26,56%);1595
+DAT055 Objektorienterade applikationer 2014/2015 LP3-LP3;22 (36,67%);5093
+DAT055 Objektorienterade applikationer 2015/2016 LP3-LP3;14 (21,88%);7668
+DAT055 Objektorienterade applikationer 2016/2017 LP3-LP3;11 (26,83%);9873
+DAT055 Objektorienterade applikationer 2017/2018 LP3-LP3;9 (15,00%);11971
+DAT065 Projekt 2013/2014 LP3-LP3;18 (33,33%);1397
+DAT065 Projekt 2014/2015 LP3-LP3;17 (31,48%);5329
+DAT065 Projekt 2015/2016 LP3-LP3;9 (20,45%);7604
+DAT065 Projekt 2016/2017 LP3-LP3;14 (31,11%);9911
+DAT066 Projekt 2017/2018 LP2-LP2;8 (20,51%);11778
+DAT076 Web-applikationer 2013/2014 LP1-LP1;41 (37,96%);1942
+DAT076 Web-applikationer 2014/2015 LP1-LP1;33 (41,77%);3727
+DAT076 Web-applikationer 2015/2016 LP3-LP3;14 (28,00%);7462
+DAT076 Web-applikationer 2016/2017 LP3-LP3;12 (31,58%);9831
+DAT076 Web-applikationer 2017/2018 LP3-LP3;15 (24,19%);12139
+DAT216 Design och konstruktion av grafiska gränssnitt 2016/2017 LP3-LP3;62 (56,36%);9995
+DAT216 Design och konstruktion av grafiska gränssnitt 2017/2018 LP4-LP4;29 (23,77%);12681
+DAT255 Software engineering project 2013/2014 LP1-LP1;43 (25,60%);2012
+DAT255 Software engineering project 2014/2015 LP1-LP1;65 (37,57%);4067
+DAT255 Software engineering project 2015/2016 LP1-LP1;60 (39,22%);6553
+DAT255 Software engineering project 2016/2017 LP1-LP1;40 (32,79%);8831
+DAT255 Software engineering project 2017/2018 LP1-LP1;53 (38,69%);10875
+EDA092 Operating systems 2016/2017 LP2-LP2;38 (33,04%);9389
+EDA093 Operating systems 2017/2018 LP1-LP1;43 (48,31%);11117
+EDA234 Digital konstruktion, projektkurs 2013/2014 LP2-LP2;10 (37,04%);2592
+EDA234 Digital konstruktion, projektkurs 2014/2015 LP2-LP2;19 (59,38%);4301
+EDA234 Digital konstruktion, projektkurs 2015/2016 LP2-LP2;10 (40,00%);6878
+EDA234 Digital konstruktion, projektkurs 2015/2016 LP4-LP4;4 (44,44%);8344
+EDA234 Digital project laboratory 2017/2018 LP4-LP4;6 (50,00%);12657
+EDA263 Computer security 2013/2014 LP3-LP3;36 (30,00%);1381
+EDA263 Computer security 2014/2015 LP3-LP3;36 (28,80%);5313
+EDA263 Computer security 2015/2016 LP3-LP3;47 (30,52%);7590
+EDA263 Computer security 2016/2017 LP3-LP3;39 (33,33%);9643
+EDA263 Computer security 2017/2018 LP3-LP3;63 (40,13%);12185
+EDA322 Digital design 2013/2014 LP3-LP3;35 (35,35%);1865
+EDA322 Digital design 2014/2015 LP3-LP3;67 (37,85%);5349
+EDA322 Digital design 2015/2016 LP3-LP3;48 (32,88%);7624
+EDA322 Digital design 2016/2017 LP3-LP3;43 (30,50%);9759
+EDA322 Digital design 2017/2018 LP3-LP3;50 (32,68%);11895
+FFR102 Hållbar utveckling - kritiska perspektiv & möjliga lösningar 2014/2015 LP4-LP4;33 (33,67%);5932
+FFR102 Hållbar utveckling - kritiska perspektiv & möjliga lösningar 2015/2016 LP4-LP4;33 (36,26%);8100
+FFR102 Hållbar utveckling - kritiska perspektiv & möjliga lösningar 2016/2017 LP4-LP4;22 (22,92%);10437
+FFR102 Hållbar utveckling - kritiska perspektiv och möjliga lösningar 2017/2018 LP4-LP4;27 (27,27%);12709
+FFR135 Artificial neural networks 2015/2016 LP1-LP1;70 (50,36%);6543
+FFR135 Artificial neural networks 2016/2017 LP1-LP1;69 (44,81%);8769
+FFR135 Artificial neural networks 2017/2018 LP1-LP1;92 (41,07%);10785
+LET375 Algoritmer och datastrukturer 2013/2014 LP4-LP4;34 (30,36%);3312
+LET375 Algoritmer och datastrukturer 2014/2015 LP4-LP4;43 (36,44%);5618
+LET375 Algoritmer och datastrukturer 2015/2016 LP4-LP4;35 (32,11%);8052
+LET375 Algoritmer och datastrukturer 2016/2017 LP4-LP4;29 (26,36%);10405
+LET375 Algoritmer och datastrukturer 2017/2018 LP4-LP4;38 (28,57%);12755
+LET625 Realtidssystem, grundkurs 2013/2014 LP4-LP4;36 (32,14%);3644
+LET625 Realtidssystem, grundkurs 2014/2015 LP4-LP4;21 (33,87%);5652
+LET625 Realtidssystem, grundkurs 2015/2016 LP4-LP4;16 (27,12%);8086
+LET626 Realtidssystem, grundkurs 2016/2017 LP4-LP4;14 (23,33%);10605
+LET627 Realtidssystem, grundkurs 2017/2018 LP4-LP4;13 (20,63%);12419
+LEU061 Datakommunikation 2013/2014 LP1-LP1;20 (28,99%);1940
+LEU061 Datakommunikation 2014/2015 LP1-LP1;31 (43,06%);3725
+LEU061 Datakommunikation 2015/2016 LP1-LP1;25 (39,06%);6247
+LEU061 Datakommunikation 2016/2017 LP3-LP3;10 (22,73%);9829
+LEU061 Datakommunikation 2017/2018 LP3-LP3;11 (17,74%);11939
+LEU236 Dynamiska system med reglerteknik 2013/2014 LP2-LP2;60 (37,04%);2998
+LEU236 Dynamiska system med reglerteknik 2014/2015 LP2-LP2;48 (29,45%);4655
+LEU236 Dynamiska system med reglerteknik 2015/2016 LP2-LP2;48 (30,77%);6824
+LEU236 Dynamiska system med reglerteknik 2016/2017 LP2-LP2;36 (24,49%);9245
+LEU237 Styr- och reglerteknik 2017/2018 LP2-LP2;16 (30,19%);11760
+LEU240 Mikrodatorsystem 2013/2014 LP2-LP2;4 (26,67%);2980
+LEU240 Mikrodatorsystem 2014/2015 LP2-LP2;8 (29,63%);4639
+LEU240 Mikrodatorsystem 2015/2016 LP2-LP2;7 (46,67%);6810
+LEU240 Mikrodatorsystem 2016/2017 LP2-LP2;9 (37,50%);9235
+LEU420 Routing and switching technology 2014/2015 LP2-LP2;13 (54,17%);4401
+LEU420 Routing and switching technology 2015/2016 LP2-LP2;12 (33,33%);7126
+LEU420 Routing and switching technology 2016/2017 LP2-LP2;9 (50,00%);9045
+LEU420 Routing and switching technology 2017/2018 LP2-LP2;12 (50,00%);11694
+LEU420 Routing technology 2013/2014 LP2-LP2;14 (58,33%);2448
+LEU431 Digital och datorteknik 2013/2014 LP1-LP2;67 (36,41%);2678
+LEU431 Digital och datorteknik 2014/2015 LP1-LP2;62 (36,05%);4405
+LEU431 Digital och datorteknik 2015/2016 LP1-LP2;53 (29,44%);7128
+LEU432 Grundläggande datorteknik 2016/2017 LP1-LP2;53 (34,87%);9531
+LEU432 Grundläggande datorteknik 2017/2018 LP1-LP2;46 (27,38%);11436
+LEU470 Elektriska kretsar 2013/2014 LP1-LP2;65 (47,79%);2676
+LEU470 Elektriska kretsar 2014/2015 LP1-LP2;43 (40,19%);4549
+LEU470 Elektriska kretsar 2015/2016 LP1-LP2;44 (34,65%);6726
+LEU470 Elektriska kretsar 2016/2017 LP1-LP2;40 (29,20%);9105
+LEU470 Elektriska kretsar 2017/2018 LP1-LP2;29 (21,17%);11194
+LEU480 Programutveckling 2013/2014 LP2-LP2;94 (50,00%);2490
+LEU480 Programutveckling 2014/2015 LP2-LP2;64 (36,36%);4403
+LEU482 Programutveckling 2015/2016 LP2-LP2;39 (34,82%);7230
+LEU482 Programutveckling 2016/2017 LP2-LP2;46 (38,98%);9417
+LEU482 Programutveckling 2017/2018 LP2-LP2;33 (24,44%);11466
+LEU500 Maskinorienterad programmering 2013/2014 LP3-LP3;58 (34,32%);1659
+LEU500 Maskinorienterad programmering 2014/2015 LP3-LP3;50 (31,65%);5155
+LEU500 Maskinorienterad programmering 2015/2016 LP3-LP3;50 (29,24%);7350
+LEU500 Maskinorienterad programmering 2016/2017 LP3-LP3;41 (22,78%);9959
+LEU500 Maskinorienterad programmering 2017/2018 LP3-LP3;54 (26,09%);12089
+LMA200 Matematisk statistik 2013/2014 LP3-LP3;30 (28,85%);1655
+LMA200 Matematisk statistik 2014/2015 LP3-LP3;42 (36,84%);5151
+LMA200 Matematisk statistik 2015/2016 LP3-LP3;24 (24,00%);7346
+LMA212 Algebra 2013/2014 LP1-LP1;60 (39,47%);2186
+LMA212 Algebra 2014/2015 LP1-LP1;61 (50,41%);3891
+LMA212 Algebra 2015/2016 LP1-LP1;60 (45,11%);6099
+LMA212 Algebra 2016/2017 LP1-LP1;48 (38,10%);8525
+LMA212 Algebra 2017/2018 LP1-LP1;50 (38,76%);11069
+LMA222 Matematisk analys 2013/2014 LP3-LP4;41 (27,52%);3526
+LMU450 Ekonomi & organisation 2013/2014 LP3-LP3;14 (25,45%);1379
+LMU450 Ekonomi & organisation 2014/2015 LP3-LP3;28 (44,44%);5311
+LMU450 Ekonomi & organisation 2015/2016 LP4-LP4;23 (35,94%);7812
+LMU450 Ekonomi & organisation 2016/2017 LP4-LP4;14 (26,92%);10085
+LMU450 Ekonomi och organisation 2017/2018 LP4-LP4;22 (24,18%);12375
+LSP127 Professional English 2013/2014 LP3-LP3;23 (29,49%);1797
+LSP127 Professional English 2014/2015 LP3-LP3;27 (30,34%);5219
+LSP127 Professional English 2015/2016 LP3-LP3;29 (34,52%);7406
+LSP127 Professional English 2016/2017 LP3-LP3;25 (33,78%);9789
+LSP127 Professional English 2017/2018 LP3-LP3;15 (19,74%);11909
+LSP300 Introduktion 2013/2014 LP1-LP1;60 (48,78%);2348
+LSP300 Introduktion 2014/2015 LP1-LP2;34 (35,79%);4627
+LSP300 Introduktion 2015/2016 LP1-LP2;34 (32,08%);6800
+LSP300 Introduktion 2016/2017 LP1-LP2;25 (22,32%);9181
+LSP300 Introduktion 2017/2018 LP1-LP2;35 (29,41%);11254
+LSP580 Engelska 2013/2014 LP3-LP3;39 (33,33%);1541
+LSP580 Engelska 2014/2015 LP4-LP4;25 (27,78%);5616
+LSP580 Engelska 2015/2016 LP4-LP4;33 (30,56%);8050
+LSP580 Engelska 2016/2017 LP4-LP4;19 (17,76%);10323
+LSP580 Engelska 2017/2018 LP4-LP4;22 (18,80%);12463
+MVE070 Diskret matematik 2013/2014 LP3-LP3;31 (29,25%);1533
+MVE070 Diskret matematik 2014/2015 LP3-LP3;43 (38,39%);5073
+MVE070 Diskret matematik 2015/2016 LP3-LP3;24 (23,08%);7646
+MVE415 Matematisk analys 2014/2015 LP3-LP4;25 (26,32%);5996
+MVE415 Matematisk analys 2015/2016 LP3-LP4;25 (17,24%);8186
+MVE415 Matematisk analys 2016/2017 LP3-LP4;28 (18,18%);10201
+MVE535 Matematisk analys, del 1 2017/2018 LP3-LP3;22 (19,64%);12295
+MVE545 Matematisk analys, del 2 2017/2018 LP4-LP4;18 (16,36%);12879
+SSY010 Elektriska system 2013/2014 LP1-LP1;9 (31,03%);1944
+SSY010 Elektriska system 2014/2015 LP1-LP1;23 (54,76%);3729
+SSY011 Elektriska system 2015/2016 LP1-LP1;17 (40,48%);6581
+SSY011 Elektriska system 2016/2017 LP1-LP1;15 (65,22%);8785
+SSY011 Elektriska system 2017/2018 LP1-LP1;15 (36,59%);10911
+SSY020 Linjära system 2013/2014 LP1-LP1;51 (30,00%);2060
+SSY020 Linjära system 2014/2015 LP1-LP1;71 (41,04%);3783
+SSY020 Linjära system 2015/2016 LP1-LP1;57 (35,40%);6289
+SSY325 Kompletterande ingenjörskompetenser 2014/2015 LP3-LP4;13 (38,24%);5988
+SSY326 Kompletterande ingenjörskompetenser 2015/2016 LP3-LP4;16 (43,24%);8334
+SSY326 Kompletterande ingenjörskompetenser 2016/2017 LP3-LP4;10 (23,81%);10477
+SSY326 Kompletterande ingenjörskompetenser 2017/2018 LP3-LP4;13 (29,55%);12623
+TDA352 Cryptography 2017/2018 LP2-LP2;55 (37,93%);11494
+TDA357 Databases 2013/2014 LP2-LP2;61 (36,75%);2534
+TDA357 Databases 2014/2015 LP2-LP2;30 (21,13%);4697
+TDA357 Databases 2015/2016 LP2-LP2;42 (24,00%);7198
+TDA357 Databases 2016/2017 LP2-LP2;50 (25,00%);9385
+TDA357 Databases 2017/2018 LP2-LP2;63 (29,44%);11402
+TDA382 Concurrent programming 2013/2014 LP1-LP1;19 (24,05%);2228
+TDA382 Concurrent programming 2013/2014 LP3-LP3;55 (33,95%);1673
+TDA383 Concurrent programming 2014/2015 LP1-LP1;46 (43,40%);4225
+TDA383 Concurrent programming 2014/2015 LP3-LP3;55 (34,38%);5439
+TDA383 Concurrent programming 2015/2016 LP1-LP1;55 (42,64%);6439
+TDA383 Concurrent programming 2015/2016 LP3-LP3;36 (28,13%);7564
+TDA383 Concurrent programming 2016/2017 LP1-LP1;39 (35,14%);8849
+TDA383 Concurrent programming 2016/2017 LP3-LP3;35 (29,91%);9627
+TDA384 Principles of Concurrent Programming 2017/2018 LP1-LP1;40 (36,04%);11155
+TDA384 Principles of Concurrent Programming 2017/2018 LP3-LP3;58 (43,28%);12321
+TDA566 Testing, debugging and verification 2013/2014 LP2-LP2;29 (39,19%);2436
+TDA567 Testing, debugging and verification 2014/2015 LP2-LP2;11 (35,48%);4873
+TDA567 Testing, debugging and verification 2015/2016 LP2-LP2;26 (29,89%);7022
+TDA567 Testing, debugging and verification 2016/2017 LP2-LP2;19 (27,14%);8979
+TDA567 Testing, debugging and verification 2017/2018 LP2-LP2;19 (21,84%);11636
+TMV200 Diskret matematik 2013/2014 LP2-LP2;56 (39,72%);2958
+TMV200 Diskret matematik 2014/2015 LP2-LP2;63 (45,99%);4617
+TMV200 Diskret matematik 2015/2016 LP2-LP2;55 (45,45%);6790
+TMV210 Inledande diskret matematik 2013/2014 LP1-LP1;76 (40,21%);2346
+TMV210 Inledande diskret matematik 2014/2015 LP1-LP1;78 (40,21%);4009
+TMV210 Inledande diskret matematik 2015/2016 LP1-LP1;63 (51,22%);6213
+TMV210 Inledande diskret matematik 2016/2017 LP1-LP1;71 (37,97%);8637
+TMV210 Inledande diskret matematik 2017/2018 LP1-LP1;67 (35,64%);10709
+CLS050 Introduktion till kommunikation och ingenjörskompetens 2021/2022 LP1-LP2;29 (27,88%);20965
+DAT050 Objektorienterad programmering 2018/2019 LP1-LP1;19 (28,36%);13208
+DAT050 Objektorienterad programmering 2019/2020 LP1-LP1;17 (29,82%);15270
+DAT050 Objektorienterad programmering 2020/2021 LP1-LP1;19 (28,36%);17697
+DAT050 Objektorienterad programmering 2021/2022 LP1-LP1;18 (28,13%);19890
+DAT050 Objektorienterad programmering 2022/2023 LP1-LP1;19 (29,69%);22384
+DAT055 Objektorienterade applikationer 2018/2019 LP3-LP3;16 (22,86%);14221
+DAT055 Objektorienterade applikationer 2019/2020 LP3-LP3;12 (19,35%);16610
+DAT055 Objektorienterade applikationer 2020/2021 LP3-LP3;11 (17,74%);19125
+DAT055 Objektorienterade applikationer 2021/2022 LP3-LP3;19 (30,65%);21455
+DAT066 Projekt 2018/2019 LP2-LP2;22 (31,43%);13993
+DAT067 Projekt 2019/2020 LP2-LP2;16 (28,07%);16389
+DAT067 Projekt 2020/2021 LP2-LP2;13 (20,63%);18071
+DAT067 Projekt 2021/2022 LP2-LP2;12 (23,08%);20727
+DAT076 Web applications 2018/2019 LP3-LP3;15 (33,33%);14325
+DAT076 Web applications 2019/2020 LP3-LP3;9 (21,95%);16612
+DAT076 Web applications 2020/2021 LP3-LP3;7 (14,58%);19127
+DAT076 Web applications 2021/2022 LP3-LP3;4 (10,00%);21056
+DAT151 Programming language technology 2018/2019 LP2-LP2;53 (35,81%);13833
+DAT151 Programming language technology 2019/2020 LP2-LP2;41 (32,28%);15835
+DAT151 Programming language technology 2020/2021 LP2-LP2;43 (33,59%);18153
+DAT151 Programming language technology 2021/2022 LP2-LP2;35 (32,41%);20855
+DAT256 Software engineering project 2018/2019 LP1-LP1;20 (31,75%);13444
+DAT257 Agile software project management 2019/2020 LP1-LP1;15 (26,32%);15746
+DAT257 Agile software project management 2020/2021 LP1-LP1;15 (15,79%);17637
+DAT257 Agile software project management 2021/2022 LP1-LP1;20 (24,69%);19772
+DAT257 Agile software project management 2022/2023 LP1-LP1;28 (31,82%);22500
+DAT326 Domain Specific Languages of Mathematics 2018/2019 LP3-LP3;31 (39,74%);14483
+DAT326 Domain Specific Languages of Mathematics 2019/2020 LP3-LP3;14 (29,79%);16614
+DAT326 Domain Specific Languages of Mathematics 2020/2021 LP3-LP3;27 (32,53%);19129
+DAT326 Domain Specific Languages of Mathematics 2021/2022 LP3-LP3;15 (23,44%);21457
+DAT340 Applied Machine Learning 2020/2021 LP3-LP3;34 (31,78%);19131
+DAT340 Applied Machine Learning 2021/2022 LP3-LP3;33 (30,28%);21459
+DAT355 Requirements and User Experience 2018/2019 LP2-LP2;5 (41,67%);13877
+DAT355 Requirements and User Experience 2020/2021 LP2-LP2;3 (27,27%);18513
+DAT356 Requirements and user experience 2021/2022 LP2-LP2;32 (22,86%);20991
+DAT390 Maskinorienterad programmering 2018/2019 LP3-LP3;53 (29,94%);14623
+DAT390 Maskinorienterad programmering 2019/2020 LP3-LP3;42 (20,79%);16618
+DAT390 Maskinorienterad programmering 2020/2021 LP3-LP3;54 (27,69%);19039
+DAT390 Maskinorienterad programmering 2021/2022 LP3-LP3;35 (20,00%);21131
+DAT405 Introduction to data science and AI 2020/2021 LP2-LP2;34 (26,56%);18665
+DAT405 Introduction to data science and AI 2021/2022 LP2-LP2;56 (20,97%);20649
+DAT420 Human - computer interaction 2019/2020 LP3-LP3;26 (28,26%);16898
+DAT420 Human - computer interaction 2020/2021 LP3-LP3;35 (31,53%);18867
+DAT420 Human - computer interaction 2021/2022 LP3-LP3;18 (16,98%);21107
+DAT495 Data structures and algorithms 2021/2022 LP4-LP4;23 (18,85%);22137
+EDA093 Operating systems 2018/2019 LP1-LP1;51 (38,93%);13334
+EDA093 Operating systems 2019/2020 LP1-LP1;45 (36,89%);15502
+EDA093 Operating systems 2020/2021 LP1-LP1;37 (36,63%);17463
+EDA093 Operating systems 2021/2022 LP1-LP1;39 (33,91%);20030
+EDA093 Operating systems 2022/2023 LP1-LP1;49 (33,79%);22532
+EDA234 Digital project laboratory 2019/2020 LP2-LP2;7 (41,18%);16129
+EDA234 Digital project laboratory 2020/2021 LP2-LP2;11 (45,83%);18323
+EDA234 Digital project laboratory 2021/2022 LP2-LP2;15 (38,46%);20469
+EDA263 Computer security 2018/2019 LP3-LP3;45 (32,61%);14355
+EDA263 Computer security 2019/2020 LP3-LP3;50 (30,49%);16552
+EDA263 Computer security 2020/2021 LP3-LP3;39 (29,55%);19061
+EDA263 Computer security 2021/2022 LP3-LP3;32 (26,02%);21165
+EDA322 Digital design 2018/2019 LP3-LP3;45 (30,61%);14567
+EDA322 Digital design 2019/2020 LP3-LP3;42 (27,63%);16620
+EDA322 Digital design 2020/2021 LP3-LP3;45 (26,47%);18933
+EDA322 Digital design 2021/2022 LP3-LP3;38 (21,97%);21225
+EDA387 Computer networks 2018/2019 LP1-LP1;42 (46,67%);13372
+EDA387 Computer networks 2019/2020 LP1-LP1;41 (46,07%);15654
+EDA387 Computer networks 2020/2021 LP1-LP1;31 (31,00%);17803
+EDA387 Computer networks 2021/2022 LP1-LP1;28 (38,36%);20020
+EDA387 Computer networks 2022/2023 LP1-LP1;34 (35,79%);22300
+FFR102 Hållbar utveckling - kritiska perspektiv och möjliga lösningar 2018/2019 LP4-LP4;20 (19,05%);15073
+FFR102 Hållbar utveckling - kritiska perspektiv och möjliga lösningar 2019/2020 LP4-LP4;25 (23,58%);17183
+FFR102 Hållbar utveckling - kritiska perspektiv och möjliga lösningar 2020/2021 LP4-LP4;27 (26,21%);19522
+FFR102 Hållbar utveckling - kritiska perspektiv och möjliga lösningar 2021/2022 LP4-LP4;26 (30,95%);22081
+FFR135 Artificial neural networks 2018/2019 LP1-LP1;97 (47,78%);13028
+FFR135 Artificial neural networks 2019/2020 LP1-LP1;82 (40,39%);15296
+LET375 Algoritmer och datastrukturer 2018/2019 LP4-LP4;36 (25,53%);14921
+LET375 Algoritmer och datastrukturer 2019/2020 LP4-LP4;35 (24,48%);17201
+LET375 Algoritmer och datastrukturer 2020/2021 LP4-LP4;24 (17,27%);19532
+LET627 Realtidssystem, grundkurs 2018/2019 LP4-LP4;12 (18,75%);15047
+LET627 Realtidssystem, grundkurs 2019/2020 LP4-LP4;17 (22,97%);17203
+LET627 Realtidssystem, grundkurs 2020/2021 LP4-LP4;17 (23,61%);19560
+LET627 Realtidssystem, grundkurs 2021/2022 LP4-LP4;12 (17,65%);21743
+LEU061 Data communication 2019/2020 LP3-LP3;16 (24,62%);16804
+LEU061 Datakommunikation 2018/2019 LP3-LP3;13 (20,97%);14467
+LEU062 Computer communication 2020/2021 LP3-LP3;9 (20,45%);19187
+LEU062 Computer communication 2021/2022 LP3-LP3;9 (18,37%);21281
+LEU237 Styr- och reglerteknik 2018/2019 LP2-LP2;18 (29,03%);13869
+LEU237 Styr- och reglerteknik 2019/2020 LP2-LP2;14 (25,45%);16011
+LEU237 Styr- och reglerteknik 2020/2021 LP2-LP2;15 (23,44%);18043
+LEU237 Styr- och reglerteknik 2021/2022 LP2-LP2;12 (18,46%);20703
+LEU420 Routing and switching technology 2018/2019 LP2-LP2;7 (46,67%);13819
+LEU420 Routing and switching technology 2019/2020 LP2-LP2;12 (36,36%);15847
+LEU432 Grundläggande datorteknik 2018/2019 LP1-LP2;52 (31,52%);13643
+LEU432 Grundläggande datorteknik 2019/2020 LP1-LP2;52 (28,26%);15899
+LEU432 Grundläggande datorteknik 2020/2021 LP1-LP2;60 (31,41%);18181
+LEU432 Grundläggande datorteknik 2021/2022 LP1-LP2;46 (25,56%);20879
+LEU470 Elektriska kretsar 2018/2019 LP1-LP2;37 (30,58%);14051
+LEU470 Elektriska kretsar 2019/2020 LP1-LP2;36 (27,27%);16147
+LEU470 Elektriska kretsar 2020/2021 LP1-LP2;38 (28,36%);18353
+LEU470 Elektriska kretsar 2021/2022 LP1-LP2;39 (33,05%);20491
+LEU482 Programutveckling 2018/2019 LP2-LP2;38 (33,04%);13667
+LEU483 Programutveckling 2019/2020 LP2-LP2;39 (27,46%);16385
+LEU483 Programutveckling 2020/2021 LP2-LP2;37 (27,82%);18067
+LEU483 Programutveckling 2021/2022 LP2-LP2;32 (27,59%);20723
+LMA017 Mathematical analysis in several variables 2020/2021 LP1-LP1;35 (14,29%);17489
+LMA017 Mathematical analysis in several variables 2021/2022 LP1-LP1;87 (40,09%);20062
+LMA017 Mathematical analysis in several variables 2022/2023 LP1-LP1;68 (29,96%);22414
+LMA201 Tillämpad matematisk statistik 2018/2019 LP3-LP3;10 (15,15%);14329
+LMA201 Tillämpad matematisk statistik 2019/2020 LP3-LP3;5 (8,93%);16652
+LMA201 Tillämpad matematisk statistik 2020/2021 LP3-LP3;13 (20,00%);19143
+LMA201 Tillämpad matematisk statistik 2021/2022 LP3-LP3;13 (26,53%);21377
+LMA212 Algebra 2018/2019 LP1-LP1;41 (31,54%);13230
+LMA212 Algebra 2019/2020 LP1-LP1;42 (32,31%);15280
+LMA212 Algebra 2020/2021 LP1-LP1;57 (45,24%);17867
+LMA212 Algebra 2021/2022 LP1-LP1;44 (42,72%);19836
+LMA521 Tillämpad matematisk statistik 2018/2019 LP2-LP2;26 (33,77%);13973
+LMA521 Tillämpad matematisk statistik 2019/2020 LP2-LP2;11 (14,86%);16287
+LMA521 Tillämpad matematisk statistik 2020/2021 LP2-LP2;25 (28,41%);18449
+LMA521 Tillämpad matematisk statistik 2021/2022 LP2-LP2;18 (27,69%);20631
+LMU450 Ekonomi och organisation 2018/2019 LP4-LP4;7 (7,14%);14664
+LMU450 Ekonomi och organisation 2019/2020 LP4-LP4;6 (5,66%);16944
+LMU450 Ekonomi och organisation 2021/2022 LP4-LP4;29 (14,43%);21630
+LSP127 Professional English 2018/2019 LP3-LP3;23 (24,73%);14179
+LSP127 Professional English 2019/2020 LP3-LP3;15 (16,67%);16548
+LSP127 Professional English 2020/2021 LP3-LP3;9 (9,78%);19059
+LSP127 Professional English 2021/2022 LP3-LP3;10 (11,49%);21161
+LSP300 Introduktion 2018/2019 LP1-LP2;32 (28,83%);13509
+LSP300 Introduktion 2019/2020 LP1-LP2;31 (24,80%);16025
+LSP300 Introduktion 2020/2021 LP1-LP2;28 (25,23%);18549
+LSP580 English 2018/2019 LP4-LP4;11 (9,82%);14739
+LSP580 English 2019/2020 LP4-LP4;16 (13,01%);17213
+LSP580 English 2020/2021 LP4-LP4;26 (24,30%);19650
+LSP580 English 2021/2022 LP4-LP4;16 (17,39%);21997
+MVE270 Flervariabelanalys 2019/2020 LP3-LP3;66 (32,35%);16676
+MVE270 Flervariabelanalys 2020/2021 LP3-LP3;36 (19,35%);18989
+MVE270 Flervariabelanalys 2021/2022 LP3-LP3;59 (32,07%);21265
+MVE535 Matematisk analys, del 1 2018/2019 LP3-LP3;35 (28,46%);14163
+MVE535 Matematisk analys, del 1 2019/2020 LP3-LP3;30 (16,85%);16680
+MVE535 Matematisk analys, del 1 2020/2021 LP3-LP3;33 (24,81%);18729
+MVE535 Matematisk analys, del 1 2021/2022 LP3-LP3;31 (30,39%);21293
+MVE545 Matematisk analys, del 2 2018/2019 LP4-LP4;10 (8,06%);15083
+MVE545 Matematisk analys, del 2 2019/2020 LP4-LP4;24 (14,20%);17367
+MVE545 Matematisk analys, del 2 2020/2021 LP4-LP4;28 (22,05%);19512
+MVE545 Matematisk analys, del 2 2021/2022 LP4-LP4;18 (18,00%);22071
+MVE675 Algebra 2022/2023 LP1-LP1;49 (41,18%);22704
+SSY011 Electronic systems 2020/2021 LP1-LP1;11 (30,56%);17813
+SSY011 Electronic systems 2021/2022 LP1-LP1;12 (33,33%);20178
+SSY011 Electronic systems 2022/2023 LP1-LP1;13 (40,63%);22676
+SSY011 Elektriska system 2018/2019 LP1-LP1;11 (28,95%);13386
+SSY011 Elektriska system 2019/2020 LP1-LP1;11 (23,40%);15670
+SSY180 Medicine for the engineer 2018/2019 LP1-LP2;30 (35,71%);13901
+SSY180 Medicine for the engineer 2019/2020 LP1-LP2;29 (34,12%);16233
+SSY180 Medicine for the engineer 2020/2021 LP1-LP2;36 (35,64%);18429
+SSY180 Medicine for the engineer 2021/2022 LP1-LP2;27 (37,50%);20611
+SSY326 Kompletterande ingenjörskompetenser 2018/2019 LP3-LP4;9 (20,45%);15057
+SSY326 Kompletterande ingenjörskompetenser 2019/2020 LP3-LP4;4 (12,12%);17355
+SSY326 Kompletterande ingenjörskompetenser 2020/2021 LP3-LP4;8 (28,57%);19208
+SSY326 Ledarskap och personlig utveckling 2021/2022 LP3-LP4;9 (30,00%);21659
+TDA289 Human - computer interaction 2018/2019 LP3-LP3;37 (30,58%);14189
+TDA352 Cryptography 2018/2019 LP2-LP2;51 (28,33%);13693
+TDA352 Cryptography 2019/2020 LP2-LP2;61 (40,40%);15895
+TDA352 Cryptography 2020/2021 LP2-LP2;39 (23,78%);18179
+TDA352 Cryptography 2021/2022 LP2-LP2;39 (26,17%);20877
+TDA357 Databases 2018/2019 LP2-LP2;84 (34,01%);13617
+TDA357 Databases 2019/2020 LP2-LP2;81 (34,18%);15875
+TDA357 Databases 2020/2021 LP2-LP2;58 (25,55%);18169
+TDA357 Databases 2021/2022 LP2-LP2;43 (21,18%);20871
+TDA384 Principles of Concurrent Programming 2018/2019 LP1-LP1;41 (33,61%);13322
+TDA384 Principles of Concurrent Programming 2018/2019 LP3-LP3;42 (32,56%);14323
+TDA384 Principles of Concurrent Programming 2019/2020 LP1-LP1;43 (36,13%);15586
+TDA384 Principles of Concurrent Programming 2019/2020 LP3-LP3;35 (22,01%);16736
+TDA384 Principles of Concurrent Programming 2020/2021 LP1-LP1;20 (19,42%);17765
+TDA384 Principles of Concurrent Programming 2020/2021 LP3-LP3;20 (16,67%);18733
+TDA384 Principles of Concurrent Programming 2021/2022 LP1-LP1;21 (20,39%);19984
+TDA384 Principles of Concurrent Programming 2021/2022 LP3-LP3;41 (27,15%);21297
+TDA384 Principles of Concurrent Programming 2022/2023 LP1-LP1;28 (28,57%);22488
+TDA452 Functional programming 2018/2019 LP2-LP2;46 (30,07%);13939
+TDA452 Functional programming 2019/2020 LP2-LP2;58 (41,73%);16263
+TDA452 Functional programming 2020/2021 LP2-LP2;30 (35,71%);18439
+TDA452 Functional programming 2021/2022 LP2-LP2;42 (40,00%);20621
+TDA567 Testing, debugging and verification 2018/2019 LP2-LP2;27 (20,15%);13919
+TDA567 Testing, debugging and verification 2019/2020 LP2-LP2;14 (15,56%);16253
+TDA567 Testing, debugging and verification 2020/2021 LP2-LP2;24 (26,09%);18431
+TDA567 Testing, debugging and verification 2021/2022 LP2-LP2;9 (14,52%);20613
+TDA596 Distributed systems 2018/2019 LP2-LP2;39 (36,11%);13743
+TDA596 Distributed systems 2019/2020 LP2-LP2;34 (39,08%);15933
+TDA596 Distributed systems 2020/2021 LP2-LP2;50 (37,88%);18039
+TDA596 Distributed systems 2021/2022 LP2-LP2;28 (31,46%);20699
+TEK486 Grön IT och innovation 2021/2022 LP2-LP2;4 (66,67%);20807
+TIN175 Introduction to Artificial intelligence 2018/2019 LP3-LP3;51 (49,51%);14527
+TMA044 Flervariabelanalys 2019/2020 LP1-LP1;24 (25,81%);15388
+TMV210 Inledande diskret matematik 2018/2019 LP1-LP1;78 (39,39%);12978
+TMV210 Inledande diskret matematik 2019/2020 LP1-LP1;82 (43,62%);15678
+TMV211 Inledande diskret matematik 2020/2021 LP1-LP1;81 (36,99%);17991
+TMV211 Inledande diskret matematik 2021/2022 LP1-LP1;84 (37,33%);19934
+TMV211 Inledande diskret matematik 2022/2023 LP1-LP1;74 (33,33%);22428

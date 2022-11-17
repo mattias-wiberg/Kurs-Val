@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head><title>Studentportalen + Insidan - Masterprogram</title>
+<link href="/SR/plugin/Css/advreport?css=aggregatereport" rel="stylesheet" type="text/css" /><style type="text/css">
+.reportPage{font-family:Lucida Sans;}
+.reportPage{font-size:1.25em;}
+.reportPage{color:#000000;}
+.reportPage .srtbl .srtbl-h1 th, .reportPage .srtbl .srtbl-h1 td { background-color: #F2F2F2; color:; font-weight: bold;  font-style: normal;  text-decoration: ; }
+.reportPage .srtbl .srtbl-row th, .reportPage .srtbl .srtbl-row td { background-color: ; color:; }
+.reportPage .srtbl .srtbl-row.alt th, .reportPage .srtbl .srtbl-row.alt td { background-color: #EEECE1; color: ; }
+.reportPage .srtbl .srtbl-row-total th, .reportPage .srtbl .srtbl-row-total td { background-color: ; color:; font-weight: normal;  font-style: normal;  text-decoration: ; }
+.reportPage .srtbl .srtbl-ct-h1 th, .reportPage .srtbl .srtbl-ct-h1 td { background-color: ; color:; font-weight: bold;  font-style: normal;  text-decoration: ; }
+.reportPage .srtbl .srtbl-ct-h2 th, .reportPage .srtbl .srtbl-ct-h2 td { background-color: ; color:; font-weight: normal;  font-style: normal;  text-decoration: ; }
+
+
+</style>
+<script type="text/javascript">
+var reportId = 4248;
+var sessionKey = "0ccabdde-801e-436e-b3ec-91bb7f040a56";
+var arJsonUrl = '/SR/plugin/Json/advreport';
+if (typeof $get == 'undefined') { $get = function (id) { return document.getElementById(id); }; }
+</script>
+<script type="text/javascript" src="/SR/plugin/Script/advreport?script=aggregatereport"></script>
+<script type="text/javascript">
+arResources.PubUrl='/SR/';
+arResources.Language='sv';
+arResources.TextShowAnswers="Visa svar..."
+arResources.TextAnonymousRespondent="Anonym respondent"
+</script>
+</head>
+<body>
+<div id="reportToolBar"><ul id="reportToolBarButtons"><li><a href="#" onclick="location.href='/sr/ar/4248/sv';return false;" title="Ändra urval"><span class="btnFilter tbtn">&nbsp;</span></a></li>
+<li><a href="#" onclick="$('#excel').submit();return false;" title="Spara som Excel"><span class="btnExportExcel tbtn">&nbsp;</span></a></li>
+<li><a href="#" onclick="self.print();return false;" title="Skriv ut"><span class="btnPrint tbtn">&nbsp;</span></a></li>
+</ul></div><div id="selectionInfo"><h2 class="h topHdr"><span>Rapporturval</span></h2><div id="selectionInfoContent"><dl><dt>Inkluderar enkäter som tillhör följande enkätkategorier:</dt><dd>MPDCM - Organisering och ledning i bygg- och fastighetssektorn, masterprogram</dd></dl>
+<dl><dt>Inkluderar enkäter som tillhör följande enkätkategorier:</dt><dd>2013/2014</dd><dd>2014/2015</dd><dd>2015/2016</dd><dd>2016/2017</dd><dd>2017/2018</dd></dl>
+<dl><dt>Inkluderar enkäter som tillhör följande enkätkategorier:</dt><dd>Läsperiod 1</dd><dd>Läsperiod 2</dd><dd>Läsperiod 3</dd><dd>Läsperiod 4</dd></dl>
+</div></div><div class="reportPage"><div id="i1" class="artBaseTable"><div id="i1c1" class="artBaseRow"><div id="i1_AdvReport1_1" class="artWrapper"><table class="srtbl" cellpadding="2" cellspacing="0" summary=""><thead><tr class="srtbl-ct-h1"><td>Enkäter</td><td class="c0">Enkät</td><td class="c1">Rapport</td></tr></thead><tbody><tr class="srtbl-h1"><td>&nbsp;</td><td class="c0">Svar</td><td class="c1">&nbsp;</td></tr></tbody></table>
+
+</div></div></div></div><div id="modalBg" style="display:none;" onclick="$('#modalBg, #answerLinkPopup, #cellInfoPopup').hide();"></div>
+<div id="cellInfoPopup" style="display:none;">
+<div id="cellInfoPopupContent" class="reportPage"></div>
+<div id="cellInfoPopupBtnBar" class="btnBar">
+<a href="#" class="btn btnClose" onclick="$('#modalBg, #cellInfoPopup').hide();return false;"><span>Stäng</span></a>
+</div></div>
+<div id="answerLinkPopup" style="display:none;">
+<div id="answerLinkPopupContent"></div>
+<div id="answerLinkBtnBar" class="btnBar">
+<a href="#" class="btn btnClose" onclick="$('#modalBg, #answerLinkPopup').hide();return false;"><span>Stäng</span></a>
+</div></div>
+<div style="display:none;"><form id="excel" action="/SR/plugin/File/advreport?file=getarexcel" method="POST"><input type="hidden" name="reportId" value="4248" />
+<input type="hidden" name="SessionKey" value="0ccabdde-801e-436e-b3ec-91bb7f040a56" />
+<input type="hidden" name="mime" value="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+<input type="hidden" name="dlname" value="Studentportalen + Insidan - Masterprogram.xlsx" />
+</form></div><script type="text/javascript">
+
+missingFields=oc([]);
+</script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+name;ans_freq;report_id
+DAT060 Logic in computer science 2013/2014 LP1-LP1;37 (27,21%);2310
+DAT060 Logic in computer science 2014/2015 LP1-LP1;65 (46,76%);4181
+DAT060 Logic in computer science 2015/2016 LP1-LP1;51 (41,46%);6419
+DAT060 Logic in computer science 2016/2017 LP1-LP1;54 (39,42%);8443
+DAT060 Logic in computer science 2017/2018 LP1-LP1;60 (36,81%);11015
+DAT105 Computer architecture 2013/2014 LP2-LP2;28 (44,44%);2860
+DAT105 Computer architecture 2014/2015 LP2-LP2;11 (35,48%);4827
+DAT105 Computer architecture 2015/2016 LP2-LP2;9 (28,13%);6982
+DAT105 Computer architecture 2016/2017 LP2-LP2;14 (29,79%);9153
+DAT105 Computer architecture 2017/2018 LP2-LP2;24 (44,44%);11226
+DAT121 Programming paradigms 2013/2014 LP3-LP3;18 (38,30%);1493
+DAT121 Programming paradigms 2014/2015 LP3-LP3;13 (27,08%);5293
+DAT140 Types for programs and proofs 2013/2014 LP1-LP1;10 (32,26%);2110
+DAT140 Types for programs and proofs 2014/2015 LP1-LP1;11 (33,33%);3967
+DAT140 Types for programs and proofs 2015/2016 LP1-LP1;14 (43,75%);6173
+DAT140 Types for programs and proofs 2016/2017 LP1-LP1;25 (43,86%);8809
+DAT151 Programming language technology 2013/2014 LP3-LP3;41 (35,65%);1695
+DAT151 Programming language technology 2014/2015 LP3-LP3;40 (33,06%);5177
+DAT151 Programming language technology 2015/2016 LP2-LP2;37 (35,92%);6634
+DAT151 Programming language technology 2016/2017 LP2-LP2;34 (30,36%);9063
+DAT151 Programming language technology 2017/2018 LP2-LP2;58 (41,13%);11710
+DAT277 Energy aware computing 2017/2018 LP4-LP4;7 (46,67%);12629
+DAT280 Parallel functional programming 2013/2014 LP4-LP4;19 (48,72%);3170
+DAT280 Parallel functional programming 2014/2015 LP4-LP4;24 (37,50%);5902
+DAT280 Parallel functional programming 2015/2016 LP4-LP4;20 (27,40%);8214
+DAT280 Parallel functional programming 2016/2017 LP4-LP4;16 (30,19%);10221
+DAT280 Parallel functional programming 2017/2018 LP4-LP4;11 (26,83%);12807
+DAT315 The computer scientist in society 2015/2016 LP2-LP2;32 (41,56%);7232
+DAT315 The computer scientist in society 2016/2017 LP2-LP2;29 (29,29%);9419
+DAT315 The computer scientist in society 2017/2018 LP2-LP2;26 (36,11%);11418
+DAT340 Applied Machine Learning 2017/2018 LP3-LP3;32 (54,24%);12293
+DAT345 Techniques for Large-scale Data 2017/2018 LP4-LP4;19 (37,25%);12875
+DAT350 Types for programs and proofs 2017/2018 LP1-LP1;16 (38,10%);11149
+EDA222 Real time systems 2013/2014 LP3-LP3;29 (37,18%);1793
+EDA222 Real time systems 2014/2015 LP3-LP3;24 (39,34%);5217
+EDA222 Real time systems 2015/2016 LP3-LP3;28 (35,90%);7404
+EDA222 Real time systems 2016/2017 LP3-LP3;27 (37,50%);9787
+EDA223 Real time systems 2017/2018 LP3-LP3;41 (54,67%);12297
+EDA263 Computer security 2013/2014 LP3-LP3;36 (30,00%);1381
+EDA263 Computer security 2014/2015 LP3-LP3;36 (28,80%);5313
+EDA263 Computer security 2015/2016 LP3-LP3;47 (30,52%);7590
+EDA263 Computer security 2016/2017 LP3-LP3;39 (33,33%);9643
+EDA263 Computer security 2017/2018 LP3-LP3;63 (40,13%);12185
+EDA491 Network security 2013/2014 LP4-LP4;40 (44,94%);3404
+EDA491 Network security 2014/2015 LP4-LP4;35 (40,70%);5534
+EDA491 Network security 2015/2016 LP4-LP4;30 (29,41%);8256
+EDA491 Network security 2016/2017 LP4-LP4;35 (30,97%);10441
+EDA491 Network security 2017/2018 LP4-LP4;26 (26,53%);12551
+SSY340 Deep machine learning 2017/2018 LP1-LP1;26 (72,22%);11129
+TDA183 Models of computation 2013/2014 LP2-LP2;14 (33,33%);2686
+TDA183 Models of computation 2014/2015 LP2-LP2;21 (35,59%);4557
+TDA183 Models of computation 2015/2016 LP2-LP2;12 (30,00%);6732
+TDA184 Models of computation 2016/2017 LP2-LP2;10 (52,63%);8953
+TDA184 Models of computation 2017/2018 LP2-LP2;5 (38,46%);11181
+TDA206 Discrete optimization 2013/2014 LP3-LP3;17 (44,74%);1611
+TDA206 Discrete optimization 2014/2015 LP3-LP3;28 (59,57%);5109
+TDA206 Discrete optimization 2015/2016 LP3-LP3;25 (32,05%);7682
+TDA206 Discrete optimization 2016/2017 LP3-LP3;25 (37,31%);9885
+TDA206 Discrete optimization 2017/2018 LP3-LP3;31 (38,75%);11981
+TDA231 Algorithms for machine learning and inference 2013/2014 LP3-LP3;14 (32,56%);1787
+TDA231 Algorithms for machine learning and inference 2014/2015 LP3-LP3;44 (47,31%);5213
+TDA231 Algorithms for machine learning and inference 2015/2016 LP3-LP3;60 (44,78%);7398
+TDA231 Algorithms for machine learning and inference 2016/2017 LP3-LP3;60 (38,22%);9781
+TDA231 Algorithms for machine learning and inference 2017/2018 LP4-LP4;48 (35,04%);12477
+TDA251 Algorithms, advanced course 2013/2014 LP2-LP2;33 (42,86%);2606
+TDA251 Algorithms, advanced course 2014/2015 LP2-LP2;33 (45,21%);4315
+TDA251 Algorithms, advanced course 2015/2016 LP2-LP2;31 (45,59%);6890
+TDA251 Algorithms, advanced course 2016/2017 LP2-LP2;16 (23,53%);9291
+TDA251 Algorithms, advanced course 2017/2018 LP2-LP2;51 (43,22%);11594
+TDA282 Compiler construction 2013/2014 LP4-LP4;20 (39,22%);3428
+TDA283 Compiler construction 2014/2015 LP4-LP4;17 (29,82%);5990
+TDA283 Compiler construction 2015/2016 LP4-LP4;12 (30,00%);8146
+TDA283 Compiler construction 2016/2017 LP4-LP4;6 (23,08%);10545
+TDA283 Compiler construction 2017/2018 LP4-LP4;10 (32,26%);12685
+TDA293 Software engineering using formal methods 2013/2014 LP1-LP1;26 (44,07%);2124
+TDA293 Software engineering using formal methods 2014/2015 LP1-LP1;21 (42,86%);3977
+TDA293 Software engineering using formal methods 2015/2016 LP1-LP1;30 (51,72%);6183
+TDA293 Software engineering using formal methods 2016/2017 LP1-LP1;31 (35,63%);8571
+TDA294 Formal Methods in Software Development 2017/2018 LP1-LP1;7 (21,88%);11131
+TDA342 Advanced functional programming 2013/2014 LP3-LP3;12 (36,36%);1717
+TDA342 Advanced functional programming 2014/2015 LP3-LP3;30 (41,10%);5197
+TDA342 Advanced functional programming 2015/2016 LP3-LP3;27 (45,76%);7384
+TDA342 Advanced functional programming 2016/2017 LP3-LP3;11 (23,91%);9743
+TDA342 Advanced functional programming 2017/2018 LP3-LP3;20 (45,45%);11881
+TDA351 Cryptography 2013/2014 LP2-LP2;28 (26,42%);2732
+TDA351 Cryptography 2014/2015 LP2-LP2;52 (37,41%);4435
+TDA352 Cryptography 2015/2016 LP2-LP2;48 (36,92%);7238
+TDA352 Cryptography 2016/2017 LP2-LP2;46 (34,33%);9445
+TDA352 Cryptography 2017/2018 LP2-LP2;55 (37,93%);11494
+TDA361 Computer graphics 2013/2014 LP2-LP2;36 (36,36%);2866
+TDA361 Computer graphics 2014/2015 LP2-LP2;23 (24,73%);4835
+TDA361 Computer graphics 2015/2016 LP2-LP2;31 (38,75%);6988
+TDA361 Computer graphics 2016/2017 LP2-LP2;45 (37,82%);9529
+TDA362 Computer graphics 2017/2018 LP2-LP2;35 (35,00%);11782
+TDA452 Functional programming 2013/2014 LP2-LP2;47 (50,54%);2496
+TDA452 Functional programming 2014/2015 LP2-LP2;50 (46,73%);4277
+TDA452 Functional programming 2015/2016 LP2-LP2;56 (43,41%);6852
+TDA452 Functional programming 2016/2017 LP2-LP2;35 (30,97%);9263
+TDA452 Functional programming 2017/2018 LP2-LP2;45 (42,45%);11316
+TDA507 Computational methods in bioinformatics 2013/2014 LP2-LP2;7 (38,89%);3070
+TDA507 Computational methods in bioinformatics 2014/2015 LP2-LP2;11 (36,67%);4821
+TDA507 Computational methods in bioinformatics 2015/2016 LP2-LP2;9 (34,62%);6978
+TDA507 Computational methods in bioinformatics 2016/2017 LP2-LP2;7 (33,33%);9519
+TDA507 Computational methods in bioinformatics 2017/2018 LP2-LP2;16 (51,61%);11540
+TDA602 Language-based security 2013/2014 LP4-LP4;33 (50,77%);3478
+TDA602 Language-based security 2014/2015 LP4-LP4;25 (32,89%);5730
+TDA602 Language-based security 2015/2016 LP4-LP4;35 (38,89%);7912
+TDA602 Language-based security 2016/2017 LP4-LP4;26 (25,00%);10289
+TDA602 Language-based security 2017/2018 LP4-LP4;21 (31,82%);12439
+TIN092 Algorithms 2013/2014 LP1-LP1;30 (26,32%);2168
+TIN093 Algorithms 2014/2015 LP1-LP1;79 (45,40%);4241
+TIN093 Algorithms 2015/2016 LP1-LP1;92 (40,00%);6443
+TIN093 Algorithms 2016/2017 LP1-LP1;81 (33,61%);8455
+TIN093 Algorithms 2017/2018 LP1-LP1;75 (34,72%);11021
+TIN172 Artificial intelligence 2013/2014 LP4-LP4;37 (35,58%);3662
+TIN172 Artificial intelligence 2014/2015 LP4-LP4;52 (55,91%);5497
+TIN173 Artificial intelligence 2015/2016 LP4-LP4;40 (35,40%);7836
+TIN174 Artificial intelligence 2016/2017 LP4-LP4;24 (22,86%);10077
+TIN175 Introduction to Artificial intelligence 2017/2018 LP3-LP3;43 (43,88%);12331
+DAT060 Logic in computer science 2018/2019 LP1-LP1;51 (39,23%);13180
+DAT060 Logic in computer science 2019/2020 LP1-LP1;38 (34,55%);15394
+DAT060 Logic in computer science 2020/2021 LP1-LP1;38 (34,23%);17689
+DAT060 Logic in computer science 2021/2022 LP1-LP1;28 (23,93%);19886
+DAT060 Logic in computer science 2022/2023 LP1-LP1;38 (31,15%);22342
+DAT105 Computer architecture 2018/2019 LP2-LP2;15 (29,41%);13491
+DAT105 Computer architecture 2019/2020 LP1-LP1;15 (22,06%);15416
+DAT105 Computer architecture 2020/2021 LP1-LP1;28 (34,15%);17527
+DAT105 Computer architecture 2021/2022 LP1-LP1;24 (35,82%);20110
+DAT105 Computer architecture 2022/2023 LP1-LP1;26 (34,67%);22374
+DAT151 Programming language technology 2018/2019 LP2-LP2;53 (35,81%);13833
+DAT151 Programming language technology 2019/2020 LP2-LP2;41 (32,28%);15835
+DAT151 Programming language technology 2020/2021 LP2-LP2;43 (33,59%);18153
+DAT151 Programming language technology 2021/2022 LP2-LP2;35 (32,41%);20855
+DAT278 Sustainable computing 2019/2020 LP2-LP2;11 (34,38%);16393
+DAT278 Sustainable computing 2020/2021 LP2-LP2;10 (31,25%);18073
+DAT278 Sustainable computing 2021/2022 LP2-LP2;13 (34,21%);20729
+DAT280 Parallel functional programming 2018/2019 LP4-LP4;14 (43,75%);14959
+DAT280 Parallel functional programming 2019/2020 LP4-LP4;20 (37,74%);17119
+DAT280 Parallel functional programming 2020/2021 LP4-LP4;14 (31,82%);19604
+DAT280 Parallel functional programming 2021/2022 LP4-LP4;10 (25,00%);22031
+DAT315 The computer scientist in society 2018/2019 LP2-LP2;21 (20,19%);13631
+DAT315 The computer scientist in society 2019/2020 LP2-LP2;37 (37,00%);15885
+DAT315 The computer scientist in society 2020/2021 LP2-LP2;27 (30,00%);18295
+DAT315 The computer scientist in society 2021/2022 LP2-LP2;27 (27,55%);20411
+DAT340 Applied Machine Learning 2018/2019 LP3-LP3;39 (51,32%);14525
+DAT340 Applied Machine Learning 2019/2020 LP3-LP3;34 (37,78%);16616
+DAT340 Applied Machine Learning 2020/2021 LP3-LP3;34 (31,78%);19131
+DAT340 Applied Machine Learning 2020/2021 LP4-LP4;26 (21,85%);19676
+DAT340 Applied Machine Learning 2021/2022 LP3-LP3;33 (30,28%);21459
+DAT340 Applied Machine Learning 2021/2022 LP4-LP4;5 (5,05%);21667
+DAT345 Techniques for Large-scale Data 2018/2019 LP4-LP4;30 (45,45%);14690
+DAT346 Techniques for large-scale data 2019/2020 LP4-LP4;41 (55,41%);16926
+DAT346 Techniques for large-scale data 2020/2021 LP4-LP4;32 (31,37%);19274
+DAT350 Types for programs and proofs 2018/2019 LP1-LP1;11 (35,48%);13346
+DAT350 Types for programs and proofs 2019/2020 LP1-LP1;16 (50,00%);15634
+DAT350 Types for programs and proofs 2020/2021 LP1-LP1;11 (37,93%);17481
+DAT350 Types for programs and proofs 2021/2022 LP1-LP1;9 (40,91%);20054
+DAT350 Types for programs and proofs 2022/2023 LP1-LP1;12 (27,91%);22326
+DAT405 Introduction to data science and AI 2019/2020 LP3-LP3;17 (26,56%);16902
+DAT405 Introduction to data science and AI 2020/2021 LP2-LP2;34 (26,56%);18665
+DAT405 Introduction to data science and AI 2020/2021 LP3-LP3;70 (37,63%);19159
+DAT405 Introduction to data science and AI 2021/2022 LP2-LP2;56 (20,97%);20649
+DAT405 Introduction to data science and AI 2021/2022 LP3-LP3;55 (20,99%);21247
+DAT410 Design of AI systems 2020/2021 LP3-LP3;39 (31,97%);18771
+DAT410 Design of AI systems 2021/2022 LP3-LP3;24 (22,22%);21363
+DAT415 Computability 2019/2020 LP2-LP2;9 (39,13%);15778
+DAT415 Computability 2020/2021 LP2-LP2;5 (22,73%);18007
+DAT415 Computability 2021/2022 LP2-LP2;8 (50,00%);20292
+DAT440 Advanced topics in machine learning 2020/2021 LP4-LP4;22 (37,93%);19694
+DAT440 Advanced topics in machine learning 2021/2022 LP4-LP4;17 (26,15%);21843
+DAT470 Computational techniques for large-scale data 2021/2022 LP4-LP4;41 (55,41%);21669
+DAT475 Advanced databases 2021/2022 LP4-LP4;23 (39,66%);22141
+EDA223 Real time systems 2018/2019 LP3-LP3;27 (45,76%);14533
+EDA223 Real time systems 2019/2020 LP3-LP3;22 (44,90%);16828
+EDA223 Real time systems 2020/2021 LP3-LP3;24 (42,11%);19023
+EDA223 Real time systems 2021/2022 LP3-LP3;18 (32,73%);21083
+EDA263 Computer security 2018/2019 LP3-LP3;45 (32,61%);14355
+EDA263 Computer security 2019/2020 LP3-LP3;50 (30,49%);16552
+EDA263 Computer security 2020/2021 LP3-LP3;39 (29,55%);19061
+EDA263 Computer security 2021/2022 LP3-LP3;32 (26,02%);21165
+EDA491 Network security 2018/2019 LP4-LP4;27 (31,03%);14801
+EDA491 Network security 2019/2020 LP4-LP4;29 (26,85%);17009
+EDA491 Network security 2020/2021 LP4-LP4;16 (16,67%);19658
+EDA491 Network security 2021/2022 LP4-LP4;22 (25,88%);22017
+EEN020 Computer vision 2018/2019 LP2-LP2;23 (40,35%);14113
+EEN020 Computer vision 2019/2020 LP2-LP2;32 (26,89%);16187
+EEN020 Computer vision 2020/2021 LP2-LP2;25 (26,60%);18375
+EEN020 Computer vision 2021/2022 LP2-LP2;29 (27,62%);20513
+SSY340 Deep machine learning 2018/2019 LP1-LP1;67 (44,08%);13250
+SSY340 Deep machine learning 2019/2020 LP1-LP1;79 (48,17%);15566
+SSY340 Deep machine learning 2020/2021 LP1-LP1;67 (39,41%);17757
+SSY340 Deep machine learning 2021/2022 LP1-LP1;87 (42,65%);19978
+SSY340 Deep machine learning 2022/2023 LP1-LP1;48 (27,75%);22482
+TDA184 Models of computation 2018/2019 LP2-LP2;3 (18,75%);14137
+TDA206 Discrete optimization 2018/2019 LP3-LP3;25 (37,88%);14227
+TDA206 Discrete optimization 2019/2020 LP3-LP3;18 (28,13%);16482
+TDA206 Discrete optimization 2020/2021 LP3-LP3;20 (33,90%);19045
+TDA206 Discrete optimization 2021/2022 LP3-LP3;14 (25,93%);21135
+TDA231 Algorithms for machine learning and inference 2018/2019 LP4-LP4;37 (28,46%);15015
+TDA232 Algorithms for machine learning and inference 2019/2020 LP4-LP4;42 (34,71%);17417
+TDA233 Algorithms for machine learning and inference 2020/2021 LP3-LP3;31 (27,43%);19161
+TDA233 Algorithms for machine learning and inference 2021/2022 LP3-LP3;26 (28,89%);21241
+TDA251 Algorithms, advanced course 2018/2019 LP2-LP2;28 (30,77%);13737
+TDA251 Algorithms, advanced course 2019/2020 LP2-LP2;33 (36,26%);15965
+TDA251 Algorithms, advanced course 2020/2021 LP2-LP2;14 (18,92%);18571
+TDA251 Algorithms, advanced course 2021/2022 LP2-LP2;15 (19,74%);20441
+TDA283 Compiler construction 2018/2019 LP4-LP4;10 (31,25%);15127
+TDA283 Compiler construction 2019/2020 LP4-LP4;14 (34,15%);17301
+TDA283 Compiler construction 2020/2021 LP4-LP4;13 (24,07%);19264
+TDA283 Compiler construction 2021/2022 LP4-LP4;13 (23,64%);21929
+TDA294 Formal Methods in Software Development 2018/2019 LP1-LP1;29 (52,73%);13328
+TDA294 Formal Methods in Software Development 2019/2020 LP1-LP1;14 (35,90%);15624
+TDA294 Formal Methods in Software Development 2020/2021 LP1-LP1;22 (44,00%);17851
+TDA294 Formal Methods in Software Development 2021/2022 LP1-LP1;4 (16,00%);19806
+TDA294 Formal Methods in Software Development 2022/2023 LP1-LP1;13 (27,66%);22582
+TDA342 Advanced functional programming 2018/2019 LP3-LP3;11 (25,58%);14581
+TDA342 Advanced functional programming 2019/2020 LP3-LP3;15 (42,86%);16776
+TDA342 Advanced functional programming 2020/2021 LP3-LP3;12 (30,77%);18923
+TDA342 Advanced functional programming 2021/2022 LP3-LP3;16 (36,36%);21195
+TDA352 Cryptography 2018/2019 LP2-LP2;51 (28,33%);13693
+TDA352 Cryptography 2019/2020 LP2-LP2;61 (40,40%);15895
+TDA352 Cryptography 2020/2021 LP2-LP2;39 (23,78%);18179
+TDA352 Cryptography 2021/2022 LP2-LP2;39 (26,17%);20877
+TDA362 Computer graphics 2018/2019 LP2-LP2;58 (35,80%);13875
+TDA362 Computer graphics 2019/2020 LP2-LP2;45 (39,13%);15867
+TDA362 Computer graphics 2020/2021 LP2-LP2;42 (37,17%);18465
+TDA362 Computer graphics 2021/2022 LP2-LP2;27 (27,27%);20657
+TDA452 Functional programming 2018/2019 LP2-LP2;46 (30,07%);13939
+TDA452 Functional programming 2019/2020 LP2-LP2;58 (41,73%);16263
+TDA452 Functional programming 2020/2021 LP2-LP2;30 (35,71%);18439
+TDA452 Functional programming 2021/2022 LP2-LP2;42 (40,00%);20621
+TDA507 Computational methods in bioinformatics 2018/2019 LP2-LP2;10 (21,28%);13895
+TDA507 Computational methods in bioinformatics 2019/2020 LP2-LP2;16 (30,77%);16015
+TDA507 Computational methods in bioinformatics 2020/2021 LP2-LP2;17 (26,56%);18545
+TDA507 Computational methods in bioinformatics 2021/2022 LP2-LP2;26 (31,71%);20377
+TDA602 Language-based security 2018/2019 LP4-LP4;33 (44,00%);15151
+TDA602 Language-based security 2019/2020 LP4-LP4;23 (28,05%);16989
+TDA602 Language-based security 2020/2021 LP4-LP4;20 (21,05%);19212
+TDA602 Language-based security 2021/2022 LP4-LP4;15 (21,13%);21632
+TEK650 Strategic management of technological innovation  2020/2021 LP1-LP1;4 (12,12%);17951
+TEK650 Strategic management of technological innovation  2021/2022 LP1-LP1;26 (50,98%);19936
+TEK650 Strategic management of technological innovation  2022/2023 LP1-LP1;18 (43,90%);22432
+TEK655 Creating technology-based ventures 2020/2021 LP2-LP2;8 (17,39%);18675
+TEK656 Creating technology-based ventures 2021/2022 LP2-LP2;9 (30,00%);20963
+TIN093 Algorithms 2018/2019 LP1-LP1;58 (32,40%);13184
+TIN093 Algorithms 2019/2020 LP1-LP1;42 (30,66%);15396
+TIN093 Algorithms 2020/2021 LP1-LP1;45 (31,47%);17615
+TIN093 Algorithms 2021/2022 LP1-LP1;46 (26,59%);19750
+TIN093 Algorithms 2022/2023 LP1-LP1;31 (18,90%);22202
+TIN175 Introduction to Artificial intelligence 2018/2019 LP3-LP3;51 (49,51%);14527
+TME285 Intelligent agents 2019/2020 LP3-LP3;17 (30,91%);16540
+TME285 Intelligent agents 2020/2021 LP3-LP3;14 (29,17%);19053
+TME286 Intelligent agents 2021/2022 LP3-LP3;8 (22,22%);21525
+TME290 Autonomous robots 2019/2020 LP4-LP4;14 (28,57%);17277
+TME290 Autonomous robots 2020/2021 LP4-LP4;17 (33,33%);19426
+TME290 Autonomous robots 2021/2022 LP4-LP4;10 (25,64%);21791

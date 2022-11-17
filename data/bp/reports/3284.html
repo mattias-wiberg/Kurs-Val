@@ -1,0 +1,800 @@
+
+<!DOCTYPE html>
+<html>
+<head><meta name="robots" content="noindex" /><meta name="googlebot" content="noindex" /><title>
+	
+	Report
+
+</title>
+    <link rel="icon" href="/SR/Content/Images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/SR/Content/Images/favicon.ico" type="image/x-icon" />
+    <link href="/SR/Content/Site.css?ctag=2019517" rel="stylesheet" type="text/css" /><link href="/SR/Content/Report.css?ctag=2019517" rel="stylesheet" type="text/css" /><link href="/SR/Content/srdefault/jquery.css?ctag=2019517" rel="stylesheet" type="text/css" />
+    <link href="/SR/Css/Report" rel="stylesheet" type="text/css" />
+    <style type="text/css" media="print">
+        .page { max-width: inherit ; }
+        #reportToolBar { display:none; }
+        #hierarchySelect { display:none; }
+        #reportPage { box-shadow: none; }
+    
+    </style>
+    <script src="/SR/Scripts/Report-serverside.js?ctag=2019517" type="text/javascript"></script><script src="/SR/Scripts/Report.js?ctag=2019517" type="text/javascript"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+        
+        var RequestRoot = '/SR/';
+        function toggleToolbarPosition() {
+            var b = $(document.body);
+            if (b.hasClass('leftToolbar')) {
+                b.removeClass('leftToolbar');
+                setCookie('reportToolbar', 'top', 365);
+            }
+            else {
+                b.addClass('leftToolbar');
+                setCookie('reportToolbar', 'left', 365);
+            }
+        }
+
+
+        //]]>
+    </script>
+    
+    <style type="text/css">
+        #coverBox { position:fixed; top:0;left:0;right:0;bottom:0; height:100%;width:100; background-color: Gray; filter: alpha(opacity=60); opacity: 0.6;}
+        #subReportBox { position: fixed; top:100px; width: 796px; }
+        #reportHelpDlg { position: fixed; top:100px; width: 796px; }
+        #reportHelpDlg .content { height: 300px; overflow: auto; }
+        #subReportList, #filterList { overflow:auto; height: 250px; border: inset 1px; font-size: 11px; }
+        dd.toggleAll { border-bottom: 1px solid #a0a0a0; }
+        #subReportList { padding:1px 5px; }
+        #subReportList > div { margin-left: -4px; padding-bottom: 3px;}
+        #subReportList dl { margin: 0; padding: 0; padding-bottom: 3px;}
+        #subReportList dt { margin: 0; padding: 1px 0; font-weight: bold; }
+        #subReportList dd { margin: 0; padding: 0 0 0 12px;  }
+        
+        #filterList dl { margin: 0; padding: 0; padding-bottom: 1px; }
+        #filterList dt { margin: 0; padding: 3px 3px 3px 23px; background-color: #E5E9EC; }
+        #filterList dt input { float:left; margin-left: -18px; }
+        #filterList dt label { line-height: 18px; }
+        #filterList dd, #filterList li { padding-bottom: 1px; padding-top: 2px; margin: 0; position:relative; }
+        #filterList dd { margin-left: 4px; }
+        #filterList ul { margin: 0; list-style:none; }
+        #filterList dd input { margin-top: 1px; padding-top: 1px; }
+        #filterList dd input[type="checkbox"] + label { line-height: 16px; vertical-align: text-bottom; }        
+        #filterList .hitarea { margin-top: 1px; }
+     
+        
+        dl.filterInner { margin:0; }
+        
+        .reportPage{font-family:Lucida Sans;}
+.reportPage{font-size:1.25em;}
+.reportPage{color:#000000;}
+.reportPage .srtbl .srtbl-h1 th, .reportPage .srtbl .srtbl-h1 td { background-color: #F2F2F2; color:; font-weight: bold;  font-style: normal;  text-decoration: ; }
+.reportPage .srtbl .srtbl-row th, .reportPage .srtbl .srtbl-row td { background-color: ; color:; }
+.reportPage .srtbl .srtbl-row.alt th, .reportPage .srtbl .srtbl-row.alt td { background-color: #EEECE1; color: ; }
+.reportPage .srtbl .srtbl-row-total th, .reportPage .srtbl .srtbl-row-total td { background-color: ; color:; font-weight: normal;  font-style: normal;  text-decoration: ; }
+.reportPage .srtbl .srtbl-ct-h1 th, .reportPage .srtbl .srtbl-ct-h1 td { background-color: ; color:; font-weight: bold;  font-style: normal;  text-decoration: ; }
+.reportPage .srtbl .srtbl-ct-h2 th, .reportPage .srtbl .srtbl-ct-h2 td { background-color: ; color:; font-weight: normal;  font-style: normal;  text-decoration: ; }
+td[data-cth-key] { cursor: pointer; }
+    </style>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        var SubReports = [];
+        var SelectedFilters = [];
+        var SelectedSubReport = '';
+        var OnShowSubReportBox = [];
+        var hierarchyUpdateUrl = '';
+
+        //
+SubReports = [{"ExtensionData":{},"ID":0,"Links":[{"ExtensionData":{},"ID":0,"Name":"Standard","Selections":[{"ExtensionData":{},"Filters":[{"ExtensionData":{},"ID":0,"IsLocked":false,"Name":" student på Tekniskt basår","SubFilters":[]},{"ExtensionData":{},"ID":1,"IsLocked":false,"Name":" student på ett Chalmersprogram på grundläggande nivå","SubFilters":[]},{"ExtensionData":{},"ID":2,"IsLocked":false,"Name":" student på ett av Chalmers masterprogram (avancerad nivå)","SubFilters":[]},{"ExtensionData":{},"ID":3,"IsLocked":false,"Name":" student vid Göteborgs universitet (GU)","SubFilters":[]},{"ExtensionData":{},"ID":4,"IsLocked":false,"Name":" övrig student","SubFilters":[]},{"ExtensionData":{},"ID":5,"IsLocked":false,"Name":"[Ej angivet]","SubFilters":[]}],"Name":" Jag är...","SelectionID":1},{"ExtensionData":{},"Filters":[{"ExtensionData":{},"ID":0,"IsLocked":false,"Name":"Affärsutveckling och entreprenörskap inom byggteknik, 180 hp","SubFilters":[]},{"ExtensionData":{},"ID":1,"IsLocked":false,"Name":"Arkitektur, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":2,"IsLocked":false,"Name":"Arkitektur och teknik, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":3,"IsLocked":false,"Name":"Automation och mekatronik, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":4,"IsLocked":false,"Name":"Bioteknik, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":5,"IsLocked":false,"Name":"Byggingenjör, 180 hp","SubFilters":[]},{"ExtensionData":{},"ID":6,"IsLocked":false,"Name":"Dataingenjör, 180 hp","SubFilters":[]},{"ExtensionData":{},"ID":7,"IsLocked":false,"Name":"Datateknik, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":8,"IsLocked":false,"Name":"Designingenjör, 180 hp","SubFilters":[]},{"ExtensionData":{},"ID":9,"IsLocked":false,"Name":"Ekonomi och produktionsteknik, 180 hp","SubFilters":[]},{"ExtensionData":{},"ID":10,"IsLocked":false,"Name":"Elektroingenjör, 180 hp","SubFilters":[]},{"ExtensionData":{},"ID":11,"IsLocked":false,"Name":"Elektroteknik, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":12,"IsLocked":false,"Name":"Fartygsbefäl klass VII","SubFilters":[]},{"ExtensionData":{},"ID":13,"IsLocked":false,"Name":"Industriell ekonomi, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":14,"IsLocked":false,"Name":"Informationsteknik, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":15,"IsLocked":false,"Name":"Kemiingenjör, 180 hp","SubFilters":[]},{"ExtensionData":{},"ID":16,"IsLocked":false,"Name":"Kemiteknik, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":17,"IsLocked":false,"Name":"Kemiteknik med fysik, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":18,"IsLocked":false,"Name":"Maskinbefäl klass VII","SubFilters":[]},{"ExtensionData":{},"ID":19,"IsLocked":false,"Name":"Maskiningenjör, 180 hp","SubFilters":[]},{"ExtensionData":{},"ID":20,"IsLocked":false,"Name":"Maskinteknik, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":21,"IsLocked":false,"Name":"Mekatronikingenjör, 180 hp","SubFilters":[]},{"ExtensionData":{},"ID":22,"IsLocked":false,"Name":"Sjöfart och logistik, 180 hp","SubFilters":[]},{"ExtensionData":{},"ID":23,"IsLocked":false,"Name":"Sjöingenjör, 180 hp","SubFilters":[]},{"ExtensionData":{},"ID":24,"IsLocked":false,"Name":"Sjökapten, 180 hp","SubFilters":[]},{"ExtensionData":{},"ID":25,"IsLocked":false,"Name":"Teknisk design, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":26,"IsLocked":false,"Name":"Teknisk fysik, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":27,"IsLocked":false,"Name":"Teknisk matematik, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":28,"IsLocked":false,"Name":"Väg- och vattenbyggnad, 300 hp","SubFilters":[]},{"ExtensionData":{},"ID":29,"IsLocked":false,"Name":"Applied Mechanics, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":30,"IsLocked":false,"Name":"Applied Physics, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":31,"IsLocked":false,"Name":"Architecture and Urban Design, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":32,"IsLocked":false,"Name":"Automative Engineering, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":33,"IsLocked":false,"Name":"Biomedical Engineering, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":34,"IsLocked":false,"Name":"Biotechnology, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":35,"IsLocked":false,"Name":"Communication Engineering, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":36,"IsLocked":false,"Name":"Complex Adaptive Systems, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":37,"IsLocked":false,"Name":"Computer Science-Algorithms, Languages, and Logic, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":38,"IsLocked":false,"Name":"Computer Systems and Networks, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":39,"IsLocked":false,"Name":"Design and Construction Project Management, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":40,"IsLocked":false,"Name":"Design for Sustainable Development, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":41,"IsLocked":false,"Name":"Electric Power Engingeering, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":42,"IsLocked":false,"Name":"Embedded Electronic System Design, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":43,"IsLocked":false,"Name":"Engineering Mathematics and Computational Science, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":44,"IsLocked":false,"Name":"Entrepreneurship and Business Design, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":45,"IsLocked":false,"Name":"Industrial Design Engineering, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":46,"IsLocked":false,"Name":"Industrial Ecology, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":47,"IsLocked":false,"Name":"Infrastructure and Environmental Engineering, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":48,"IsLocked":false,"Name":"Innovative and Sustainable Chemical Engingeering, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":49,"IsLocked":false,"Name":"Interaction Design and Technologies, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":50,"IsLocked":false,"Name":"International Project Management, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":51,"IsLocked":false,"Name":"Lärande och ledarskap, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":52,"IsLocked":false,"Name":"Maritime Management, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":53,"IsLocked":false,"Name":"Management and Economics of Innovation, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":54,"IsLocked":false,"Name":"Materials Chemistry and Nanotechnology, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":55,"IsLocked":false,"Name":"Materials Engingeering, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":56,"IsLocked":false,"Name":"Nanotechnology, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":57,"IsLocked":false,"Name":"Naval Architecture and Ocean Engineering, 120 credits ","SubFilters":[]},{"ExtensionData":{},"ID":58,"IsLocked":false,"Name":"Nuclear Engineering, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":59,"IsLocked":false,"Name":"Physics and Astronomy, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":60,"IsLocked":false,"Name":"Product Development, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":61,"IsLocked":false,"Name":"Production Engineering, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":62,"IsLocked":false,"Name":"Quality and Operations Management, 120 credits ","SubFilters":[]},{"ExtensionData":{},"ID":63,"IsLocked":false,"Name":"Software Engingeering, 120 credits ","SubFilters":[]},{"ExtensionData":{},"ID":64,"IsLocked":false,"Name":"Sound and Vibration, 120 credits ","SubFilters":[]},{"ExtensionData":{},"ID":65,"IsLocked":false,"Name":"Structural Engineering and Building Technology, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":66,"IsLocked":false,"Name":"Supply Chain Management, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":67,"IsLocked":false,"Name":"Sustainable Energy Systems, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":68,"IsLocked":false,"Name":"Systems, Control and Mechatronics, 120 credits ","SubFilters":[]},{"ExtensionData":{},"ID":69,"IsLocked":false,"Name":"Wireless, Photonics and Space Engieering, 120 credits","SubFilters":[]},{"ExtensionData":{},"ID":70,"IsLocked":false,"Name":"[Ej angivet]","SubFilters":[]}],"Name":"Vilket program läser du?","SelectionID":2},{"ExtensionData":{},"Filters":[{"ExtensionData":{},"ID":0,"IsLocked":false,"Name":"Instämmer inte alls","SubFilters":[]},{"ExtensionData":{},"ID":1,"IsLocked":false,"Name":"Instämmer lite","SubFilters":[]},{"ExtensionData":{},"ID":2,"IsLocked":false,"Name":"Neutral","SubFilters":[]},{"ExtensionData":{},"ID":3,"IsLocked":false,"Name":"Instämmer mestadels","SubFilters":[]},{"ExtensionData":{},"ID":4,"IsLocked":false,"Name":"Instämmer helt","SubFilters":[]},{"ExtensionData":{},"ID":5,"IsLocked":false,"Name":" Vet ej","SubFilters":[]},{"ExtensionData":{},"ID":6,"IsLocked":false,"Name":"[Ej angivet]","SubFilters":[]}],"Name":"Jag hade tillräckliga förkunskaper för att aktivt kunna följa kursen.","SelectionID":4},{"ExtensionData":{},"Filters":[{"ExtensionData":{},"ID":0,"IsLocked":false,"Name":"Instämmer inte alls","SubFilters":[]},{"ExtensionData":{},"ID":1,"IsLocked":false,"Name":"Instämmer lite","SubFilters":[]},{"ExtensionData":{},"ID":2,"IsLocked":false,"Name":"Neutral","SubFilters":[]},{"ExtensionData":{},"ID":3,"IsLocked":false,"Name":"Instämmer mestadels","SubFilters":[]},{"ExtensionData":{},"ID":4,"IsLocked":false,"Name":"Instämmer helt","SubFilters":[]},{"ExtensionData":{},"ID":5,"IsLocked":false,"Name":" Vet ej","SubFilters":[]},{"ExtensionData":{},"ID":6,"IsLocked":false,"Name":"[Ej angivet]","SubFilters":[]}],"Name":"Jag känner till kursens lärandemål (vad jag förväntas kunna efter genomförd kurs).","SelectionID":6},{"ExtensionData":{},"Filters":[{"ExtensionData":{},"ID":0,"IsLocked":false,"Name":"Instämmer inte alls","SubFilters":[]},{"ExtensionData":{},"ID":1,"IsLocked":false,"Name":"Instämmer lite","SubFilters":[]},{"ExtensionData":{},"ID":2,"IsLocked":false,"Name":"Neutral","SubFilters":[]},{"ExtensionData":{},"ID":3,"IsLocked":false,"Name":"Instämmer mestadels","SubFilters":[]},{"ExtensionData":{},"ID":4,"IsLocked":false,"Name":"Instämmer helt","SubFilters":[]},{"ExtensionData":{},"ID":5,"IsLocked":false,"Name":" Vet ej","SubFilters":[]},{"ExtensionData":{},"ID":6,"IsLocked":false,"Name":"[Ej angivet]","SubFilters":[]}],"Name":"Kursens pedagogiska upplägg är lämpligt för att kunna uppnå kursens lärandemål.","SelectionID":8},{"ExtensionData":{},"Filters":[{"ExtensionData":{},"ID":0,"IsLocked":false,"Name":"Instämmer inte alls","SubFilters":[]},{"ExtensionData":{},"ID":1,"IsLocked":false,"Name":"Instämmer lite","SubFilters":[]},{"ExtensionData":{},"ID":2,"IsLocked":false,"Name":"Neutral","SubFilters":[]},{"ExtensionData":{},"ID":3,"IsLocked":false,"Name":"Instämmer mestadels","SubFilters":[]},{"ExtensionData":{},"ID":4,"IsLocked":false,"Name":"Instämmer helt","SubFilters":[]},{"ExtensionData":{},"ID":5,"IsLocked":false,"Name":" Vet ej","SubFilters":[]},{"ExtensionData":{},"ID":6,"IsLocked":false,"Name":"[Ej angivet]","SubFilters":[]}],"Name":"Undervisningen fungerade väl.","SelectionID":9},{"ExtensionData":{},"Filters":[{"ExtensionData":{},"ID":0,"IsLocked":false,"Name":"Instämmer inte alls","SubFilters":[]},{"ExtensionData":{},"ID":1,"IsLocked":false,"Name":"Instämmer lite","SubFilters":[]},{"ExtensionData":{},"ID":2,"IsLocked":false,"Name":"Neutral","SubFilters":[]},{"ExtensionData":{},"ID":3,"IsLocked":false,"Name":"Instämmer mestadels","SubFilters":[]},{"ExtensionData":{},"ID":4,"IsLocked":false,"Name":"Instämmer helt","SubFilters":[]},{"ExtensionData":{},"ID":5,"IsLocked":false,"Name":" Vet ej","SubFilters":[]},{"ExtensionData":{},"ID":6,"IsLocked":false,"Name":"[Ej angivet]","SubFilters":[]}],"Name":"Kurslitteraturen inklusive övrigt kursmaterial stöttade mitt lärande väl.","SelectionID":10},{"ExtensionData":{},"Filters":[{"ExtensionData":{},"ID":0,"IsLocked":false,"Name":"Instämmer inte alls","SubFilters":[]},{"ExtensionData":{},"ID":1,"IsLocked":false,"Name":"Instämmer lite","SubFilters":[]},{"ExtensionData":{},"ID":2,"IsLocked":false,"Name":"Neutral","SubFilters":[]},{"ExtensionData":{},"ID":3,"IsLocked":false,"Name":"Instämmer mestadels","SubFilters":[]},{"ExtensionData":{},"ID":4,"IsLocked":false,"Name":"Instämmer helt","SubFilters":[]},{"ExtensionData":{},"ID":5,"IsLocked":false,"Name":" Vet ej","SubFilters":[]},{"ExtensionData":{},"ID":6,"IsLocked":false,"Name":"[Ej angivet]","SubFilters":[]}],"Name":"Examinationen (inklusive alla obligatoriska kursmoment, tentamen, inlämningsuppgifter m m) testade om jag hade uppnått kursens lärandemål.","SelectionID":12},{"ExtensionData":{},"Filters":[{"ExtensionData":{},"ID":0,"IsLocked":false,"Name":"Instämmer inte alls","SubFilters":[]},{"ExtensionData":{},"ID":1,"IsLocked":false,"Name":"Instämmer lite","SubFilters":[]},{"ExtensionData":{},"ID":2,"IsLocked":false,"Name":"Neutral","SubFilters":[]},{"ExtensionData":{},"ID":3,"IsLocked":false,"Name":"Instämmer mestadels","SubFilters":[]},{"ExtensionData":{},"ID":4,"IsLocked":false,"Name":"Instämmer helt","SubFilters":[]},{"ExtensionData":{},"ID":5,"IsLocked":false,"Name":" Vet ej","SubFilters":[]},{"ExtensionData":{},"ID":6,"IsLocked":false,"Name":"[Ej angivet]","SubFilters":[]}],"Name":"Kursadministrationen fungerade väl.","SelectionID":14},{"ExtensionData":{},"Filters":[{"ExtensionData":{},"ID":0,"IsLocked":false,"Name":"Alldeles för låg","SubFilters":[]},{"ExtensionData":{},"ID":1,"IsLocked":false,"Name":"För låg","SubFilters":[]},{"ExtensionData":{},"ID":2,"IsLocked":false,"Name":"Lagom","SubFilters":[]},{"ExtensionData":{},"ID":3,"IsLocked":false,"Name":"För hög","SubFilters":[]},{"ExtensionData":{},"ID":4,"IsLocked":false,"Name":"Alldeles för hög","SubFilters":[]},{"ExtensionData":{},"ID":5,"IsLocked":false,"Name":" Vet ej","SubFilters":[]},{"ExtensionData":{},"ID":6,"IsLocked":false,"Name":"[Ej angivet]","SubFilters":[]}],"Name":"Kursens arbetsbelastning i förhållande till antalet poäng var","SelectionID":16},{"ExtensionData":{},"Filters":[{"ExtensionData":{},"ID":0,"IsLocked":false,"Name":"Mycket dåligt","SubFilters":[]},{"ExtensionData":{},"ID":1,"IsLocked":false,"Name":"Dåligt","SubFilters":[]},{"ExtensionData":{},"ID":2,"IsLocked":false,"Name":"Godkänt","SubFilters":[]},{"ExtensionData":{},"ID":3,"IsLocked":false,"Name":"Bra","SubFilters":[]},{"ExtensionData":{},"ID":4,"IsLocked":false,"Name":"Mycket bra","SubFilters":[]},{"ExtensionData":{},"ID":5,"IsLocked":false,"Name":"[Ej angivet]","SubFilters":[]}],"Name":"Vad är Ditt sammanfattande intryck av kursen?","SelectionID":17}]}],"Name":"Standard"}];
+SelectedFilters['0_0'] = [{"ExtensionData":null,"Selected":[],"SelectedIDs":[0,1,2,3,4,5],"SelectionID":1},{"ExtensionData":null,"Selected":[],"SelectedIDs":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70],"SelectionID":2},{"ExtensionData":null,"Selected":[],"SelectedIDs":[0,1,2,3,4,5,6],"SelectionID":4},{"ExtensionData":null,"Selected":[],"SelectedIDs":[0,1,2,3,4,5,6],"SelectionID":6},{"ExtensionData":null,"Selected":[],"SelectedIDs":[0,1,2,3,4,5,6],"SelectionID":8},{"ExtensionData":null,"Selected":[],"SelectedIDs":[0,1,2,3,4,5,6],"SelectionID":9},{"ExtensionData":null,"Selected":[],"SelectedIDs":[0,1,2,3,4,5,6],"SelectionID":10},{"ExtensionData":null,"Selected":[],"SelectedIDs":[0,1,2,3,4,5,6],"SelectionID":12},{"ExtensionData":null,"Selected":[],"SelectedIDs":[0,1,2,3,4,5,6],"SelectionID":14},{"ExtensionData":null,"Selected":[],"SelectedIDs":[0,1,2,3,4,5,6],"SelectionID":16},{"ExtensionData":null,"Selected":[],"SelectedIDs":[0,1,2,3,4,5],"SelectionID":17}];
+SelectedSubReport='0_0';
+
+
+        $(function () {
+            $('img.srchart').each(function () {
+                var w = this.parentNode.clientWidth;
+                if (w < 50) w = this.parentNode.offsetWidth;
+                if (w < 50) w = 50;
+
+                this.src = 'getreportchart.png' + this.src.substring(this.src.indexOf('?')) + '&w=' + w;
+                this.className = 'srchartLoaded';
+            });
+
+            if (SubReports && SubReports.length > 0) {
+                var lst = $('#subReportList');
+                var sr;
+                for (var i = 0; i < SubReports.length; i++) {
+                    sr = SubReports[i];
+                    if (sr.ID == 0) {
+                        lst.append(format('<div><input type="radio" name="rbSubReport" id="rbSubReport0" value="0_0" onclick="showFilter(0,0);"{0} /><label for="rbSubReport0">{1}</label></div>', SelectedSubReport == '0_0' ? ' checked' : '', sr.Name));
+                    }
+                    else {
+                        var s = '<dl><dt>' + sr.Name + '</dt>';
+                        for (var j = 0; j < sr.Links.length; j++) {
+                            s += format('<dd><input type="radio" name="rbSubReport" id="rbSubReport{0}_{1}" value="{0}_{1}" onclick="showFilter({0},{1});"{3} /><label for="rbSubReport{0}_{1}">{2}</label></dd>', sr.ID, sr.Links[j].ID, sr.Links[j].Name, SelectedSubReport == sr.ID + '_' + sr.Links[j].ID ? ' checked' : '');
+                        }
+                        lst.append(s + '</dl>');
+                    }
+                }
+            }
+
+            var m = SelectedSubReport.match(/([\d]+)_([\d]+)/);
+            if (m)
+                showFilter(m[1], m[2]);
+
+            var inAFrame = false;
+            try {
+                inAFrame = parent != null && parent != window;
+            } catch (err) {
+                inAFrame = true;
+            }
+            if (inAFrame) {
+
+                $('#reportToolBarButtons li:first').before('<li><a href="#" id="btnPopout" onclick="return false;" title="Öppna i nytt fönster"><span class="btn btnPopout">&nbsp;</span></a></li>');
+                $('#btnPopout').click(function () {
+                    var wnd = window.open(location.href, '', 'resizable=1,scrollbars=1');
+                                        
+                    return false;
+                });
+            }
+        });
+
+        function showFilter(srId, linkId) {
+            var filters = $('#filterList');
+            var selFilters = SelectedFilters[srId + '_' + linkId];
+            filters.html('');
+            for (var i = 0; i < SubReports.length; i++) {
+                if (SubReports[i].ID == srId) {
+                    var sr = SubReports[i];
+                    for (var j = 0; j < sr.Links.length; j++) {
+                        if (sr.Links[j].ID == linkId) {
+                            var link = sr.Links[j];
+                            for (var k = 0; k < link.Selections.length; k++) {
+                                var sel = link.Selections[k];
+                                var isSelected = null;
+                                if (selFilters) {
+                                    for (var l = 0; l < selFilters.length; l++) {
+                                        if (selFilters[l].SelectionID == sel.SelectionID) {
+                                            isSelected = [];
+                                            for (var x = 0; x < selFilters[l].SelectedIDs.length; x++) {
+                                                isSelected[selFilters[l].SelectedIDs[x]] = true;
+                                            }
+                                            break;
+                                        }
+                                    }
+                                }
+                                
+                                var toggleAllCnt = 0;
+                                var isToggleAllEnabled = true;
+                                for (var l = 0; l < sel.Filters.length; l++) {
+                                    var f = sel.Filters[l];
+                                    if (!f.IsLocked) {
+                                        toggleAllCnt++;
+                                        if (isSelected != null && !isSelected[f.ID])
+                                            isToggleAllEnabled = false;
+                                    }
+                                }
+                                var s = format('<dl class="treeview"><dt><input type="checkbox" id="cbxToggleAll{0}" value="{0}"{1} onclick="filterToggleAll(this)" /><label for="cbxToggleAll{0}">{2}</label></dt>', sel.SelectionID, isToggleAllEnabled ? ' checked' : '', sel.Name);
+//                                if (toggleAllCnt > 0) {
+//                                    s += format('<dd class="toggleAll"><input type="checkbox" id="cbxToggleAll{0}" value="{0}"{1} onclick="filterToggleAll(this)" /><label for="cbxToggleAll{0}">{2}</label></dd>', sel.SelectionID, isToggleAllEnabled ? ' checked' : '', 'All');
+                                //                                }
+                                var cName = '';
+                                var nTag = '';
+                                for (var l = 0; l < sel.Filters.length; l++) {
+                                    var f = sel.Filters[l];
+                                    cName = '';
+                                    nTag = '';
+                                    if (f.SubFilters && f.SubFilters.length > 0) {
+                                        cName = 'expandable';
+                                        nTag = '<div class="hitarea expandable-hitarea" onclick="twT(this)"></div>';
+                                        if (l == sel.Filters.length - 1) {
+                                            cName += ' lastExpandable';
+                                            nTag = '<div class="hitarea expandable-hitarea lastExpandable-hitarea" onclick="twT(this)"></div>';
+                                        }
+                                    } else {
+                                        if (l == sel.Filters.length - 1)
+                                            cName = 'last';
+                                    }
+                                    s += format('<dd class="{5}">{6}<input type="checkbox" name="cbxFilter{0}_{1}" id="cbxFilter{0}_{1}" onclick="fltC(this)" value="{0}_{1}"{3}{4} /><label for="cbxFilter{0}_{1}">{2}</label>', sel.SelectionID, f.ID, f.Name, (f.IsLocked || (isSelected != null && isSelected[f.ID])) ? ' checked' : '', f.IsLocked ? ' disabled' : '', cName, nTag);
+                                    if (f.SubFilters && f.SubFilters.length > 0) {
+                                        s+= renderSubFilterBoxes(sel, f.SubFilters, isSelected);
+                                    }
+                                    s += '</dd>';
+                                }
+                                s += '</dl>';
+
+                                filters.append(s);
+                            }
+                            break;
+                        }
+                    }
+                    break;
+                }
+            }
+
+            // Add tristates
+            filters.find('li, dd').each(function () {
+                var ts = $(this).find('> div.tristate');
+
+                var hasUnchecked = false;
+                var hasChecked = false;
+                $(this).find('> ul').find('input').each(function () {
+                    if (!this.checked) {
+                        hasUnchecked = true;
+                    } else {
+                        hasChecked = true;
+                    }
+                    if (hasChecked && hasUnchecked) return false;
+                });
+
+                if (hasChecked != hasUnchecked) {
+                    if (ts.length > 0) ts.remove();
+                } else if (hasChecked && hasUnchecked) {
+                    if (ts.length == 0) $(this).append('<div class="tristate" onclick="$(this.parentNode).find(\'> input\').click();" />');
+                }
+            });
+        }
+
+        function renderSubFilterBoxes(sel, subFilters, isSelected) {
+            var s = '<ul style="display:none;">';
+            var cName = '';
+            var nTag = '';
+            for (var l = 0; l < subFilters.length; l++) {
+                var f = subFilters[l];
+                cName = '';
+                nTag = '';
+                if (f.SubFilters && f.SubFilters.length > 0) {
+                    cName = 'expandable';
+                    nTag = '<div class="hitarea expandable-hitarea" onclick="twT(this)"></div>';
+                    if (l == subFilters.length - 1) {
+                        cName += ' lastExpandable';
+                        nTag = '<div class="hitarea expandable-hitarea lastExpandable-hitarea" onclick="twT(this)"></div>';
+                    }
+                } else {
+                    if (l == subFilters.length - 1)
+                        cName = 'last';
+                }
+                s += format('<li class="{5}">{6}<input type="checkbox" name="cbxFilter{0}_{1}" id="cbxFilter{0}_{1}" onclick="fltC(this)" value="{0}_{1}"{3}{4} /><label for="cbxFilter{0}_{1}">{2}</label>', sel.SelectionID, f.ID, f.Name, (f.IsLocked || (isSelected != null && isSelected[f.ID])) ? ' checked' : '', f.IsLocked ? ' disabled' : '', cName, nTag);
+                if (f.SubFilters && f.SubFilters.length > 0) {
+                    s += renderSubFilterBoxes(sel, f.SubFilters, isSelected);
+                }
+                s += '</li>';
+            }
+            return s+'</ul>';
+        }
+
+        function fltC(cbx) {
+            $(cbx.parentNode).find('> ul').find('input').each(function () { this.checked = cbx.checked; });
+            $(cbx.parentNode).find('> ul').find('div.tristate').remove();
+            $(cbx.parentNode).find('> div.tristate').remove();
+            $(cbx.parentNode).parents('li, dd').each(function () {
+                var ts = $(this).find('> div.tristate');
+
+                var hasUnchecked = false;
+                var hasChecked = false;
+
+                $(this).find('> ul').find('input').each(function () {
+                    if (!this.checked) {
+                        hasUnchecked = true;
+                    } else {
+                        hasChecked = true;
+                    }
+                    if (hasChecked && hasUnchecked) return false;
+                });
+                if (hasChecked != hasUnchecked) {
+                    $(this).find('> input')[0].checked = cbx.checked;
+                    if (ts.length > 0) ts.remove();
+                } else if (hasChecked && hasUnchecked) {
+                    $(this).find('> input')[0].checked = false;
+                    if (ts.length == 0) $(this).append('<div class="tristate" onclick="$(this.parentNode).find(\'> input\').click();" />');
+                }
+            });
+        }
+
+        /// Treeview toggler
+        function twT(btn) {
+            var p = $(btn).parent();
+            var ha = p.find(">.hitarea");
+            twSC(ha, 'collapsable-hitarea', 'expandable-hitarea');
+            twSC(ha, 'lastCollapsable-hitarea', 'lastExpandable-hitarea');
+            twSC(p, 'collapsable', 'expandable');
+            twSC(p, 'lastCollapsable', 'lastExpandable');
+            p.find(">ul").animate({ height: "toggle" }, 'fast');
+        }
+        function twSC(item, c1, c2) {
+            var c1Elements = item.filter('.' + c1);
+            item.filter('.' + c2).removeClass(c2).addClass(c1);
+            c1Elements.removeClass(c1).addClass(c2);
+        }
+
+        function showHelpDlg() {
+            $('#reportHelpDlg').css('display', '');
+            var srBox = document.getElementById('reportHelpDlg');
+            if (srBox.offsetWidth > document.body.offsetWidth * 0.9)
+                srBox.style.width = Math.floor(document.body.offsetWidth * 0.8) + 'px';
+            srBox.style.left = ((document.body.offsetWidth - srBox.offsetWidth) / 2) + 'px';
+        }
+
+        function hideHelpDlg() {
+            $('#reportHelpDlg').css('display', 'none');
+        }
+
+        function showSubReport() {
+            $('#coverBox, #subReportBox').css('display', '');
+            var srBox = document.getElementById('subReportBox');
+            if (srBox.offsetWidth > document.body.offsetWidth * 0.9)
+                srBox.style.width = Math.floor(document.body.offsetWidth * 0.8) + 'px';
+            srBox.style.left = ((document.body.offsetWidth - srBox.offsetWidth) / 2) + 'px';
+
+            var h;
+            if (typeof (window.innerHeight) == 'number')
+                h = window.innerHeight;
+            else
+                h = document.documentElement.clientHeight;
+            h = (h -264)*0.8;
+
+            var lists = $('#subReportList, #filterList');
+            //h = h - lists.offset().top - document.getElementById('subReportBoxButtons').offsetHeight;
+            if (h > 300)
+                h = 300;
+            $(lists[0]).height(h - 2);
+            $(lists[1]).height(h);
+            for (var i = 0; i < OnShowSubReportBox.length; i++)
+                try {
+                    OnShowSubReportBox[i]();
+                }
+                catch (err) { }
+        }
+        function hideSubReport() {
+            $('#coverBox, #subReportBox').css('display', 'none');
+        }
+
+        function filterToggleAll(cbx) {
+            
+            var dl = $(cbx.parentNode.parentNode);
+            dl.find('input').each(function () {
+                if (this != cbx && !this.disabled) {
+                    this.checked = cbx.checked;
+                }
+            });
+        }
+
+        function filterAll(checked) {
+            $('#filterList input[type=checkbox]').each(function () {
+                if (!this.disabled)
+                    this.checked = checked;
+            });
+        }
+
+        function download(exportId) {
+            document.getElementById('exportId').value = exportId;
+            document.forms['DownloadForm'].submit();
+        }
+
+        function HierarchyManager(id, root, labels, fieldId) {
+            this.containerId = id;
+            this.rootItem = root;
+            this.labels = labels;
+
+            var container = $(id);
+            var self = this;
+            this.container = container;
+            container.empty();
+
+            var inRenderMode = true;
+            this.renderDdl = function (item) {
+                var sBlock = $('<div><label></label><select></select></div>');
+                sBlock.find('>label').html(self.labels[item.id]);
+                var ddl = sBlock.find('>select');
+                if ((item.labels ? item.labels : item.item.labels).length > 1)
+                    ddl.append('<option value=""></option>');
+                else
+                    ddl.attr('disabled', 'disabled');
+
+                var cnt = 0;
+                $(item.labels ? item.labels : item.item.labels).each(function () {
+                    var opt = $(format('<option value="{0}"></option>', this.id));
+                    opt.text(self.labels[this.id]);
+                    opt[0].item = this;
+                    ddl.append(opt);
+                    cnt++;
+                });
+                ddl.on('change keyup', self.ddlChange);
+                container.append(sBlock);
+                if (cnt == 1) {
+                    setTimeout(function () { ddl.change(); }, 50);
+                }
+            }
+            this.ddlChange = function () {
+                if (this.lastIndex != this.selectedIndex) {
+                    this.lastIndex = this.selectedIndex;
+                    var opt = this.options[this.selectedIndex];
+                    if (opt) {
+                        $(this.parentNode).nextAll('div').remove();
+                        if (opt.item && opt.item.item && opt.item.item.labels && opt.item.item.labels.length > 0) {
+                            self.renderDdl(opt.item);
+                        }
+                    }
+                    if (inRenderMode) return;
+
+                    $(fieldId).val(self.getSelection());
+                    $('.hierarchy-item').parent().addClass('item-update');
+                    updateHierarchy();
+                }
+            }
+
+            this.renderDdl(this.rootItem);
+
+            var v = $(fieldId).val();
+            if (v && v.length > 0) {
+                var a = v.split(',');
+                for (var i = 0; i < a.length; i++) {
+                    $(container.find('select')[i]).val(a[i]).keyup();
+                }
+            }
+            inRenderMode = false;
+        }
+        HierarchyManager.prototype.getSelection = function () {
+            if (this.container) {
+                var r = '';
+                this.container.find('select').each(function () {
+                    r += ',' + this.value;
+                });
+                if (r.length > 0)
+                    return r.substring(1);
+            }
+            return '';
+        }
+
+        var isInHUpdate = false;
+        var hasQueuedUpdate = false;
+        function updateHierarchy() {
+            if (isInHUpdate) {
+                hasQueuedUpdate = true;
+                return;
+            }
+            isInHUpdate = true;
+            var postData = {};
+            $('#hierarchySelect input[type=hidden]').each(function () {
+                if (this.name > '') {
+                    postData[this.name] = this.value;
+                }
+            });
+            $.post(
+                hierarchyUpdateUrl,
+                postData,
+                function (data) {
+                    if (data) {
+                        $(data).each(function () {
+                            $(this.id).html(this.html);
+                        });
+                    }
+                    isInHUpdate = false;
+                    if (hasQueuedUpdate) {
+                        hasQueuedUpdate = false;
+                        $('.hierarchy-item').parent().addClass('item-update');
+                        setTimeout(updateHierarchy, 50);
+                    }
+                },
+                'json');
+        }
+
+        //
+
+$(function() {$(document.body).on('click','td[data-cth-key]', function(e) { console.log('cth click', RequestRoot +'Report/Token/' + $(this).attr('data-cth-key')); window.open(RequestRoot +'Report/Token/' + $(this).attr('data-cth-key')); });});
+
+hierarchyUpdateUrl='/SR/Report/HUpd/3284';
+defaultCalendarLang='sv';
+
+        //]]>
+    </script>    
+</head>
+<body class="noneSurveyPage" onclick="tbHideDropDown();">
+    <script type="text/javascript">
+        //<![CDATA[
+        if (getCookie('reportToolbar') == 'left') {
+            toggleToolbarPosition();
+        }
+        //]]>
+    </script>
+    <div id="reportToolBar">        
+        <ul id="reportToolBarButtons">
+        <li><a href="#" onclick="self.print();return false;" title="Skriv ut"><span class="btnPrint btn">&nbsp;</span></a></li>
+        
+    
+        <li><a href="#" onclick="showSubReport();return false;" title="Urval"><span class="btnFilter btn">&nbsp;</span></a></li>
+    <li><a href="/SR/Report/Download/0" target="downloadFrame" title="Snabb-PDF"><span class="btnExportPdf btn">&nbsp;</span></a></li>
+<li><a href="/SR/Report/Download/-3337" target="downloadFrame" title="Dataset ATH100 Arkitektur och stadsbyggande: En kulturhistorisk orientering 2013/2014 LP3-LP4"><span class="btnExportExcel btn">&nbsp;</span></a></li>
+
+    <li><a href="#" onclick="showHelpDlg();return false;" title="Visa hjälp"><span class="btnHelp btn">&nbsp;</span></a></li>
+
+        </ul>
+        <div id="reportToolbarRotate" onclick="toggleToolbarPosition();"></div>
+    </div>
+    <div class="page">
+        <div id="reportPage" class="public">
+            
+    
+    <div class="reportPage">
+        
+        <div><div id="i1" class="artBaseTable"><div id="i1c1" class="artBaseRow"><div id="i1_txt_1" class="artWrapper"><div class="srTextWrapper"><h1 style="text-align: center;">ATH100 Arkitektur och stadsbyggande: En kulturhistorisk orientering 2013/2014 LP3-LP4</h1><hr /><hr /><p style="text-align: center;">Antal respondenter: 203<br />Antal svar: 76<br />Svarsfrekvens: 37,44 %<br /></p><hr /><hr/><p><br /></p></hr/></div></div></div></div><div id="i11" class="artBaseTable"><div id="i11c1" class="artBaseRow"><div id="i11_txt_38" class="artWrapper"><div class="srTextWrapper"><p style="text-align: center;" data-autogenerated="protocol-link"><a href="http://document.chalmers.se/doc/9a0b6280-9d2c-4242-b8b3-5bc3f0a82f8d" target="_blank">Länk till kursnämndsprotokoll</a></p></div></div></div></div><div id="i2" class="artBaseTable"><div id="i2c1" class="artBaseRow"><div id="i2_txt_2" class="artWrapper"><div class="srTextWrapper">
+
+<h3>1 Förkunskaper<br /></h3><h3><br /></h3>
+
+
+
+
+
+</div></div></div><div id="i2c2" class="artBaseRow"><div id="i2_txt_3" class="artWrapper"><div class="srTextWrapper">
+<h5>Jag hade tillräckliga förkunskaper för att aktivt kunna följa kursen.</h5><h4>
+
+
+</h4>
+
+
+
+
+
+
+
+
+</div></div></div><div id="i2c3" class="artBaseRow"><div id="i2_c_4" class="artWrapper"><div class="srchartWrapper"><img class="srchart" alt="" src="images/loading.gif?k=50vxeNLI2ggEAAAAmpmZmZmZ2T%2byj4Np" /></div></div></div><div id="i2c4" class="artBaseRow"><div id="i2_tbl_5" class="artWrapper"><table class="srtbl" cellpadding="2" cellspacing="0" summary=""><thead><tr class="srtbl-h1"><td class="srtbl-t1">&nbsp;</td><th class="srtbl-t1">Medelv&#228;rde</th><th class="srtbl-t1">Median</th></tr></thead><tbody><tr class="srtbl-row"><th class="srtbl-rh">Jag hade tillräckliga förkunskaper för att aktivt kunna följa kursen.</th><td class="srtbl-cell">4,49</td><td class="srtbl-cell">5,00</td></tr></tbody></table>
+</div></div></div><div id="i3" class="artBaseTable"><div id="i3c1" class="artBaseRow"><div id="i3_txt_6" class="artWrapper"><div class="srTextWrapper">
+
+<h3>2 Lärandemål<br /></h3><h3><br /></h3>
+
+
+
+
+
+</div></div></div><div id="i3c2" class="artBaseRow"><div id="i3_txt_7" class="artWrapper"><div class="srTextWrapper">
+<h5>Jag känner till kursens lärandemål (vad jag förväntas kunna efter genomförd kurs).</h5><h4>
+
+
+</h4>
+
+
+
+
+
+
+
+
+</div></div></div><div id="i3c3" class="artBaseRow"><div id="i3_c_8" class="artWrapper"><div class="srchartWrapper"><img class="srchart" alt="" src="images/loading.gif?k=267zeNLI2ggIAAAAmpmZmZmZ2T%2f6PJY7" /></div></div></div><div id="i3c4" class="artBaseRow"><div id="i3_tbl_9" class="artWrapper"><table class="srtbl" cellpadding="2" cellspacing="0" summary=""><thead><tr class="srtbl-h1"><td class="srtbl-t1">&nbsp;</td><th class="srtbl-t1">Medelv&#228;rde</th><th class="srtbl-t1">Median</th></tr></thead><tbody><tr class="srtbl-row"><th class="srtbl-rh">Jag känner till kursens lärandemål (vad jag förväntas kunna efter genomförd kurs).</th><td class="srtbl-cell">4,00</td><td class="srtbl-cell">4,00</td></tr></tbody></table>
+</div></div></div><div id="i4" class="artBaseTable"><div id="i4c1" class="artBaseRow"><div id="i4_txt_10" class="artWrapper"><div class="srTextWrapper">
+
+<h3>3 Lärande<br /></h3><h3><br /></h3>
+
+
+
+
+
+</div></div></div><div id="i4c2" class="artBaseRow"><div id="i4_txt_11" class="artWrapper"><div class="srTextWrapper">
+<h5>Kursens pedagogiska upplägg är lämpligt för att kunna uppnå kursens lärandemål.</h5><h4>
+
+
+</h4>
+
+
+
+
+
+
+
+
+</div></div></div><div id="i4c3" class="artBaseRow"><div id="i4_c_12" class="artWrapper"><div class="srchartWrapper"><img class="srchart" alt="" src="images/loading.gif?k=267zeNLI2ggMAAAAmpmZmZmZ2T%2f6PJY7" /></div></div></div><div id="i4c4" class="artBaseRow"><div id="i4_tbl_13" class="artWrapper"><table class="srtbl" cellpadding="2" cellspacing="0" summary=""><thead><tr class="srtbl-h1"><td class="srtbl-t1">&nbsp;</td><th class="srtbl-t1">Medelv&#228;rde</th><th class="srtbl-t1">Median</th></tr></thead><tbody><tr class="srtbl-row"><th class="srtbl-rh">Kursens pedagogiska upplägg är lämpligt för att kunna uppnå kursens lärandemål.</th><td class="srtbl-cell">4,20</td><td class="srtbl-cell">4,00</td></tr></tbody></table>
+</div></div><div id="i4c5" class="artBaseRow"><div id="i4_txt_14" class="artWrapper"><div class="srTextWrapper">
+<h5>Undervisningen fungerade väl.</h5><h4>
+
+
+</h4>
+
+
+
+
+
+
+
+
+</div></div></div><div id="i4c6" class="artBaseRow"><div id="i4_c_15" class="artWrapper"><div class="srchartWrapper"><img class="srchart" alt="" src="images/loading.gif?k=267zeNLI2ggPAAAAmpmZmZmZ2T%2f6PJY7" /></div></div></div><div id="i4c7" class="artBaseRow"><div id="i4_tbl_16" class="artWrapper"><table class="srtbl" cellpadding="2" cellspacing="0" summary=""><thead><tr class="srtbl-h1"><td class="srtbl-t1">&nbsp;</td><th class="srtbl-t1">Medelv&#228;rde</th><th class="srtbl-t1">Median</th></tr></thead><tbody><tr class="srtbl-row"><th class="srtbl-rh">Undervisningen fungerade väl.</th><td class="srtbl-cell">4,28</td><td class="srtbl-cell">5,00</td></tr></tbody></table>
+</div></div><div id="i4c8" class="artBaseRow"><div id="i4_txt_17" class="artWrapper"><div class="srTextWrapper">
+<h5>Kurslitteraturen inklusive övrigt kursmaterial stöttade mitt lärande väl.</h5><h4>
+
+
+</h4>
+
+
+
+
+
+
+
+
+</div></div></div><div id="i4c9" class="artBaseRow"><div id="i4_c_18" class="artWrapper"><div class="srchartWrapper"><img class="srchart" alt="" src="images/loading.gif?k=267zeNLI2ggSAAAAmpmZmZmZ2T%2f6PJY7" /></div></div></div><div id="i4c10" class="artBaseRow"><div id="i4_tbl_19" class="artWrapper"><table class="srtbl" cellpadding="2" cellspacing="0" summary=""><thead><tr class="srtbl-h1"><td class="srtbl-t1">&nbsp;</td><th class="srtbl-t1">Medelv&#228;rde</th><th class="srtbl-t1">Median</th></tr></thead><tbody><tr class="srtbl-row"><th class="srtbl-rh">Kurslitteraturen inklusive övrigt kursmaterial stöttade mitt lärande väl.</th><td class="srtbl-cell">3,03</td><td class="srtbl-cell">3,00</td></tr></tbody></table>
+</div></div></div><div id="i5" class="artBaseTable"><div id="i5c1" class="artBaseRow"><div id="i5_txt_20" class="artWrapper"><div class="srTextWrapper">
+
+<h3>4 Examination<br /></h3><h3><br /></h3>
+
+
+
+
+
+</div></div></div><div id="i5c2" class="artBaseRow"><div id="i5_txt_21" class="artWrapper"><div class="srTextWrapper">
+<h5>Examinationen (inklusive alla obligatoriska kursmoment, tentamen, inlämningsuppgifter m m) testade om jag hade uppnått kursens lärandemål.</h5><h4>
+
+
+</h4>
+
+
+
+
+
+
+
+
+</div></div></div><div id="i5c3" class="artBaseRow"><div id="i5_c_22" class="artWrapper"><div class="srchartWrapper"><img class="srchart" alt="" src="images/loading.gif?k=267zeNLI2ggWAAAAmpmZmZmZ2T%2f6PJY7" /></div></div></div><div id="i5c4" class="artBaseRow"><div id="i5_tbl_23" class="artWrapper"><table class="srtbl" cellpadding="2" cellspacing="0" summary=""><thead><tr class="srtbl-h1"><td class="srtbl-t1">&nbsp;</td><th class="srtbl-t1">Medelv&#228;rde</th><th class="srtbl-t1">Median</th></tr></thead><tbody><tr class="srtbl-row"><th class="srtbl-rh">Examinationen (inklusive alla obligatoriska kursmoment, tentamen, inlämningsuppgifter m m) testade om jag hade uppnått kursens lärandemål.</th><td class="srtbl-cell">3,82</td><td class="srtbl-cell">4,00</td></tr></tbody></table>
+</div></div></div><div id="i6" class="artBaseTable"><div id="i6c1" class="artBaseRow"><div id="i6_txt_24" class="artWrapper"><div class="srTextWrapper">
+
+<h3>5 Administration<br /></h3><h3><br /></h3>
+
+
+
+
+
+</div></div></div><div id="i6c2" class="artBaseRow"><div id="i6_txt_25" class="artWrapper"><div class="srTextWrapper">
+<h5>Kursadministrationen fungerade väl.</h5><h4>
+
+
+</h4>
+
+
+
+
+
+
+
+
+</div></div></div><div id="i6c3" class="artBaseRow"><div id="i6_c_26" class="artWrapper"><div class="srchartWrapper"><img class="srchart" alt="" src="images/loading.gif?k=267zeNLI2ggaAAAAmpmZmZmZ2T%2f6PJY7" /></div></div></div><div id="i6c4" class="artBaseRow"><div id="i6_tbl_27" class="artWrapper"><table class="srtbl" cellpadding="2" cellspacing="0" summary=""><thead><tr class="srtbl-h1"><td class="srtbl-t1">&nbsp;</td><th class="srtbl-t1">Medelv&#228;rde</th><th class="srtbl-t1">Median</th></tr></thead><tbody><tr class="srtbl-row"><th class="srtbl-rh">Kursadministrationen fungerade väl.</th><td class="srtbl-cell">4,48</td><td class="srtbl-cell">5,00</td></tr></tbody></table>
+</div></div></div><div id="i7" class="artBaseTable"><div id="i7c1" class="artBaseRow"><div id="i7_txt_28" class="artWrapper"><div class="srTextWrapper">
+
+<h3>6 Arbetsbelastning<br /></h3><h3><br /></h3>
+
+
+
+
+
+</div></div></div><div id="i7c2" class="artBaseRow"><div id="i7_txt_29" class="artWrapper"><div class="srTextWrapper">
+<h5>Kursens arbetsbelastning i förhållande till antalet poäng var</h5><h4>
+
+
+</h4>
+
+
+
+
+
+
+
+
+</div></div></div><div id="i7c3" class="artBaseRow"><div id="i7_c_30" class="artWrapper"><div class="srchartWrapper"><img class="srchart" alt="" src="images/loading.gif?k=267zeNLI2ggeAAAAmpmZmZmZ2T%2f6PJY7" /></div></div></div><div id="i7c4" class="artBaseRow"><div id="i7_tbl_31" class="artWrapper"><table class="srtbl" cellpadding="2" cellspacing="0" summary=""><thead><tr class="srtbl-h1"><td class="srtbl-t1">&nbsp;</td><th class="srtbl-t1">Medelv&#228;rde</th><th class="srtbl-t1">Median</th></tr></thead><tbody><tr class="srtbl-row"><th class="srtbl-rh">Kursens arbetsbelastning i förhållande till antalet poäng var</th><td class="srtbl-cell">2,59</td><td class="srtbl-cell">3,00</td></tr></tbody></table>
+</div></div></div><div id="i8" class="artBaseTable"><div id="i8c1" class="artBaseRow"><div id="i8_txt_32" class="artWrapper"><div class="srTextWrapper">
+
+<h3>7 Vad är Ditt sammanfattande intryck av kursen?<br /></h3><h3><br /></h3>
+
+
+
+
+
+</div></div></div><div id="i8c2" class="artBaseRow"><div id="i8_txt_33" class="artWrapper"><div class="srTextWrapper">
+<h5>Vad är Ditt sammanfattande intryck av kursen?</h5><h4>
+
+
+</h4>
+
+
+
+
+
+
+
+
+</div></div></div><div id="i8c3" class="artBaseRow"><div id="i8_c_34" class="artWrapper"><div class="srchartWrapper"><img class="srchart" alt="" src="images/loading.gif?k=267zeNLI2ggiAAAAmpmZmZmZ2T%2f6PJY7" /></div></div></div><div id="i8c4" class="artBaseRow"><div id="i8_tbl_35" class="artWrapper"><table class="srtbl" cellpadding="2" cellspacing="0" summary=""><thead><tr class="srtbl-h1"><td class="srtbl-t1">&nbsp;</td><th class="srtbl-t1">Medelv&#228;rde</th><th class="srtbl-t1">Median</th></tr></thead><tbody><tr class="srtbl-row"><th class="srtbl-rh">Vad är Ditt sammanfattande intryck av kursen?</th><td class="srtbl-cell">3,95</td><td class="srtbl-cell">4,00</td></tr></tbody></table>
+</div></div></div><div id="i9" class="artBaseTable"><div id="i9c1" class="artBaseRow"><div id="i9_txt_36" class="artWrapper"><div class="srTextWrapper">
+
+<h3>8 Vad bör främst bevaras till nästa år?<br /></h3><h3><br /></h3>
+
+
+
+
+
+</div></div></div></div><div id="i10" class="artBaseTable"><div id="i10c1" class="artBaseRow"><div id="i10_txt_37" class="artWrapper"><div class="srTextWrapper">
+
+<h3>9 Vad bör främst förändras till nästa år?<br /></h3><h3><br /></h3>
+
+
+
+
+
+</div></div></div></div></div>
+    </div>
+    <div id="coverBox" style="display:none;"></div>
+    <div id="subReportBox" class="reportPopup" style="display:none;">
+        <h2 id="subReportBoxHeader" class="caption">Urval</h2>
+        <form action="/SR/Report/SetFilter" method="post">
+            <div class="content">
+            <div class="artBaseTable">
+                <div class="artBaseRow" style="padding-bottom:0;">
+                    <div class="artBaseCol artLeft">
+                        <div class="artWrapper">
+                            <h3 class="title">Rapporter och urvalslistor</h3>
+                            <div id="subReportList"></div>
+                        </div>
+                    </div>
+                    <div class="artBaseCol artRight">
+                        <div class="artWrapper">
+                            <h3 class="title">Variabler<span style="float:right;"><a href="#" onclick="filterAll(true);return false;">Markera alla</a> / <a href="#" onclick="filterAll(false);return false;">Avmarkera alla</a></span></h3>
+                            <div id="filterList"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div id="subReportBoxButtons" class="buttons">
+                <input type="submit" value="OK" />
+                <input type="button" onclick="hideSubReport();return false;" value="Avbryt" />
+            </div>
+        </form>
+    </div>
+    <div id="reportHelpDlg" class="reportPopup" style="display:none">
+        <h2 id="reportHelpDlgHeader" class="caption">Hjälp</h2>
+        <form action="/SR/Report/Token/3284/0/0" method="post">
+            <div class="content">
+                <h1>Rapportvy</h1><p>Rapportens länk leder till en vy där 
+rapporten visas och kan skrivas ut. Längst upp, alternativt till 
+vänster, ligger ett verktygsfält. Bestäm dess placering genom att klicka
+ på knappen <img src="../Images/Help/Screenshots/Toggle_toolbar.png" alt="Toggle_toolbar" title="Toggle_toolbar" width="10" height="11">. I verktygsfältet finns alltid knappen <img title="Print_icon" alt="Print_icon" src="../Images/Help/Screenshots/Print_icon.png" width="28" height="24">
+ som du använder för att skriva ut rapporten. Beroende på vilka 
+inställningar rapportkonstruktören gjort, kan också dessa knappar 
+finnas:</p><p><img title="Filter_report_icon" alt="Filter_report_icon" src="../Images/Help/Screenshots/Filter_report_icon.png" width="28" height="24">
+ Knappen visas om rapporten är en s.k. delrapport, dvs. en rapport som 
+visar svaren från ett urval av respondenter. Knappen visas också om 
+rapporten du gått in på är huvudrapporten, dvs. rapporten som innehåller
+ alla respondenters svar, och denna samtidigt ger åtkomst till minst en 
+delrapport. Du klickar på den för att välja vad du vill att rapporten 
+ska visa. Fönstret som öppnas har två halvor. I vänstra delen väljer du 
+vilken rapport och vilken urvalslista du vill visa. Ger länken tillgång 
+till huvudrapporten har du valet <span style="font-style: italic;">Main report </span>högst
+ upp. Välj denna för att visa huvudrapporten med alla respondenters 
+svar. Delrapporterna visas som rubriker i listan och under varje rubrik 
+de urvalslistor som skapats för delrapporten. När du markerar en 
+urvalslista visas i fönstrets högra del de variabler som fungerar som 
+urval i urvalslistan. Genom att markera kryssrutorna för variablernas 
+alternativ bestämmer du vilka respondenters svar som ska visas i 
+rapporten. Om kryssrutan för ett alternativ är ifylld och gråmarkerad 
+betyder det att du inte kan välja bort det.</p><p><img title="Export_Word_icon" alt="Export_Word_icon" src="../Images/Help/Screenshots/Export_Word_icon.png" width="28" height="24"> Exportera rapporten till Word 2007. Dokumentet kan också öppnas i OpenOffice, version 3.0 eller senare.</p><p><img title="Export_PowerPoint_icon" alt="Export_PowerPoint_icon" src="../Images/Help/Screenshots/Export_PowerPoint_icon.png" width="28" height="24"> Exportera rapporten till PowerPoint 2007</p><p><img title="Export_PDF_icon" alt="Export_PDF_icon" src="../Images/Help/Screenshots/Export_PDF_icon.png" width="28" height="24"> Exportera rapporten till PDF</p><p><img title="Export_web_presentation" alt="Export_web_presentation" src="../Images/Help/Screenshots/Export_web_presentation.png" width="28" height="24"> Öppna rapporten som en webbpresentation</p><p><img title="Export_multiple_icon" alt="Export_multiple_icon" src="../Images/Help/Screenshots/Export_multiple_icon.png" width="42" height="24">
+ Finns flera exportdefinitioner för ett filformat visas en nedåtriktad 
+pil vid knappen. Lägg muspekaren över knappen och välj bland de 
+exportalternativ som visas.</p>
+            </div>
+            <div id="reportHelpDlgButtons" class="buttons">
+                <input type="button" onclick="hideHelpDlg();return false;" value="Stäng" />
+            </div>
+        </form>
+    </div>
+    <div style="display:none;">
+        <iframe id="downloadFrame" name="downloadFrame" ></iframe>
+    </div>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+    //<![CDATA[
+        $('img').each(function () {
+            if (this.src.indexOf('txtimg') > 0)
+                this.src = this.src.replace('SRImage.axd', 'gettxtimg.png');
+        });
+    //]]>
+    </script>
+</body>
+</html>
