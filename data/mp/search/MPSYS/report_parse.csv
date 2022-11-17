@@ -1,547 +1,547 @@
-name;ans_freq;report_id
-DAT093 Introduction to electronic system design 2013/2014 LP1-LP1;29 (54,72%);2422
-DAT093 Introduction to electronic system design 2014/2015 LP1-LP1;21 (61,76%);4139
-DAT093 Introduction to electronic system design 2015/2016 LP1-LP1;28 (57,14%);6343
-DAT093 Introduction to electronic system design 2016/2017 LP1-LP1;21 (44,68%);8857
-DAT093 Introduction to electronic system design 2017/2018 LP1-LP1;23 (50,00%);10897
-DAT110 Methods for electronic system design and verification 2013/2014 LP2-LP2;18 (43,90%);2756
-DAT110 Methods for electronic system design and verification 2014/2015 LP2-LP2;20 (68,97%);4455
-DAT110 Methods for electronic system design and verification 2015/2016 LP2-LP2;18 (52,94%);6650
-DAT110 Methods for electronic system design and verification 2016/2017 LP2-LP2;14 (35,90%);9075
-DAT110 Methods for electronic system design and verification 2017/2018 LP2-LP2;24 (51,06%);11720
-DAT116 Mixed-signal system design 2013/2014 LP2-LP2;20 (66,67%);2564
-DAT116 Mixed-signal system design 2014/2015 LP2-LP2;29 (67,44%);4721
-DAT116 Mixed-signal system design 2015/2016 LP2-LP2;21 (45,65%);7218
-DAT116 Mixed-signal system design 2016/2017 LP2-LP2;12 (33,33%);9487
-DAT116 Mixed-signal system design 2017/2018 LP2-LP2;16 (44,44%);11518
-EDA122 Fault-tolerant computer systems 2013/2014 LP1-LP1;28 (32,56%);2302
-EDA122 Fault-tolerant computer systems 2014/2015 LP1-LP1;51 (43,59%);4173
-EDA122 Fault-tolerant computer systems 2015/2016 LP1-LP1;55 (46,22%);6411
-EDA122 Fault-tolerant computer systems 2016/2017 LP1-LP1;57 (42,54%);8437
-ENM050 Power system analysis 2013/2014 LP1-LP1;29 (50,00%);2068
-ENM050 Power system analysis 2014/2015 LP1-LP1;35 (55,56%);3791
-ENM050 Power system analysis 2015/2016 LP1-LP1;34 (48,57%);6299
-ENM050 Power system analysis 2016/2017 LP1-LP1;38 (49,35%);8701
-ENM050 Power system analysis 2017/2018 LP1-LP1;29 (33,33%);10747
-ENM055 Electric drives 1 2013/2014 LP1-LP1;36 (61,02%);2170
-ENM055 Electric drives 1 2014/2015 LP1-LP1;39 (56,52%);3877
-ENM055 Electric drives 1 2015/2016 LP1-LP1;36 (45,57%);6521
-ENM055 Electric drives 1 2016/2017 LP1-LP1;43 (47,25%);8753
-ENM055 Electric drives 1 2017/2018 LP1-LP1;35 (43,75%);10775
-ENM060 Power electronic converters 2013/2014 LP2-LP2;35 (42,68%);2890
-ENM060 Power electronic converters 2014/2015 LP2-LP2;40 (56,34%);4857
-ENM060 Power electronic converters 2015/2016 LP2-LP2;41 (39,42%);7050
-ENM061 Power electronic converters 2016/2017 LP2-LP2;37 (45,12%);9553
-ENM061 Power electronic converters 2017/2018 LP2-LP2;30 (30,30%);11578
-ENM065 Power system operation 2013/2014 LP3-LP3;19 (54,29%);1553
-ENM065 Power system operation 2014/2015 LP3-LP3;26 (52,00%);5039
-ENM065 Power system operation 2015/2016 LP3-LP3;16 (32,00%);7492
-ENM065 Power system operation 2016/2017 LP3-LP3;22 (41,51%);9853
-ENM065 Power system operation 2017/2018 LP3-LP3;13 (28,26%);12177
-ENM070 Power electronic devices and applications 2013/2014 LP4-LP4;18 (66,67%);3480
-ENM070 Power electronic devices and applications 2014/2015 LP4-LP4;18 (39,13%);5732
-ENM070 Power electronic devices and applications 2015/2016 LP4-LP4;23 (44,23%);7914
-ENM070 Power electronic devices and applications 2016/2017 LP4-LP4;20 (41,67%);10291
-ENM070 Power electronic devices and applications 2017/2018 LP4-LP4;20 (32,26%);12443
-ENM075 Electric drives 2 2013/2014 LP3-LP3;19 (61,29%);1729
-ENM075 Electric drives 2 2014/2015 LP3-LP3;15 (50,00%);5369
-ENM075 Electric drives 2 2015/2016 LP3-LP3;18 (45,00%);7534
-ENM075 Electric drives 2 2016/2017 LP3-LP3;30 (57,69%);10007
-ENM075 Electric drives 2 2017/2018 LP3-LP3;22 (36,67%);12123
-ENM100 Power electronic solutions for power systems 2013/2014 LP2-LP2;18 (40,91%);2518
-ENM100 Power electronic solutions for power systems 2014/2015 LP2-LP2;15 (71,43%);4297
-ENM100 Power electronic solutions for power systems 2015/2016 LP2-LP2;13 (31,71%);6872
-ENM100 Power electronic solutions for power systems 2016/2017 LP2-LP2;14 (36,84%);9279
-ENM100 Power electronic solutions for power systems 2017/2018 LP2-LP2;21 (45,65%);11326
-ESS076 Nonlinear and adaptive control 2013/2014 LP1-LP1;14 (36,84%);2042
-ESS076 Nonlinear and adaptive control 2014/2015 LP1-LP1;30 (66,67%);3765
-ESS076 Nonlinear and adaptive control 2015/2016 LP1-LP1;25 (44,64%);6235
-ESS076 Nonlinear and adaptive control 2016/2017 LP1-LP1;25 (44,64%);8657
-ESS076 Nonlinear and adaptive control 2017/2018 LP1-LP1;40 (50,63%);10715
-ESS101 Modelling and simulation 2013/2014 LP1-LP1;57 (47,50%);2160
-ESS101 Modelling and simulation 2014/2015 LP1-LP1;80 (57,97%);3869
-ESS101 Modelling and simulation 2015/2016 LP1-LP1;87 (51,48%);6515
-ESS101 Modelling and simulation 2016/2017 LP1-LP1;90 (50,56%);8747
-ESS101 Modelling and simulation 2017/2018 LP1-LP1;119 (54,59%);10773
-FFR105 Stochastic optimization algorithms 2013/2014 LP1-LP1;48 (48,98%);362
-FFR105 Stochastic optimization algorithms 2014/2015 LP1-LP1;61 (70,11%);3861
-FFR105 Stochastic optimization algorithms 2015/2016 LP1-LP1;71 (55,47%);6507
-FFR105 Stochastic optimization algorithms 2016/2017 LP1-LP1;65 (50,78%);8739
-FFR105 Stochastic optimization algorithms 2017/2018 LP1-LP1;75 (47,17%);10767
-FFR120 Simulation of complex systems 2013/2014 LP2-LP2;22 (41,51%);1004
-FFR120 Simulation of complex systems 2014/2015 LP2-LP2;40 (67,80%);4431
-FFR120 Simulation of complex systems 2015/2016 LP2-LP2;31 (44,93%);7152
-FFR120 Simulation of complex systems 2016/2017 LP2-LP2;28 (35,00%);9357
-FFR120 Simulation of complex systems 2017/2018 LP2-LP2;28 (31,82%);11380
-FFR125 Autonomous agents 2013/2014 LP3-LP4;39 (59,09%);3228
-FFR125 Autonomous agents 2014/2015 LP3-LP4;20 (50,00%);5844
-FFR125 Autonomous agents 2015/2016 LP3-LP4;20 (36,36%);8286
-FFR135 Artificial neural networks 2013/2014 LP1-LP1;43 (45,26%);1994
-FFR135 Artificial neural networks 2014/2015 LP1-LP1;51 (64,56%);4053
-FFR135 Artificial neural networks 2015/2016 LP1-LP1;70 (50,36%);6543
-FFR135 Artificial neural networks 2016/2017 LP1-LP1;69 (44,81%);8769
-FFR135 Artificial neural networks 2017/2018 LP1-LP1;92 (41,07%);10785
-FFR160 Sustainable development 2013/2014 LP1-LP1;35 (41,18%);1914
-FFR160 Sustainable development 2014/2015 LP1-LP1;46 (54,76%);4111
-FFR160 Sustainable development 2015/2016 LP1-LP1;38 (61,29%);6465
-FFR160 Sustainable development 2016/2017 LP1-LP1;27 (55,10%);8475
-FFR160 Sustainable development 2017/2018 LP1-LP1;30 (47,62%);11033
-KAA102 Advanced separation technology 2013/2014 LP4-LP4;15 (45,45%);3440
-KAA102 Advanced separation technology 2014/2015 LP4-LP4;16 (45,71%);5700
-KAA102 Advanced separation technology 2015/2016 LP4-LP4;15 (60,00%);7886
-KAA102 Advanced separation technology 2016/2017 LP4-LP4;11 (33,33%);10257
-KAA102 Advanced separation technology 2017/2018 LP4-LP4;17 (45,95%);12839
-KBT110 Advanced chemical engineering and process analytical technology 2013/2014 LP3-LP3;15 (48,39%);1645
-KBT110 Advanced chemical engineering and process analytical technology 2014/2015 LP3-LP3;16 (45,71%);5141
-KBT110 Advanced chemical engineering and process analytical technology 2015/2016 LP3-LP3;11 (50,00%);7338
-KBT110 Advanced chemical engineering and process analytical technology 2016/2017 LP3-LP3;10 (38,46%);9709
-KBT110 Advanced chemical engineering and process analytical technology 2017/2018 LP3-LP3;13 (46,43%);12265
-KBT115 Advanced chemical reaction engineering 2013/2014 LP1-LP1;14 (58,33%);1974
-KBT115 Advanced chemical reaction engineering 2014/2015 LP1-LP1;22 (64,71%);3753
-KBT115 Advanced chemical reaction engineering 2015/2016 LP1-LP1;14 (63,64%);6263
-KBT115 Advanced chemical reaction engineering 2016/2017 LP1-LP1;13 (56,52%);8675
-KBT115 Advanced chemical reaction engineering 2017/2018 LP1-LP1;24 (54,55%);10731
-KBT130 Cellulose technology 2013/2014 LP1-LP1;6 (42,86%);2064
-KBT130 Cellulose technology 2014/2015 LP1-LP1;12 (66,67%);3787
-KBT130 Cellulose technology 2015/2016 LP1-LP1;9 (50,00%);6295
-KBT130 Cellulose technology 2016/2017 LP1-LP1;7 (36,84%);8697
-KBT130 Cellulose technology 2017/2018 LP1-LP1;6 (60,00%);10745
-KVM013 Industrial energy systems 2013/2014 LP2-LP2;41 (48,24%);2888
-KVM013 Industrial energy systems 2014/2015 LP2-LP2;51 (51,52%);4855
-KVM013 Industrial energy systems 2015/2016 LP2-LP2;41 (47,67%);7048
-KVM013 Industrial energy systems 2016/2017 LP2-LP2;55 (53,92%);9001
-KVM013 Industrial energy systems 2017/2018 LP2-LP2;49 (51,58%);11596
-MMA092 Rigid body dynamics 2013/2014 LP2-LP2;33 (49,25%);2734
-MMA092 Rigid body dynamics 2014/2015 LP2-LP2;25 (48,08%);4437
-MMA092 Rigid body dynamics 2015/2016 LP2-LP2;25 (39,68%);7156
-MMA092 Rigid body dynamics 2016/2017 LP2-LP2;15 (31,25%);9361
-MMA092 Rigid body dynamics 2017/2018 LP2-LP2;23 (50,00%);11382
-MMF062 Vehicle dynamics 2013/2014 LP2-LP2;22 (42,31%);2614
-MMF062 Vehicle dynamics 2014/2015 LP2-LP2;22 (40,00%);4321
-MMF062 Vehicle dynamics 2015/2016 LP2-LP2;31 (49,21%);6898
-MMF062 Vehicle dynamics 2016/2017 LP2-LP2;28 (38,89%);9297
-MMF062 Vehicle dynamics 2017/2018 LP2-LP2;27 (47,37%);11338
-MPR213 Robotics and manufacturing automation 2013/2014 LP4-LP4;16 (53,33%);3264
-MPR213 Robotics and manufacturing automation 2014/2015 LP4-LP4;6 (26,09%);5862
-MPR213 Robotics and manufacturing automation 2015/2016 LP4-LP4;18 (36,00%);8262
-MPR213 Robotics and manufacturing automation 2016/2017 LP4-LP4;15 (30,61%);10449
-MPR213 Robotics and manufacturing automation 2017/2018 LP4-LP4;15 (30,00%);12557
-MPR271 Simulation of production systems 2013/2014 LP2-LP2;29 (44,62%);2968
-MPR271 Simulation of production systems 2014/2015 LP2-LP2;35 (62,50%);4629
-MPR271 Simulation of production systems 2015/2016 LP2-LP2;23 (46,94%);6802
-MPR271 Simulation of production systems 2016/2017 LP2-LP2;31 (45,59%);9229
-MPR271 Simulation of production systems 2017/2018 LP2-LP2;23 (34,85%);11622
-MTT096 Production management 2013/2014 LP2-LP2;22 (39,29%);3010
-MTT096 Production management 2014/2015 LP2-LP2;28 (52,83%);4811
-MTT096 Production management 2015/2016 LP2-LP2;34 (45,95%);6968
-MTT096 Production management 2016/2017 LP2-LP2;32 (42,11%);9345
-MTT096 Production management 2017/2018 LP2-LP2;33 (50,00%);11372
-MVE161 Ordinary differential equations and mathematical modelling 2013/2014 LP4-LP4;26 (41,27%);3640
-MVE161 Ordinary differential equations and mathematical modelling 2014/2015 LP4-LP4;25 (33,78%);5650
-MVE162 Ordinary differential equations and mathematical modelling 2015/2016 LP4-LP4;20 (29,41%);8346
-MVE162 Ordinary differential equations and mathematical modelling 2016/2017 LP4-LP4;14 (18,42%);10333
-MVE162 Ordinary differential equations and mathematical modelling 2017/2018 LP4-LP4;17 (28,33%);12473
-MVE165 Linear and integer optimisation with applications 2013/2014 LP4-LP4;24 (61,54%);3150
-MVE165 Linear and integer optimization with applications 2014/2015 LP4-LP4;20 (30,30%);5884
-MVE165 Linear and integer optimization with applications 2015/2016 LP4-LP4;13 (26,53%);7818
-MVE165 Linear and integer optimization with applications 2016/2017 LP4-LP4;20 (25,64%);10211
-MVE165 Linear and integer optimization with applications 2017/2018 LP4-LP4;11 (22,45%);12797
-PPU165 Virtual process planning 2013/2014 LP3-LP3;19 (59,38%);1503
-PPU165 Virtual process planning 2014/2015 LP3-LP3;9 (33,33%);5301
-SSY095 Image analysis 2013/2014 LP3-LP3;24 (38,71%);1723
-SSY096 Image analysis 2014/2015 LP3-LP3;35 (52,24%);5429
-SSY096 Image analysis 2015/2016 LP3-LP3;57 (58,16%);7556
-SSY097 Image analysis 2016/2017 LP3-LP3;59 (56,73%);10043
-SSY097 Image analysis 2017/2018 LP3-LP3;55 (45,83%);12025
-SSY121 Introduction to communication engineering 2013/2014 LP1-LP1;42 (93,33%);2104
-SSY121 Introduction to communication engineering 2014/2015 LP1-LP1;38 (92,68%);3961
-SSY121 Introduction to communication engineering 2015/2016 LP1-LP1;59 (92,19%);6071
-SSY121 Introduction to communication engineering 2016/2017 LP1-LP1;45 (90,00%);8377
-SSY121 Introduction to communication engineering 2017/2018 LP1-LP1;57 (90,48%);10633
-SSY130 Applied signal processing 2013/2014 LP2-LP2;81 (56,25%);2858
-SSY130 Applied signal processing 2014/2015 LP2-LP2;84 (56,00%);4825
-SSY130 Applied signal processing 2015/2016 LP2-LP2;80 (49,08%);6980
-SSY130 Applied signal processing 2016/2017 LP2-LP2;81 (45,51%);9521
-SSY130 Applied signal processing 2017/2018 LP2-LP2;78 (39,80%);11542
-SSY155 Mechatronic design 2013/2014 LP3-LP3;19 (44,19%);1761
-SSY155 Mechatronic design 2014/2015 LP3-LP3;35 (51,47%);5395
-SSY156 Modelling and control of mechatronic systems 2015/2016 LP3-LP3;24 (48,00%);7752
-SSY156 Modelling and control of mechatronic systems 2016/2017 LP3-LP3;27 (47,37%);9939
-SSY156 Modelling and control of mechatronic systems 2017/2018 LP3-LP3;35 (41,67%);12069
-SSY165 Discrete event systems 2013/2014 LP1-LP1;38 (48,72%);2038
-SSY165 Discrete event systems 2014/2015 LP1-LP1;64 (52,03%);3761
-SSY165 Discrete event systems 2015/2016 LP1-LP1;56 (52,83%);6271
-SSY165 Discrete event systems 2016/2017 LP1-LP1;62 (45,26%);8681
-SSY165 Discrete event systems 2017/2018 LP1-LP1;75 (49,02%);10825
-SSY190 Embedded control systems 2013/2014 LP4-LP4;40 (53,33%);3324
-SSY190 Embedded control systems 2014/2015 LP4-LP4;51 (48,57%);5626
-SSY190 Embedded control systems 2015/2016 LP4-LP4;46 (44,23%);8062
-SSY190 Embedded control systems 2016/2017 LP4-LP4;47 (38,21%);10415
-SSY190 Embedded control systems 2017/2018 LP4-LP4;57 (39,58%);12531
-SSY220 Discrete event control and optimization 2013/2014 LP4-LP4;25 (52,08%);3508
-SSY220 Discrete event control and optimization 2014/2015 LP4-LP4;26 (53,06%);5950
-SSY220 Discrete event control and optimization 2015/2016 LP4-LP4;18 (43,90%);8120
-SSY220 Discrete event control and optimization 2016/2017 LP4-LP4;23 (38,98%);10315
-SSY225 Design project in systems, control and mechatronics 2013/2014 LP1-LP1;15 (30,00%);2286
-SSY226 Design project in systems, control and mechatronics 2014/2015 LP2-LP2;28 (46,67%);4933
-SSY226 Design project in systems, control and mechatronics 2015/2016 LP1-LP2;35 (39,33%);7038
-SSY226 Design project in systems, control and mechatronics 2016/2017 LP1-LP2;34 (40,48%);8991
-SSY226 Design project in systems, control and mechatronics 2017/2018 LP1-LP2;30 (25,00%);11648
-SSY230 System identification 2015/2016 LP4-LP4;9 (60,00%);8180
-SSY230 System identification 2016/2017 LP4-LP4;4 (57,14%);10197
-SSY235 Advanced topics in control 2013/2014 LP2-LP2;3 (60,00%);2692
-SSY235 Advanced topics in control 2014/2015 LP2-LP2;5 (71,43%);4563
-SSY235 Advanced topics in control 2015/2016 LP2-LP2;11 (44,00%);6736
-SSY235 Advanced topics in control 2016/2017 LP2-LP2;9 (36,00%);9469
-SSY235 Advanced topics in control 2017/2018 LP2-LP2;14 (32,56%);11614
-SSY280 Model predictive control 2013/2014 LP3-LP3;26 (44,83%);1507
-SSY280 Model predictive control 2014/2015 LP3-LP3;28 (41,18%);5305
-SSY280 Model predictive control 2015/2016 LP3-LP3;15 (26,32%);7690
-SSY280 Model predictive control 2016/2017 LP3-LP3;32 (45,07%);9895
-SSY280 Model predictive control 2017/2018 LP3-LP3;29 (31,18%);11987
-SSY285 Linear control system design 2013/2014 LP2-LP2;48 (52,17%);2570
-SSY285 Linear control system design 2014/2015 LP2-LP2;60 (44,44%);4727
-SSY285 Linear control system design 2015/2016 LP2-LP2;74 (54,01%);6624
-SSY285 Linear control system design 2016/2017 LP2-LP2;73 (41,48%);9053
-SSY285 Linear control system design 2017/2018 LP2-LP2;72 (39,13%);11702
-SSY305 Communication systems 2017/2018 LP3-LP3;47 (88,68%);11965
-SSY320 Sensor fusion and nonlinear filtering 2014/2015 LP1-LP1;23 (74,19%);4199
-SSY320 Sensor fusion and nonlinear filtering 2015/2016 LP1-LP1;52 (69,33%);6401
-SSY320 Sensor fusion and nonlinear filtering 2016/2017 LP1-LP1;47 (63,51%);8429
-SSY340 Deep machine learning 2017/2018 LP1-LP1;26 (72,22%);11129
-SSY345 Sensor fusion and nonlinear filtering 2017/2018 LP1-LP1;54 (56,84%);11137
-SSY345 Sensor fusion and nonlinear filtering 2017/2018 LP4-LP4;35 (37,63%);12901
-TDA206 Discrete optimization 2013/2014 LP3-LP3;17 (44,74%);1611
-TDA206 Discrete optimization 2014/2015 LP3-LP3;28 (59,57%);5109
-TDA206 Discrete optimization 2015/2016 LP3-LP3;25 (32,05%);7682
-TDA206 Discrete optimization 2016/2017 LP3-LP3;25 (37,31%);9885
-TDA206 Discrete optimization 2017/2018 LP3-LP3;31 (38,75%);11981
-TDA231 Algorithms for machine learning and inference 2015/2016 LP3-LP3;60 (44,78%);7398
-TDA231 Algorithms for machine learning and inference 2016/2017 LP3-LP3;60 (38,22%);9781
-TDA231 Algorithms for machine learning and inference 2017/2018 LP4-LP4;48 (35,04%);12477
-TDA251 Algorithms, advanced course 2013/2014 LP2-LP2;33 (42,86%);2606
-TDA251 Algorithms, advanced course 2014/2015 LP2-LP2;33 (45,21%);4315
-TDA251 Algorithms, advanced course 2015/2016 LP2-LP2;31 (45,59%);6890
-TDA251 Algorithms, advanced course 2016/2017 LP2-LP2;16 (23,53%);9291
-TDA251 Algorithms, advanced course 2017/2018 LP2-LP2;51 (43,22%);11594
-TDA416 Datastrukturer och algoritmer 2015/2016 LP3-LP3;32 (27,12%);7676
-TDA416 Datastrukturer och algoritmer 2016/2017 LP3-LP3;34 (33,01%);9879
-TDA416 Datastrukturer och algoritmer 2017/2018 LP3-LP3;41 (34,45%);11977
-TDA566 Testing, debugging and verification 2013/2014 LP2-LP2;29 (39,19%);2436
-TDA567 Testing, debugging and verification 2014/2015 LP2-LP2;11 (35,48%);4873
-TDA567 Testing, debugging and verification 2015/2016 LP2-LP2;26 (29,89%);7022
-TDA567 Testing, debugging and verification 2016/2017 LP2-LP2;19 (27,14%);8979
-TDA567 Testing, debugging and verification 2017/2018 LP2-LP2;19 (21,84%);11636
-TEK240 Production logistics 2013/2014 LP2-LP2;9 (18,37%);2612
-TEK240 Production logistics 2014/2015 LP2-LP2;13 (31,71%);4319
-TEK240 Production logistics 2015/2016 LP2-LP2;18 (40,00%);6840
-TEK240 Production logistics 2016/2017 LP2-LP2;19 (25,33%);9161
-TEK240 Production logistics 2017/2018 LP2-LP2;27 (45,76%);11238
-TEK475 Praktiskt ledar- och entreprenörskap 2016/2017 LP1-LP2;12 (54,55%);9039
-TEK475 Praktiskt ledar- och entreprenörskap 2017/2018 LP1-LP2;16 (35,56%);11688
-TEK475 Praktiskt ledarskap inom innovation 2013/2014 LP1-LP1;8 (19,51%);2402
-TEK475 Praktiskt ledarskap inom innovation 2014/2015 LP1-LP2;11 (32,35%);4793
-TEK475 Praktiskt ledarskap inom innovation 2015/2016 LP1-LP2;9 (33,33%);7114
-TIF155 Dynamical systems 2013/2014 LP4-LP4;24 (53,33%);3534
-TIF155 Dynamical systems 2014/2015 LP4-LP4;22 (45,83%);5964
-TIF155 Dynamical systems 2015/2016 LP2-LP2;23 (35,94%);7052
-TIF155 Dynamical systems 2016/2017 LP2-LP2;28 (35,90%);9003
-TIF155 Dynamical systems 2017/2018 LP2-LP2;26 (30,59%);11656
-TIF180 Entrepreneurship and project management 2016/2017 LP1-LP1;15 (53,57%);8741
-TIF180 Entrepreneurship and project management 2017/2018 LP1-LP1;14 (50,00%);10813
-TIN092 Algorithms 2013/2014 LP1-LP1;30 (26,32%);2168
-TIN093 Algorithms 2014/2015 LP1-LP1;79 (45,40%);4241
-TIN093 Algorithms 2015/2016 LP1-LP1;92 (40,00%);6443
-TIN093 Algorithms 2016/2017 LP1-LP1;81 (33,61%);8455
-TIN093 Algorithms 2017/2018 LP1-LP1;75 (34,72%);11021
-TMA947 Nonlinear optimisation 2013/2014 LP2-LP2;25 (40,32%);2716
-TMA947 Nonlinear optimisation 2014/2015 LP2-LP2;32 (47,06%);4417
-TMA947 Nonlinear optimisation 2015/2016 LP2-LP2;29 (33,72%);7140
-TMA947 Nonlinear optimisation 2016/2017 LP2-LP2;25 (31,25%);9049
-TMA947 Nonlinear optimisation 2017/2018 LP2-LP2;23 (34,85%);11698
-TME095 Electric and Hybrid Vehicles 2017/2018 LP3-LP3;41 (47,13%);12087
-TME095 Hybrid vehicles and control 2013/2014 LP3-LP3;22 (45,83%);1651
-TME095 Hybrid vehicles and control 2014/2015 LP3-LP3;30 (55,56%);5147
-TME095 Hybrid vehicles and control 2015/2016 LP3-LP3;24 (33,33%);7342
-TME095 Hybrid vehicles and control 2016/2017 LP3-LP3;34 (43,04%);9957
-TME102 Vehicle dynamics, advanced 2013/2014 LP4-LP4;9 (50,00%);3236
-TME102 Vehicle dynamics, advanced 2014/2015 LP4-LP4;11 (47,83%);6040
-TME102 Vehicle dynamics, advanced 2015/2016 LP4-LP4;20 (52,63%);8294
-TME102 Vehicle dynamics, advanced 2016/2017 LP4-LP4;18 (38,30%);10521
-TME102 Vehicle dynamics, advanced 2017/2018 LP4-LP4;8 (28,57%);12659
-TME125 Finite element simulation in design 2013/2014 LP2-LP2;14 (42,42%);2870
-TME125 Finite element simulation in design 2014/2015 LP2-LP2;18 (35,29%);4839
-TME125 Finite element simulation in design 2015/2016 LP2-LP2;26 (43,33%);6992
-TME125 Finite element simulation in design 2016/2017 LP2-LP2;18 (40,00%);8963
-TME125 Finite element simulation in design 2017/2018 LP2-LP2;19 (45,24%);11626
-TME146 Structural dynamics control 2014/2015 LP2-LP2;11 (52,38%);4525
-TME146 Structural dynamics control 2015/2016 LP2-LP2;8 (25,81%);6708
-TME146 Structural dynamics control 2016/2017 LP2-LP2;14 (60,87%);9147
-TME170 Powertrain mechanics 2013/2014 LP2-LP2;13 (34,21%);2924
-TME170 Powertrain mechanics 2014/2015 LP2-LP2;11 (26,83%);4589
-TME170 Powertrain mechanics 2015/2016 LP2-LP2;16 (43,24%);6762
-TME170 Powertrain mechanics 2016/2017 LP2-LP2;12 (29,27%);9197
-TME170 Powertrain mechanics 2017/2018 LP2-LP2;11 (29,73%);11266
-TME265 Preparatory course in Matlab 2014/2015 LP1-LP1;11 (25,58%);4131
-TME265 Preparatory course in Matlab 2015/2016 LP1-LP1;30 (40,00%);6335
-TME265 Preparatory course in Matlab 2016/2017 LP1-LP1;28 (51,85%);8729
-TME265 Preparatory course in Matlab 2017/2018 LP1-LP1;9 (24,32%);10967
-TME265 Prepatory course in Matlab 2013/2014 LP1-LP1;12 (46,15%);2384
-TME285 Intelligent agents 2016/2017 LP3-LP3;29 (59,18%);10029
-TME285 Intelligent agents 2017/2018 LP3-LP3;18 (32,14%);12163
-TME290 Autonomous robots 2016/2017 LP4-LP4;18 (39,13%);10595
-TME290 Autonomous robots 2017/2018 LP4-LP4;16 (37,21%);12729
-DAT093 Introduction to electronic system design 2018/2019 LP1-LP1;20 (55,56%);13376
-DAT093 Introduction to electronic system design 2019/2020 LP1-LP1;30 (60,00%);15658
-DAT094 Design of digital electronic systems 2020/2021 LP1-LP1;23 (63,89%);17993
-DAT094 Design of digital electronic systems 2021/2022 LP1-LP1;14 (56,00%);19972
-DAT094 Design of digital electronic systems 2022/2023 LP1-LP1;11 (42,31%);22454
-DAT110 Methods for electronic system design and verification 2018/2019 LP2-LP2;9 (26,47%);13841
-DAT110 Methods for electronic system design and verification 2019/2020 LP2-LP2;16 (41,03%);15841
-DAT110 Methods for electronic system design and verification 2020/2021 LP2-LP2;18 (51,43%);18113
-DAT110 Methods for electronic system design and verification 2021/2022 LP2-LP2;8 (42,11%);20785
-DAT116 Mixed-signal system design 2018/2019 LP2-LP2;13 (35,14%);14025
-DAT116 Mixed-signal system design 2019/2020 LP2-LP2;10 (37,04%);16105
-DAT116 Mixed-signal system design 2020/2021 LP2-LP2;18 (56,25%);18507
-DAT116 Mixed-signal system design 2021/2022 LP2-LP2;5 (38,46%);20895
-EEN020 Computer vision 2018/2019 LP2-LP2;23 (40,35%);14113
-EEN020 Computer vision 2019/2020 LP2-LP2;32 (26,89%);16187
-EEN020 Computer vision 2020/2021 LP2-LP2;25 (26,60%);18375
-EEN020 Computer vision 2021/2022 LP2-LP2;29 (27,62%);20513
-EEN025 Constraint programming and applied optimization 2018/2019 LP1-LP1;11 (52,38%);13465
-EEN025 Constraint programming and applied optimization 2019/2020 LP1-LP1;11 (40,74%);15755
-EEN025 Constraint programming and applied optimization 2021/2022 LP1-LP1;5 (17,86%);19944
-EEN025 Constraint programming and applied optimization 2022/2023 LP1-LP1;13 (41,94%);22510
-EEN050 Robust and nonlinear control 2019/2020 LP1-LP1;17 (44,74%);15702
-EEN050 Robust and nonlinear control 2020/2021 LP1-LP1;8 (18,18%);17499
-EEN050 Robust and nonlinear control 2021/2022 LP1-LP1;11 (37,93%);20070
-EEN050 Robust and nonlinear control 2022/2023 LP1-LP1;15 (44,12%);22338
-ENM051 Power system analysis and control 2018/2019 LP1-LP1;25 (40,32%);13434
-ENM051 Power system analysis and control 2019/2020 LP1-LP1;33 (50,00%);15536
-ENM051 Power system analysis and control 2020/2021 LP1-LP1;22 (44,00%);17721
-ENM052 Ancillary services in power system 2021/2022 LP2-LP2;17 (29,82%);20987
-ENM056 Electrical machines - design and analysis 2018/2019 LP1-LP1;36 (47,37%);13436
-ENM056 Electrical machines - design and analysis 2019/2020 LP1-LP1;41 (53,25%);15538
-ENM056 Electrical machines - design and analysis 2020/2021 LP1-LP1;30 (54,55%);17785
-ENM056 Electrical machines - design and analysis 2021/2022 LP1-LP1;28 (37,84%);19998
-ENM056 Electrical machines - design and analysis 2022/2023 LP1-LP1;43 (58,11%);22498
-ENM061 Power electronic converters 2018/2019 LP2-LP2;25 (27,47%);13723
-ENM061 Power electronic converters 2019/2020 LP2-LP2;34 (44,74%);16109
-ENM061 Power electronic converters 2020/2021 LP2-LP2;16 (25,00%);18597
-ENM061 Power electronic converters 2021/2022 LP2-LP2;26 (33,33%);20739
-ENM070 Power electronic devices and applications 2018/2019 LP4-LP4;14 (26,42%);15157
-ENM070 Power electronic devices and applications 2019/2020 LP4-LP4;21 (36,84%);17177
-ENM070 Power electronic devices and applications 2020/2021 LP4-LP4;11 (34,38%);19638
-ENM071 Applied power electronics: Devices and implementations 2021/2022 LP4-LP4;10 (23,81%);22179
-ENM076 Electric drive systems 2018/2019 LP3-LP3;21 (41,18%);14609
-ENM076 Electric drive systems 2019/2020 LP3-LP3;25 (53,19%);16784
-ENM076 Electric drive systems 2020/2021 LP3-LP3;15 (50,00%);18843
-ENM076 Electric drive systems 2021/2022 LP3-LP3;18 (39,13%);21063
-ENM100 Power electronic solutions for power systems 2018/2019 LP2-LP2;6 (18,75%);13563
-ENM100 Power electronic solutions for power systems 2019/2020 LP2-LP2;7 (31,82%);15795
-ENM100 Power electronic solutions for power systems 2020/2021 LP2-LP2;8 (33,33%);18019
-ENM100 Power electronic solutions for power systems 2021/2022 LP2-LP2;4 (23,53%);20683
-ESS076 Robust and nonlinear control 2018/2019 LP1-LP1;22 (39,29%);12984
-ESS101 Modelling and simulation 2018/2019 LP1-LP1;73 (42,94%);13022
-ESS101 Modelling and simulation 2019/2020 LP1-LP1;50 (36,76%);15264
-ESS101 Modelling and simulation 2020/2021 LP1-LP1;60 (40,27%);17699
-ESS101 Modelling and simulation 2021/2022 LP1-LP1;41 (30,37%);19892
-ESS101 Modelling and simulation 2022/2023 LP1-LP1;39 (33,33%);22388
-FFR105 Stochastic optimization algorithms 2018/2019 LP1-LP1;69 (45,70%);13016
-FFR105 Stochastic optimization algorithms 2019/2020 LP1-LP1;74 (46,84%);15260
-FFR105 Stochastic optimization algorithms 2020/2021 LP1-LP1;81 (40,70%);17629
-FFR105 Stochastic optimization algorithms 2021/2022 LP1-LP1;67 (35,26%);19762
-FFR105 Stochastic optimization algorithms 2022/2023 LP1-LP1;56 (32,56%);22546
-FFR120 Simulation of complex systems 2018/2019 LP2-LP2;19 (26,39%);13591
-FFR120 Simulation of complex systems 2019/2020 LP2-LP2;40 (42,55%);15813
-FFR120 Simulation of complex systems 2020/2021 LP2-LP2;41 (29,08%);18251
-FFR120 Simulation of complex systems 2021/2022 LP2-LP2;31 (26,96%);20327
-FFR135 Artificial neural networks 2018/2019 LP1-LP1;97 (47,78%);13028
-FFR135 Artificial neural networks 2019/2020 LP1-LP1;82 (40,39%);15296
-FFR135 Artificial neural networks 2020/2021 LP1-LP1;96 (34,66%);17567
-FFR135 Artificial neural networks 2021/2022 LP1-LP1;70 (33,98%);20170
-FFR135 Artificial neural networks 2022/2023 LP1-LP1;53 (29,12%);22670
-FFR160 Sustainable development 2018/2019 LP1-LP1;27 (48,21%);13292
-FFR160 Sustainable development 2019/2020 LP1-LP1;35 (40,70%);15592
-FFR160 Sustainable development 2020/2021 LP1-LP1;52 (51,49%);17469
-FFR160 Sustainable development 2021/2022 LP1-LP1;38 (35,19%);20042
-FFR160 Sustainable development 2022/2023 LP1-LP1;28 (34,57%);22312
-KAA102 Advanced separation technology 2018/2019 LP4-LP4;10 (38,46%);14981
-KAA102 Advanced separation technology 2019/2020 LP4-LP4;14 (51,85%);17025
-KBT110 Advanced chemical engineering and process analytical technology 2018/2019 LP3-LP3;15 (62,50%);14423
-KBT110 Advanced chemical engineering and process analytical technology 2019/2020 LP3-LP3;10 (47,62%);16640
-KBT110 Advanced chemical engineering and process analytical technology 2020/2021 LP4-LP4;9 (34,62%);19350
-KBT110 Advanced chemical engineering and process analytical technology 2021/2022 LP4-LP4;15 (44,12%);22101
-KBT115 Advanced chemical reaction engineering 2018/2019 LP2-LP2;20 (54,05%);13565
-KBT115 Advanced chemical reaction engineering 2019/2020 LP2-LP2;9 (29,03%);15797
-KBT115 Advanced chemical reaction engineering 2020/2021 LP2-LP2;20 (64,52%);18265
-KBT115 Advanced chemical reaction engineering 2021/2022 LP2-LP2;25 (59,52%);20361
-KVM013 Industrial energy systems 2018/2019 LP2-LP2;36 (47,37%);13739
-KVM013 Industrial energy systems 2019/2020 LP2-LP2;40 (44,44%);15967
-KVM013 Industrial energy systems 2020/2021 LP2-LP2;49 (46,23%);18215
-KVM013 Industrial energy systems 2021/2022 LP2-LP2;39 (41,05%);20299
-MCC150 Implementation of digital signal processing systems 2019/2020 LP4-LP4;6 (46,15%);17243
-MCC150 Implementation of digital signal processing systems 2020/2021 LP4-LP4;11 (64,71%);19584
-MCC150 Implementation of digital signal processing systems 2021/2022 LP4-LP4;3 (17,65%);21951
-MMA092 Rigid body dynamics 2018/2019 LP2-LP2;7 (30,43%);13595
-MMA092 Rigid body dynamics 2019/2020 LP2-LP2;7 (31,82%);15845
-MMA092 Rigid body dynamics 2020/2021 LP2-LP2;27 (42,86%);18285
-MMA092 Rigid body dynamics 2021/2022 LP2-LP2;12 (37,50%);20409
-MMF062 Vehicle dynamics 2018/2019 LP2-LP2;28 (40,00%);13573
-MMF062 Vehicle dynamics 2019/2020 LP2-LP2;33 (47,14%);15805
-MMF062 Vehicle dynamics 2020/2021 LP2-LP2;28 (45,16%);18283
-MMF062 Vehicle motion engineering 2021/2022 LP2-LP2;16 (45,71%);20407
-MMS050 Finite element simulations in design 2019/2020 LP2-LP2;18 (50,00%);16429
-MMS050 Finite element simulations in design 2020/2021 LP2-LP2;24 (70,59%);18099
-MMS050 Finite element simulations in design 2021/2022 LP2-LP2;38 (36,89%);20771
-MPR213 Robotics and manufacturing automation 2018/2019 LP4-LP4;16 (32,00%);15027
-MPR213 Robotics and manufacturing automation 2019/2020 LP4-LP4;15 (46,88%);17339
-MPR213 Robotics and manufacturing automation 2020/2021 LP4-LP4;12 (28,57%);19466
-MPR213 Robotics and manufacturing automation 2021/2022 LP4-LP4;8 (26,67%);21851
-MPR271 Simulation of production systems 2018/2019 LP2-LP2;23 (31,08%);13957
-MPR271 Simulation of production systems 2019/2020 LP2-LP2;26 (40,00%);16075
-MPR271 Simulation of production systems 2020/2021 LP2-LP2;17 (38,64%);18551
-MPR271 Simulation of production systems 2021/2022 LP2-LP2;15 (29,41%);20381
-MTT096 Production management 2018/2019 LP2-LP2;16 (25,81%);13603
-MTT096 Production management 2019/2020 LP2-LP2;27 (47,37%);15853
-MTT096 Production management 2020/2021 LP2-LP2;20 (33,90%);18159
-MTT096 Production management 2021/2022 LP2-LP2;19 (32,76%);20861
-MVE137 Probability and statistical learning using Python 2022/2023 LP1-LP1;39 (86,67%);22278
-MVE162 Ordinary differential equations and mathematical modelling 2018/2019 LP4-LP4;11 (16,42%);14747
-MVE162 Ordinary differential equations and mathematical modelling 2019/2020 LP4-LP4;17 (17,89%);17131
-MVE162 Ordinary differential equations and mathematical modelling 2020/2021 LP4-LP4;21 (22,34%);19518
-MVE162 Ordinary differential equations and mathematical modelling 2021/2022 LP4-LP4;14 (17,50%);22077
-MVE165 Linear and integer optimization with applications 2018/2019 LP4-LP4;15 (25,42%);14951
-MVE165 Linear and integer optimization with applications 2019/2020 LP4-LP4;14 (22,95%);17077
-MVE165 Linear and integer optimization with applications 2020/2021 LP4-LP4;18 (29,51%);19346
-MVE165 Linear and integer optimization with applications 2021/2022 LP4-LP4;11 (23,91%);22097
-SSY097 Image analysis 2018/2019 LP3-LP3;47 (41,96%);14269
-SSY098 Image analysis 2019/2020 LP3-LP3;48 (36,36%);16890
-SSY098 Image analysis 2020/2021 LP3-LP3;51 (38,35%);18765
-SSY098 Image analysis 2021/2022 LP3-LP3;37 (34,91%);21357
-SSY121 Introduction to communication engineering 2018/2019 LP1-LP1;30 (71,43%);13316
-SSY121 Introduction to communication engineering 2019/2020 LP1-LP1;14 (35,90%);15618
-SSY121 Introduction to communication engineering 2020/2021 LP1-LP1;23 (65,71%);17779
-SSY121 Introduction to communication engineering 2021/2022 LP1-LP1;29 (53,70%);19992
-SSY121 Introduction to communication engineering 2022/2023 LP1-LP1;29 (70,73%);22496
-SSY130 Applied signal processing 2018/2019 LP2-LP2;79 (44,89%);13947
-SSY130 Applied signal processing 2019/2020 LP2-LP2;56 (30,43%);16019
-SSY130 Applied signal processing 2020/2021 LP2-LP2;58 (32,77%);18225
-SSY130 Applied signal processing 2021/2022 LP2-LP2;63 (34,43%);20307
-SSY156 Modelling and control of mechatronic systems 2018/2019 LP3-LP3;22 (31,43%);14295
-SSY156 Modelling and control of mechatronic systems 2019/2020 LP3-LP3;16 (31,37%);16772
-SSY156 Modelling and control of mechatronic systems 2020/2021 LP3-LP3;15 (31,91%);18903
-SSY156 Modelling and control of mechatronic systems 2021/2022 LP3-LP3;7 (13,73%);21173
-SSY165 Discrete event systems 2018/2019 LP1-LP1;51 (37,50%);13034
-SSY165 Discrete event systems 2019/2020 LP1-LP1;49 (36,03%);15302
-SSY165 Discrete event systems 2020/2021 LP1-LP1;49 (35,00%);17543
-SSY165 Discrete event systems 2021/2022 LP1-LP1;34 (26,98%);20138
-SSY165 Discrete event systems 2022/2023 LP1-LP1;32 (29,91%);22524
-SSY191 Model-based development of cyber-physical systems 2018/2019 LP4-LP4;32 (26,02%);15167
-SSY191 Model-based development of cyber-physical systems 2019/2020 LP4-LP4;39 (34,21%);17307
-SSY191 Model-based development of cyber-physical systems 2020/2021 LP4-LP4;30 (26,09%);19540
-SSY191 Model-based development of cyber-physical systems 2021/2022 LP4-LP4;20 (22,73%);21703
-SSY226 Design project in systems, control and mechatronics 2018/2019 LP1-LP2;32 (29,36%);13913
-SSY226 Design project in systems, control and mechatronics 2019/2020 LP1-LP2;27 (25,00%);16247
-SSY226 Design project in systems, control and mechatronics 2020/2021 LP1-LP2;28 (25,69%);18217
-SSY226 Design project in systems, control and mechatronics 2021/2022 LP1-LP2;24 (24,74%);20301
-SSY230 Learning dynamical systems using system identification 2021/2022 LP4-LP4;3 (30,00%);21713
-SSY235 Advanced topics in control 2018/2019 LP2-LP2;6 (28,57%);13755
-SSY235 Advanced topics in control 2019/2020 LP2-LP2;5 (41,67%);15935
-SSY235 Decision-making for autonomous systems 2020/2021 LP2-LP2;16 (41,03%);18253
-SSY236 Decision-making for autonomous systems 2021/2022 LP2-LP2;14 (60,87%);20975
-SSY281 Model predictive control 2018/2019 LP3-LP3;36 (36,36%);14613
-SSY281 Model predictive control 2019/2020 LP3-LP3;40 (35,71%);16688
-SSY281 Model predictive control 2020/2021 LP3-LP3;35 (35,35%);19001
-SSY281 Model predictive control 2021/2022 LP3-LP3;20 (25,64%);21463
-SSY285 Linear control system design 2018/2019 LP2-LP2;59 (37,34%);13825
-SSY285 Linear control system design 2019/2020 LP2-LP2;46 (27,22%);15831
-SSY285 Linear control system design 2020/2021 LP2-LP2;51 (31,68%);18151
-SSY285 Linear control system design 2021/2022 LP2-LP2;38 (29,23%);20853
-SSY305 Communication systems 2018/2019 LP3-LP3;17 (43,59%);14491
-SSY305 Communication systems 2019/2020 LP3-LP3;10 (23,26%);16816
-SSY305 Communication systems 2020/2021 LP3-LP3;22 (56,41%);18721
-SSY305 Communication systems 2021/2022 LP3-LP3;9 (34,62%);21285
-SSY316 Advanced probabilistic machine learning 2021/2022 LP2-LP2;16 (45,71%);20587
-SSY340 Deep machine learning 2018/2019 LP1-LP1;67 (44,08%);13250
-SSY340 Deep machine learning 2019/2020 LP1-LP1;79 (48,17%);15566
-SSY340 Deep machine learning 2020/2021 LP1-LP1;67 (39,41%);17757
-SSY340 Deep machine learning 2021/2022 LP1-LP1;87 (42,65%);19978
-SSY340 Deep machine learning 2022/2023 LP1-LP1;48 (27,75%);22482
-SSY345 Sensor fusion and nonlinear filtering 2018/2019 LP4-LP4;32 (34,04%);15007
-SSY345 Sensor fusion and nonlinear filtering 2019/2020 LP4-LP4;42 (43,30%);17299
-SSY345 Sensor fusion and nonlinear filtering 2020/2021 LP4-LP4;36 (37,89%);19358
-SSY345 Sensor fusion and nonlinear filtering 2021/2022 LP4-LP4;27 (33,33%);22107
-TDA206 Discrete optimization 2018/2019 LP3-LP3;25 (37,88%);14227
-TDA206 Discrete optimization 2019/2020 LP3-LP3;18 (28,13%);16482
-TDA206 Discrete optimization 2020/2021 LP3-LP3;20 (33,90%);19045
-TDA206 Discrete optimization 2021/2022 LP3-LP3;14 (25,93%);21135
-TDA231 Algorithms for machine learning and inference 2018/2019 LP4-LP4;37 (28,46%);15015
-TDA232 Algorithms for machine learning and inference 2019/2020 LP4-LP4;42 (34,71%);17417
-TDA233 Algorithms for machine learning and inference 2020/2021 LP3-LP3;31 (27,43%);19161
-TDA233 Algorithms for machine learning and inference 2021/2022 LP3-LP3;26 (28,89%);21241
-TDA251 Algorithms, advanced course 2018/2019 LP2-LP2;28 (30,77%);13737
-TDA251 Algorithms, advanced course 2019/2020 LP2-LP2;33 (36,26%);15965
-TDA251 Algorithms, advanced course 2020/2021 LP2-LP2;14 (18,92%);18571
-TDA251 Algorithms, advanced course 2021/2022 LP2-LP2;15 (19,74%);20441
-TDA416 Datastrukturer och algoritmer 2018/2019 LP2-LP2;83 (51,23%);13601
-TDA417 Data structures and algorithms 2021/2022 LP2-LP2;52 (27,81%);20763
-TDA417 Datastrukturer och algoritmer 2019/2020 LP2-LP2;48 (26,97%);16391
-TDA417 Datastrukturer och algoritmer 2020/2021 LP2-LP2;56 (26,67%);18089
-TDA567 Testing, debugging and verification 2018/2019 LP2-LP2;27 (20,15%);13919
-TDA567 Testing, debugging and verification 2019/2020 LP2-LP2;14 (15,56%);16253
-TDA567 Testing, debugging and verification 2020/2021 LP2-LP2;24 (26,09%);18431
-TDA567 Testing, debugging and verification 2021/2022 LP2-LP2;9 (14,52%);20613
-TEK240 Production logistics 2018/2019 LP2-LP2;31 (41,33%);13501
-TEK240 Production logistics 2019/2020 LP2-LP2;15 (23,08%);16201
-TEK240 Production logistics 2020/2021 LP2-LP2;16 (30,77%);18399
-TEK240 Production logistics 2021/2022 LP2-LP2;16 (32,65%);20559
-TEK475 Praktiskt ledar- och entreprenörskap 2018/2019 LP2-LP2;11 (20,37%);13813
-TIF155 Dynamical systems 2018/2019 LP2-LP2;24 (27,59%);13779
-TIF155 Dynamical systems 2019/2020 LP2-LP2;41 (35,65%);15987
-TIF155 Dynamical systems 2020/2021 LP2-LP2;49 (31,41%);18117
-TIF155 Dynamical systems 2021/2022 LP2-LP2;36 (27,91%);20789
-TIF160 Humanoid robotics 2019/2020 LP1-LP1;9 (75,00%);15318
-TIF160 Humanoid robotics 2020/2021 LP1-LP1;5 (33,33%);17573
-TIF160 Humanoid robotics 2021/2022 LP1-LP1;5 (22,73%);20176
-TIF160 Humanoid robotics 2022/2023 LP1-LP1;5 (41,67%);22672
-TIF181 Science, innovation and entrepreneurship 2018/2019 LP1-LP1;13 (56,52%);13438
-TIF181 Science, innovation and entrepreneurship 2019/2020 LP1-LP1;11 (68,75%);15578
-TIF181 Science, innovation and entrepreneurship 2020/2021 LP2-LP2;8 (19,51%);18401
-TIF181 Science, innovation and entrepreneurship 2021/2022 LP2-LP2;12 (48,00%);20561
-TIN093 Algorithms 2018/2019 LP3-LP3;21 (22,83%);14371
-TIN093 Algorithms 2019/2020 LP3-LP3;19 (20,00%);16452
-TIN093 Algorithms 2020/2021 LP3-LP3;27 (26,73%);18717
-TIN093 Algorithms 2021/2022 LP3-LP3;20 (24,69%);21022
-TMA947 Nonlinear optimisation 2018/2019 LP1-LP1;20 (25,00%);13210
-TMA947 Nonlinear optimisation 2019/2020 LP1-LP1;43 (27,92%);15272
-TMA947 Nonlinear optimisation 2020/2021 LP1-LP1;72 (42,11%);17661
-TMA947 Nonlinear optimisation 2021/2022 LP1-LP1;56 (29,32%);19850
-TMA947 Nonlinear optimisation 2022/2023 LP1-LP1;81 (33,20%);22252
-TME095 Electric and Hybrid Vehicles 2018/2019 LP3-LP3;32 (35,96%);14309
-TME095 Electric and Hybrid Vehicles 2019/2020 LP3-LP3;41 (53,25%);16722
-TME095 Electric and Hybrid Vehicles 2020/2021 LP3-LP3;36 (54,55%);18937
-TME095 Electric and Hybrid Vehicles 2021/2022 LP2-LP2;26 (36,11%);20521
-TME102 Vehicle dynamics, advanced 2018/2019 LP4-LP4;8 (20,00%);15103
-TME102 Vehicle dynamics, advanced 2019/2020 LP4-LP4;20 (52,63%);17109
-TME102 Vehicle dynamics, advanced 2020/2021 LP4-LP4;7 (22,58%);19576
-TME102 Vehicle motion and control 2021/2022 LP4-LP4;9 (40,91%);21943
-TME125 Finite element simulation in design 2018/2019 LP2-LP2;31 (58,49%);13482
-TME146 Structural dynamics control 2018/2019 LP2-LP2;8 (29,63%);13757
-TME146 Structural dynamics control 2019/2020 LP2-LP2;7 (33,33%);16283
-TME146 Structural dynamics control 2021/2022 LP2-LP2;13 (72,22%);20627
-TME170 Powertrain mechanics 2018/2019 LP2-LP2;13 (43,33%);13521
-TME170 Powertrain mechanics 2019/2020 LP2-LP2;12 (44,44%);16027
-TME170 Powertrain mechanics 2020/2021 LP2-LP2;8 (36,36%);18613
-TME170 Powertrain mechanics 2021/2022 LP2-LP2;9 (28,13%);20837
-TME265 Preparatory course in Matlab 2018/2019 LP1-LP1;14 (38,89%);13290
-TME265 Preparatory course in Matlab 2019/2020 LP1-LP1;12 (36,36%);15590
-TME265 Preparatory course in Matlab 2020/2021 LP1-LP1;4 (26,67%);17767
-TME285 Intelligent agents 2018/2019 LP3-LP3;13 (43,33%);14337
-TME285 Intelligent agents 2019/2020 LP3-LP3;17 (30,91%);16540
-TME285 Intelligent agents 2020/2021 LP3-LP3;14 (29,17%);19053
-TME286 Intelligent agents 2021/2022 LP3-LP3;8 (22,22%);21525
-TME290 Autonomous robots 2018/2019 LP4-LP4;18 (40,00%);14897
-TME290 Autonomous robots 2019/2020 LP4-LP4;14 (28,57%);17277
-TME290 Autonomous robots 2020/2021 LP4-LP4;17 (33,33%);19426
-TME290 Autonomous robots 2021/2022 LP4-LP4;10 (25,64%);21791
+programme;course_tag;report_id
+MPSYS;DAT093;2422
+MPSYS;DAT093;4139
+MPSYS;DAT093;6343
+MPSYS;DAT093;8857
+MPSYS;DAT093;10897
+MPSYS;DAT110;2756
+MPSYS;DAT110;4455
+MPSYS;DAT110;6650
+MPSYS;DAT110;9075
+MPSYS;DAT110;11720
+MPSYS;DAT116;2564
+MPSYS;DAT116;4721
+MPSYS;DAT116;7218
+MPSYS;DAT116;9487
+MPSYS;DAT116;11518
+MPSYS;EDA122;2302
+MPSYS;EDA122;4173
+MPSYS;EDA122;6411
+MPSYS;EDA122;8437
+MPSYS;ENM050;2068
+MPSYS;ENM050;3791
+MPSYS;ENM050;6299
+MPSYS;ENM050;8701
+MPSYS;ENM050;10747
+MPSYS;ENM055;2170
+MPSYS;ENM055;3877
+MPSYS;ENM055;6521
+MPSYS;ENM055;8753
+MPSYS;ENM055;10775
+MPSYS;ENM060;2890
+MPSYS;ENM060;4857
+MPSYS;ENM060;7050
+MPSYS;ENM061;9553
+MPSYS;ENM061;11578
+MPSYS;ENM065;1553
+MPSYS;ENM065;5039
+MPSYS;ENM065;7492
+MPSYS;ENM065;9853
+MPSYS;ENM065;12177
+MPSYS;ENM070;3480
+MPSYS;ENM070;5732
+MPSYS;ENM070;7914
+MPSYS;ENM070;10291
+MPSYS;ENM070;12443
+MPSYS;ENM075;1729
+MPSYS;ENM075;5369
+MPSYS;ENM075;7534
+MPSYS;ENM075;10007
+MPSYS;ENM075;12123
+MPSYS;ENM100;2518
+MPSYS;ENM100;4297
+MPSYS;ENM100;6872
+MPSYS;ENM100;9279
+MPSYS;ENM100;11326
+MPSYS;ESS076;2042
+MPSYS;ESS076;3765
+MPSYS;ESS076;6235
+MPSYS;ESS076;8657
+MPSYS;ESS076;10715
+MPSYS;ESS101;2160
+MPSYS;ESS101;3869
+MPSYS;ESS101;6515
+MPSYS;ESS101;8747
+MPSYS;ESS101;10773
+MPSYS;FFR105;362
+MPSYS;FFR105;3861
+MPSYS;FFR105;6507
+MPSYS;FFR105;8739
+MPSYS;FFR105;10767
+MPSYS;FFR120;1004
+MPSYS;FFR120;4431
+MPSYS;FFR120;7152
+MPSYS;FFR120;9357
+MPSYS;FFR120;11380
+MPSYS;FFR125;3228
+MPSYS;FFR125;5844
+MPSYS;FFR125;8286
+MPSYS;FFR135;1994
+MPSYS;FFR135;4053
+MPSYS;FFR135;6543
+MPSYS;FFR135;8769
+MPSYS;FFR135;10785
+MPSYS;FFR160;1914
+MPSYS;FFR160;4111
+MPSYS;FFR160;6465
+MPSYS;FFR160;8475
+MPSYS;FFR160;11033
+MPSYS;KAA102;3440
+MPSYS;KAA102;5700
+MPSYS;KAA102;7886
+MPSYS;KAA102;10257
+MPSYS;KAA102;12839
+MPSYS;KBT110;1645
+MPSYS;KBT110;5141
+MPSYS;KBT110;7338
+MPSYS;KBT110;9709
+MPSYS;KBT110;12265
+MPSYS;KBT115;1974
+MPSYS;KBT115;3753
+MPSYS;KBT115;6263
+MPSYS;KBT115;8675
+MPSYS;KBT115;10731
+MPSYS;KBT130;2064
+MPSYS;KBT130;3787
+MPSYS;KBT130;6295
+MPSYS;KBT130;8697
+MPSYS;KBT130;10745
+MPSYS;KVM013;2888
+MPSYS;KVM013;4855
+MPSYS;KVM013;7048
+MPSYS;KVM013;9001
+MPSYS;KVM013;11596
+MPSYS;MMA092;2734
+MPSYS;MMA092;4437
+MPSYS;MMA092;7156
+MPSYS;MMA092;9361
+MPSYS;MMA092;11382
+MPSYS;MMF062;2614
+MPSYS;MMF062;4321
+MPSYS;MMF062;6898
+MPSYS;MMF062;9297
+MPSYS;MMF062;11338
+MPSYS;MPR213;3264
+MPSYS;MPR213;5862
+MPSYS;MPR213;8262
+MPSYS;MPR213;10449
+MPSYS;MPR213;12557
+MPSYS;MPR271;2968
+MPSYS;MPR271;4629
+MPSYS;MPR271;6802
+MPSYS;MPR271;9229
+MPSYS;MPR271;11622
+MPSYS;MTT096;3010
+MPSYS;MTT096;4811
+MPSYS;MTT096;6968
+MPSYS;MTT096;9345
+MPSYS;MTT096;11372
+MPSYS;MVE161;3640
+MPSYS;MVE161;5650
+MPSYS;MVE162;8346
+MPSYS;MVE162;10333
+MPSYS;MVE162;12473
+MPSYS;MVE165;3150
+MPSYS;MVE165;5884
+MPSYS;MVE165;7818
+MPSYS;MVE165;10211
+MPSYS;MVE165;12797
+MPSYS;PPU165;1503
+MPSYS;PPU165;5301
+MPSYS;SSY095;1723
+MPSYS;SSY096;5429
+MPSYS;SSY096;7556
+MPSYS;SSY097;10043
+MPSYS;SSY097;12025
+MPSYS;SSY121;2104
+MPSYS;SSY121;3961
+MPSYS;SSY121;6071
+MPSYS;SSY121;8377
+MPSYS;SSY121;10633
+MPSYS;SSY130;2858
+MPSYS;SSY130;4825
+MPSYS;SSY130;6980
+MPSYS;SSY130;9521
+MPSYS;SSY130;11542
+MPSYS;SSY155;1761
+MPSYS;SSY155;5395
+MPSYS;SSY156;7752
+MPSYS;SSY156;9939
+MPSYS;SSY156;12069
+MPSYS;SSY165;2038
+MPSYS;SSY165;3761
+MPSYS;SSY165;6271
+MPSYS;SSY165;8681
+MPSYS;SSY165;10825
+MPSYS;SSY190;3324
+MPSYS;SSY190;5626
+MPSYS;SSY190;8062
+MPSYS;SSY190;10415
+MPSYS;SSY190;12531
+MPSYS;SSY220;3508
+MPSYS;SSY220;5950
+MPSYS;SSY220;8120
+MPSYS;SSY220;10315
+MPSYS;SSY225;2286
+MPSYS;SSY226;4933
+MPSYS;SSY226;7038
+MPSYS;SSY226;8991
+MPSYS;SSY226;11648
+MPSYS;SSY230;8180
+MPSYS;SSY230;10197
+MPSYS;SSY235;2692
+MPSYS;SSY235;4563
+MPSYS;SSY235;6736
+MPSYS;SSY235;9469
+MPSYS;SSY235;11614
+MPSYS;SSY280;1507
+MPSYS;SSY280;5305
+MPSYS;SSY280;7690
+MPSYS;SSY280;9895
+MPSYS;SSY280;11987
+MPSYS;SSY285;2570
+MPSYS;SSY285;4727
+MPSYS;SSY285;6624
+MPSYS;SSY285;9053
+MPSYS;SSY285;11702
+MPSYS;SSY305;11965
+MPSYS;SSY320;4199
+MPSYS;SSY320;6401
+MPSYS;SSY320;8429
+MPSYS;SSY340;11129
+MPSYS;SSY345;11137
+MPSYS;SSY345;12901
+MPSYS;TDA206;1611
+MPSYS;TDA206;5109
+MPSYS;TDA206;7682
+MPSYS;TDA206;9885
+MPSYS;TDA206;11981
+MPSYS;TDA231;7398
+MPSYS;TDA231;9781
+MPSYS;TDA231;12477
+MPSYS;TDA251;2606
+MPSYS;TDA251;4315
+MPSYS;TDA251;6890
+MPSYS;TDA251;9291
+MPSYS;TDA251;11594
+MPSYS;TDA416;7676
+MPSYS;TDA416;9879
+MPSYS;TDA416;11977
+MPSYS;TDA566;2436
+MPSYS;TDA567;4873
+MPSYS;TDA567;7022
+MPSYS;TDA567;8979
+MPSYS;TDA567;11636
+MPSYS;TEK240;2612
+MPSYS;TEK240;4319
+MPSYS;TEK240;6840
+MPSYS;TEK240;9161
+MPSYS;TEK240;11238
+MPSYS;TEK475;9039
+MPSYS;TEK475;11688
+MPSYS;TEK475;2402
+MPSYS;TEK475;4793
+MPSYS;TEK475;7114
+MPSYS;TIF155;3534
+MPSYS;TIF155;5964
+MPSYS;TIF155;7052
+MPSYS;TIF155;9003
+MPSYS;TIF155;11656
+MPSYS;TIF180;8741
+MPSYS;TIF180;10813
+MPSYS;TIN092;2168
+MPSYS;TIN093;4241
+MPSYS;TIN093;6443
+MPSYS;TIN093;8455
+MPSYS;TIN093;11021
+MPSYS;TMA947;2716
+MPSYS;TMA947;4417
+MPSYS;TMA947;7140
+MPSYS;TMA947;9049
+MPSYS;TMA947;11698
+MPSYS;TME095;12087
+MPSYS;TME095;1651
+MPSYS;TME095;5147
+MPSYS;TME095;7342
+MPSYS;TME095;9957
+MPSYS;TME102;3236
+MPSYS;TME102;6040
+MPSYS;TME102;8294
+MPSYS;TME102;10521
+MPSYS;TME102;12659
+MPSYS;TME125;2870
+MPSYS;TME125;4839
+MPSYS;TME125;6992
+MPSYS;TME125;8963
+MPSYS;TME125;11626
+MPSYS;TME146;4525
+MPSYS;TME146;6708
+MPSYS;TME146;9147
+MPSYS;TME170;2924
+MPSYS;TME170;4589
+MPSYS;TME170;6762
+MPSYS;TME170;9197
+MPSYS;TME170;11266
+MPSYS;TME265;4131
+MPSYS;TME265;6335
+MPSYS;TME265;8729
+MPSYS;TME265;10967
+MPSYS;TME265;2384
+MPSYS;TME285;10029
+MPSYS;TME285;12163
+MPSYS;TME290;10595
+MPSYS;TME290;12729
+MPSYS;DAT093;13376
+MPSYS;DAT093;15658
+MPSYS;DAT094;17993
+MPSYS;DAT094;19972
+MPSYS;DAT094;22454
+MPSYS;DAT110;13841
+MPSYS;DAT110;15841
+MPSYS;DAT110;18113
+MPSYS;DAT110;20785
+MPSYS;DAT116;14025
+MPSYS;DAT116;16105
+MPSYS;DAT116;18507
+MPSYS;DAT116;20895
+MPSYS;EEN020;14113
+MPSYS;EEN020;16187
+MPSYS;EEN020;18375
+MPSYS;EEN020;20513
+MPSYS;EEN025;13465
+MPSYS;EEN025;15755
+MPSYS;EEN025;19944
+MPSYS;EEN025;22510
+MPSYS;EEN050;15702
+MPSYS;EEN050;17499
+MPSYS;EEN050;20070
+MPSYS;EEN050;22338
+MPSYS;ENM051;13434
+MPSYS;ENM051;15536
+MPSYS;ENM051;17721
+MPSYS;ENM052;20987
+MPSYS;ENM056;13436
+MPSYS;ENM056;15538
+MPSYS;ENM056;17785
+MPSYS;ENM056;19998
+MPSYS;ENM056;22498
+MPSYS;ENM061;13723
+MPSYS;ENM061;16109
+MPSYS;ENM061;18597
+MPSYS;ENM061;20739
+MPSYS;ENM070;15157
+MPSYS;ENM070;17177
+MPSYS;ENM070;19638
+MPSYS;ENM071;22179
+MPSYS;ENM076;14609
+MPSYS;ENM076;16784
+MPSYS;ENM076;18843
+MPSYS;ENM076;21063
+MPSYS;ENM100;13563
+MPSYS;ENM100;15795
+MPSYS;ENM100;18019
+MPSYS;ENM100;20683
+MPSYS;ESS076;12984
+MPSYS;ESS101;13022
+MPSYS;ESS101;15264
+MPSYS;ESS101;17699
+MPSYS;ESS101;19892
+MPSYS;ESS101;22388
+MPSYS;FFR105;13016
+MPSYS;FFR105;15260
+MPSYS;FFR105;17629
+MPSYS;FFR105;19762
+MPSYS;FFR105;22546
+MPSYS;FFR120;13591
+MPSYS;FFR120;15813
+MPSYS;FFR120;18251
+MPSYS;FFR120;20327
+MPSYS;FFR135;13028
+MPSYS;FFR135;15296
+MPSYS;FFR135;17567
+MPSYS;FFR135;20170
+MPSYS;FFR135;22670
+MPSYS;FFR160;13292
+MPSYS;FFR160;15592
+MPSYS;FFR160;17469
+MPSYS;FFR160;20042
+MPSYS;FFR160;22312
+MPSYS;KAA102;14981
+MPSYS;KAA102;17025
+MPSYS;KBT110;14423
+MPSYS;KBT110;16640
+MPSYS;KBT110;19350
+MPSYS;KBT110;22101
+MPSYS;KBT115;13565
+MPSYS;KBT115;15797
+MPSYS;KBT115;18265
+MPSYS;KBT115;20361
+MPSYS;KVM013;13739
+MPSYS;KVM013;15967
+MPSYS;KVM013;18215
+MPSYS;KVM013;20299
+MPSYS;MCC150;17243
+MPSYS;MCC150;19584
+MPSYS;MCC150;21951
+MPSYS;MMA092;13595
+MPSYS;MMA092;15845
+MPSYS;MMA092;18285
+MPSYS;MMA092;20409
+MPSYS;MMF062;13573
+MPSYS;MMF062;15805
+MPSYS;MMF062;18283
+MPSYS;MMF062;20407
+MPSYS;MMS050;16429
+MPSYS;MMS050;18099
+MPSYS;MMS050;20771
+MPSYS;MPR213;15027
+MPSYS;MPR213;17339
+MPSYS;MPR213;19466
+MPSYS;MPR213;21851
+MPSYS;MPR271;13957
+MPSYS;MPR271;16075
+MPSYS;MPR271;18551
+MPSYS;MPR271;20381
+MPSYS;MTT096;13603
+MPSYS;MTT096;15853
+MPSYS;MTT096;18159
+MPSYS;MTT096;20861
+MPSYS;MVE137;22278
+MPSYS;MVE162;14747
+MPSYS;MVE162;17131
+MPSYS;MVE162;19518
+MPSYS;MVE162;22077
+MPSYS;MVE165;14951
+MPSYS;MVE165;17077
+MPSYS;MVE165;19346
+MPSYS;MVE165;22097
+MPSYS;SSY097;14269
+MPSYS;SSY098;16890
+MPSYS;SSY098;18765
+MPSYS;SSY098;21357
+MPSYS;SSY121;13316
+MPSYS;SSY121;15618
+MPSYS;SSY121;17779
+MPSYS;SSY121;19992
+MPSYS;SSY121;22496
+MPSYS;SSY130;13947
+MPSYS;SSY130;16019
+MPSYS;SSY130;18225
+MPSYS;SSY130;20307
+MPSYS;SSY156;14295
+MPSYS;SSY156;16772
+MPSYS;SSY156;18903
+MPSYS;SSY156;21173
+MPSYS;SSY165;13034
+MPSYS;SSY165;15302
+MPSYS;SSY165;17543
+MPSYS;SSY165;20138
+MPSYS;SSY165;22524
+MPSYS;SSY191;15167
+MPSYS;SSY191;17307
+MPSYS;SSY191;19540
+MPSYS;SSY191;21703
+MPSYS;SSY226;13913
+MPSYS;SSY226;16247
+MPSYS;SSY226;18217
+MPSYS;SSY226;20301
+MPSYS;SSY230;21713
+MPSYS;SSY235;13755
+MPSYS;SSY235;15935
+MPSYS;SSY235;18253
+MPSYS;SSY236;20975
+MPSYS;SSY281;14613
+MPSYS;SSY281;16688
+MPSYS;SSY281;19001
+MPSYS;SSY281;21463
+MPSYS;SSY285;13825
+MPSYS;SSY285;15831
+MPSYS;SSY285;18151
+MPSYS;SSY285;20853
+MPSYS;SSY305;14491
+MPSYS;SSY305;16816
+MPSYS;SSY305;18721
+MPSYS;SSY305;21285
+MPSYS;SSY316;20587
+MPSYS;SSY340;13250
+MPSYS;SSY340;15566
+MPSYS;SSY340;17757
+MPSYS;SSY340;19978
+MPSYS;SSY340;22482
+MPSYS;SSY345;15007
+MPSYS;SSY345;17299
+MPSYS;SSY345;19358
+MPSYS;SSY345;22107
+MPSYS;TDA206;14227
+MPSYS;TDA206;16482
+MPSYS;TDA206;19045
+MPSYS;TDA206;21135
+MPSYS;TDA231;15015
+MPSYS;TDA232;17417
+MPSYS;TDA233;19161
+MPSYS;TDA233;21241
+MPSYS;TDA251;13737
+MPSYS;TDA251;15965
+MPSYS;TDA251;18571
+MPSYS;TDA251;20441
+MPSYS;TDA416;13601
+MPSYS;TDA417;20763
+MPSYS;TDA417;16391
+MPSYS;TDA417;18089
+MPSYS;TDA567;13919
+MPSYS;TDA567;16253
+MPSYS;TDA567;18431
+MPSYS;TDA567;20613
+MPSYS;TEK240;13501
+MPSYS;TEK240;16201
+MPSYS;TEK240;18399
+MPSYS;TEK240;20559
+MPSYS;TEK475;13813
+MPSYS;TIF155;13779
+MPSYS;TIF155;15987
+MPSYS;TIF155;18117
+MPSYS;TIF155;20789
+MPSYS;TIF160;15318
+MPSYS;TIF160;17573
+MPSYS;TIF160;20176
+MPSYS;TIF160;22672
+MPSYS;TIF181;13438
+MPSYS;TIF181;15578
+MPSYS;TIF181;18401
+MPSYS;TIF181;20561
+MPSYS;TIN093;14371
+MPSYS;TIN093;16452
+MPSYS;TIN093;18717
+MPSYS;TIN093;21022
+MPSYS;TMA947;13210
+MPSYS;TMA947;15272
+MPSYS;TMA947;17661
+MPSYS;TMA947;19850
+MPSYS;TMA947;22252
+MPSYS;TME095;14309
+MPSYS;TME095;16722
+MPSYS;TME095;18937
+MPSYS;TME095;20521
+MPSYS;TME102;15103
+MPSYS;TME102;17109
+MPSYS;TME102;19576
+MPSYS;TME102;21943
+MPSYS;TME125;13482
+MPSYS;TME146;13757
+MPSYS;TME146;16283
+MPSYS;TME146;20627
+MPSYS;TME170;13521
+MPSYS;TME170;16027
+MPSYS;TME170;18613
+MPSYS;TME170;20837
+MPSYS;TME265;13290
+MPSYS;TME265;15590
+MPSYS;TME265;17767
+MPSYS;TME285;14337
+MPSYS;TME285;16540
+MPSYS;TME285;19053
+MPSYS;TME286;21525
+MPSYS;TME290;14897
+MPSYS;TME290;17277
+MPSYS;TME290;19426
+MPSYS;TME290;21791

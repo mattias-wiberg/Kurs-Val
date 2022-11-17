@@ -1,107 +1,107 @@
-name;ans_freq;report_id
-BOM011 Construction governance 2013/2014 LP1-LP1;33 (45,83%);2094
-BOM011 Construction governance 2014/2015 LP1-LP1;32 (54,24%);3813
-BOM011 Construction governance 2015/2016 LP2-LP2;26 (41,27%);6938
-BOM015 Project management 2013/2014 LP1-LP1;73 (48,99%);2134
-BOM015 Project management 2014/2015 LP1-LP1;53 (44,92%);3821
-BOM016 Project management 2015/2016 LP1-LP1;59 (49,58%);6571
-BOM017 Project management 2016/2017 LP1-LP1;59 (44,36%);8869
-BOM017 Project management 2017/2018 LP1-LP1;55 (45,83%);10923
-BOM021 Managing organisations in the construction industry 2013/2014 LP2-LP2;19 (25,33%);2684
-BOM021 Managing organisations in the construction industry 2014/2015 LP2-LP2;24 (41,38%);4555
-BOM021 Managing organisations in the construction industry 2015/2016 LP1-LP1;36 (56,25%);6169
-BOM025 Construction, processes and management 2013/2014 LP4-LP4;17 (29,82%);3402
-BOM025 Construction, processes and management 2014/2015 LP4-LP4;23 (42,59%);5684
-BOM025 Construction, processes and management 2015/2016 LP4-LP4;25 (42,37%);8254
-BOM025 Construction, processes and management 2016/2017 LP4-LP4;14 (22,95%);10439
-BOM025 Construction, processes and management 2017/2018 LP4-LP4;16 (30,77%);12549
-BOM030 Leadership and communication 2013/2014 LP3-LP3;26 (42,62%);1725
-BOM030 Leadership and communication 2014/2015 LP3-LP3;22 (43,14%);5363
-BOM030 Leadership and communication 2015/2016 LP3-LP3;24 (48,98%);7530
-BOM030 Leadership and communication 2016/2017 LP3-LP3;23 (38,98%);9773
-BOM030 Leadership and communication 2017/2018 LP3-LP3;22 (36,07%);12127
-BOM055 International projects 2013/2014 LP4-LP4;27 (45,76%);3554
-BOM055 International projects 2014/2015 LP4-LP4;20 (35,09%);5772
-BOM055 International projects 2015/2016 LP4-LP4;36 (64,29%);7910
-BOM055 International projects 2016/2017 LP4-LP4;15 (28,85%);10287
-BOM055 International projects 2017/2018 LP4-LP4;16 (34,04%);12437
-BOM070 Strategic management 2013/2014 LP3-LP3;25 (31,25%);1549
-BOM070 Strategic management 2014/2015 LP3-LP3;16 (31,37%);5035
-BOM070 Strategic management 2015/2016 LP3-LP3;25 (43,86%);7488
-BOM070 Strategic management 2016/2017 LP3-LP3;35 (44,30%);9849
-BOM070 Strategic management 2017/2018 LP3-LP3;21 (34,43%);11953
-BOM090 Knowledge and learning in project organisations 2013/2014 LP4-LP4;16 (35,56%);3524
-BOM090 Knowledge and learning in project organisations 2014/2015 LP4-LP4;14 (33,33%);5960
-BOM090 Knowledge and learning in project organisations 2015/2016 LP4-LP4;23 (50,00%);8130
-BOM090 Knowledge and learning in project organisations 2016/2017 LP4-LP4;13 (21,67%);10539
-BOM090 Knowledge and learning in project organisations 2017/2018 LP4-LP4;14 (25,00%);12675
-BOM135 Real estate finance and economics 2013/2014 LP1-LP1;12 (31,58%);2320
-BOM135 Real estate finance and economics 2014/2015 LP1-LP1;22 (42,31%);3983
-BOM135 Real estate finance and economics 2015/2016 LP1-LP1;16 (41,03%);6189
-BOM135 Real estate finance and economics 2016/2017 LP1-LP1;21 (45,65%);8813
-BOM135 Real estate finance and economics 2017/2018 LP1-LP1;19 (38,00%);10863
-BOM180 Design Management 2013/2014 LP3-LP3;13 (43,33%);1841
-BOM180 Design management 2014/2015 LP3-LP3;19 (47,50%);5249
-BOM185 Design management 2015/2016 LP3-LP3;21 (39,62%);7748
-BOM185 Design management 2016/2017 LP3-LP3;20 (45,45%);9935
-BOM185 Design management 2017/2018 LP3-LP3;15 (29,41%);12065
-BOM245 Introduction to Design and construction project management 2016/2017 LP1-LP1;31 (52,54%);8877
-BOM245 Introduction to Design and construction project management 2017/2018 LP1-LP1;34 (55,74%);10927
-BOM250 Life cycle engineering 2016/2017 LP2-LP2;10 (45,45%);9543
-BOM250 Life cycle engineering 2017/2018 LP2-LP2;17 (47,22%);11428
-ENM130 Managing stakeholders for sustainable development 2016/2017 LP2-LP2;23 (57,50%);9099
-ENM130 Managing stakeholders for sustainable development 2017/2018 LP2-LP2;28 (37,33%);11598
-IBY015 Service management for construction and facilities 2013/2014 LP1-LP1;4 (13,79%);2298
-IBY015 Service management for construction and facilities 2014/2015 LP1-LP1;19 (41,30%);4171
-IBY015 Service management for construction and facilities 2015/2016 LP1-LP1;11 (33,33%);6409
-IBY015 Service management for construction and facilities 2016/2017 LP2-LP2;6 (28,57%);8999
-IBY015 Service management for construction and facilities 2017/2018 LP2-LP2;6 (21,43%);11654
-IEK312 Quality management 2015/2016 LP1-LP1;38 (56,72%);6081
-IEK312 Quality management 2016/2017 LP1-LP1;41 (41,00%);8507
-IEK312 Quality management 2017/2018 LP1-LP1;31 (46,97%);11053
-LBT431 Financial and Management Accounting 2013/2014 LP2-LP2;24 (33,80%);2656
-LBT431 Financial and Management Accounting 2014/2015 LP2-LP2;20 (29,41%);4365
-LBT431 Financial and management accounting 2015/2016 LP2-LP2;23 (31,51%);6934
-LBT431 Financial and management accounting 2016/2017 LP2-LP2;50 (41,67%);9329
-LBT431 Financial and management accounting 2017/2018 LP2-LP2;31 (29,52%);11360
-TEK140 Construction contract relationships 2013/2014 LP2-LP2;25 (29,41%);2440
-TEK140 Construction contract relationships 2014/2015 LP2-LP2;21 (34,43%);4759
-TEK140 Construction contract relationships 2015/2016 LP2-LP2;22 (32,35%);7082
-TEK140 Construction contract relationships 2016/2017 LP2-LP2;23 (37,10%);9019
-TEK140 Construction contract relationships 2017/2018 LP2-LP2;28 (44,44%);11183
-TEK285 Logistics and supply chain management 2013/2014 LP2-LP2;15 (32,61%);2926
-TEK285 Logistics and supply chain management 2014/2015 LP2-LP2;15 (28,85%);4591
-TEK285 Logistics and supply chain management 2015/2016 LP2-LP2;24 (45,28%);6704
-TEK285 Logistics and supply chain management 2016/2017 LP2-LP2;20 (42,55%);9129
-TEK285 Logistics and supply chain management 2016/2017 LP4-LP4;12 (31,58%);10571
-TEK285 Logistics and supply chain management 2017/2018 LP4-LP4;13 (31,71%);12589
-VMI035 Environmental management 2013/2014 LP3-LP3;22 (45,83%);1613
-VMI035 Environmental management 2014/2015 LP3-LP3;13 (29,55%);5113
-VMI035 Environmental management 2015/2016 LP3-LP3;23 (42,59%);7684
-VMI035 Environmental management 2016/2017 LP3-LP3;26 (59,09%);9889
-VMI035 Environmental management 2017/2018 LP3-LP3;9 (24,32%);11985
-ACE125 Real estate economics 2019/2020 LP1-LP1;19 (46,34%);15728
-BOM017 Project management 2018/2019 LP1-LP1;28 (35,90%);13298
-BOM025 Construction, processes and management 2018/2019 LP4-LP4;12 (34,29%);14799
-BOM025 Construction, processes and management 2019/2020 LP4-LP4;11 (23,91%);17321
-BOM030 Leadership and communication 2018/2019 LP3-LP3;15 (29,41%);14559
-BOM070 Strategic management 2018/2019 LP3-LP3;9 (32,14%);14213
-BOM090 Knowledge and learning in project organisations 2018/2019 LP4-LP4;7 (22,58%);15117
-BOM135 Real estate finance and economics 2018/2019 LP1-LP1;17 (34,69%);13094
-BOM185 Design management 2018/2019 LP3-LP3;15 (26,32%);14291
-BOM185 Design management 2019/2020 LP3-LP3;20 (34,48%);16506
-BOM245 Introduction to design and construction project management 2018/2019 LP1-LP1;19 (31,15%);13108
-BOM250 Life cycle engineering 2018/2019 LP2-LP2;13 (26,53%);13637
-BOM250 Life cycle engineering 2018/2019 LP3-LP3;4 (50,00%);14601
-ENM130 Managing stakeholders for sustainable development 2018/2019 LP2-LP2;16 (31,37%);13741
-ENM130 Managing stakeholders for sustainable development 2019/2020 LP2-LP2;18 (31,03%);16013
-IBY015 Service management for construction and facilities 2018/2019 LP2-LP2;13 (37,14%);13903
-IBY015 Service management for construction and facilities 2019/2020 LP2-LP2;10 (33,33%);16235
-IEK312 Quality management 2018/2019 LP1-LP1;22 (33,85%);13212
-IEK313 Quality management 2019/2020 LP1-LP1;28 (32,94%);15736
-LBT431 Financial and management accounting 2018/2019 LP2-LP2;22 (32,84%);13585
-TEK140 Construction contract relationships 2018/2019 LP2-LP2;24 (36,36%);13799
-TEK285 Logistics and supply chain management 2018/2019 LP4-LP4;21 (33,33%);14843
-TEK285 Logistics and supply chain management 2019/2020 LP4-LP4;7 (38,89%);17261
-VMI035 Environmental management 2018/2019 LP3-LP3;22 (48,89%);14229
-VMI035 Environmental management 2019/2020 LP3-LP3;13 (43,33%);16750
+programme;course_tag;report_id
+MPDCF;BOM011;2094
+MPDCF;BOM011;3813
+MPDCF;BOM011;6938
+MPDCF;BOM015;2134
+MPDCF;BOM015;3821
+MPDCF;BOM016;6571
+MPDCF;BOM017;8869
+MPDCF;BOM017;10923
+MPDCF;BOM021;2684
+MPDCF;BOM021;4555
+MPDCF;BOM021;6169
+MPDCF;BOM025;3402
+MPDCF;BOM025;5684
+MPDCF;BOM025;8254
+MPDCF;BOM025;10439
+MPDCF;BOM025;12549
+MPDCF;BOM030;1725
+MPDCF;BOM030;5363
+MPDCF;BOM030;7530
+MPDCF;BOM030;9773
+MPDCF;BOM030;12127
+MPDCF;BOM055;3554
+MPDCF;BOM055;5772
+MPDCF;BOM055;7910
+MPDCF;BOM055;10287
+MPDCF;BOM055;12437
+MPDCF;BOM070;1549
+MPDCF;BOM070;5035
+MPDCF;BOM070;7488
+MPDCF;BOM070;9849
+MPDCF;BOM070;11953
+MPDCF;BOM090;3524
+MPDCF;BOM090;5960
+MPDCF;BOM090;8130
+MPDCF;BOM090;10539
+MPDCF;BOM090;12675
+MPDCF;BOM135;2320
+MPDCF;BOM135;3983
+MPDCF;BOM135;6189
+MPDCF;BOM135;8813
+MPDCF;BOM135;10863
+MPDCF;BOM180;1841
+MPDCF;BOM180;5249
+MPDCF;BOM185;7748
+MPDCF;BOM185;9935
+MPDCF;BOM185;12065
+MPDCF;BOM245;8877
+MPDCF;BOM245;10927
+MPDCF;BOM250;9543
+MPDCF;BOM250;11428
+MPDCF;ENM130;9099
+MPDCF;ENM130;11598
+MPDCF;IBY015;2298
+MPDCF;IBY015;4171
+MPDCF;IBY015;6409
+MPDCF;IBY015;8999
+MPDCF;IBY015;11654
+MPDCF;IEK312;6081
+MPDCF;IEK312;8507
+MPDCF;IEK312;11053
+MPDCF;LBT431;2656
+MPDCF;LBT431;4365
+MPDCF;LBT431;6934
+MPDCF;LBT431;9329
+MPDCF;LBT431;11360
+MPDCF;TEK140;2440
+MPDCF;TEK140;4759
+MPDCF;TEK140;7082
+MPDCF;TEK140;9019
+MPDCF;TEK140;11183
+MPDCF;TEK285;2926
+MPDCF;TEK285;4591
+MPDCF;TEK285;6704
+MPDCF;TEK285;9129
+MPDCF;TEK285;10571
+MPDCF;TEK285;12589
+MPDCF;VMI035;1613
+MPDCF;VMI035;5113
+MPDCF;VMI035;7684
+MPDCF;VMI035;9889
+MPDCF;VMI035;11985
+MPDCF;ACE125;15728
+MPDCF;BOM017;13298
+MPDCF;BOM025;14799
+MPDCF;BOM025;17321
+MPDCF;BOM030;14559
+MPDCF;BOM070;14213
+MPDCF;BOM090;15117
+MPDCF;BOM135;13094
+MPDCF;BOM185;14291
+MPDCF;BOM185;16506
+MPDCF;BOM245;13108
+MPDCF;BOM250;13637
+MPDCF;BOM250;14601
+MPDCF;ENM130;13741
+MPDCF;ENM130;16013
+MPDCF;IBY015;13903
+MPDCF;IBY015;16235
+MPDCF;IEK312;13212
+MPDCF;IEK313;15736
+MPDCF;LBT431;13585
+MPDCF;TEK140;13799
+MPDCF;TEK285;14843
+MPDCF;TEK285;17261
+MPDCF;VMI035;14229
+MPDCF;VMI035;16750

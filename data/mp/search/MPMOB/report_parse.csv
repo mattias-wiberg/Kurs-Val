@@ -1,61 +1,61 @@
-name;ans_freq;report_id
-ACE095 Infrastructure and urban systems 2022/2023 LP1-LP1;37 (42,53%);22468
-DAT171 Object-oriented programming in Python 2021/2022 LP3-LP3;30 (30,00%);21237
-DAT295 Autonomous and cooperative vehicular systems 2021/2022 LP2-LP2;12 (35,29%);20443
-DAT405 Introduction to data science and AI 2021/2022 LP3-LP3;55 (20,99%);21247
-DAT405 Introduction to data science and AI 2021/2022 LP4-LP4;39 (13,64%);22181
-DAT405 Introduction to data science and AI 2022/2023 LP1-LP1;54 (27,14%);22350
-EEN016 Lithium-ion battery systems for vehicles and large-scale energy storage 2021/2022 LP2-LP2;13 (30,95%);20755
-EEN130 Systems and mechatronics for mobility engineering 2021/2022 LP1-LP1;29 (41,43%);20264
-EEN130 Systems and mechatronics for mobility engineering 2022/2023 LP1-LP1;35 (38,46%);22444
-EEN135 Electric machines for vehicles and vessels 2021/2022 LP3-LP3;11 (28,21%);21517
-EEN140 Electric drive systems for vehicles and vessels 2021/2022 LP4-LP4;8 (28,57%);22165
-IBB137 Project management 2021/2022 LP2-LP2;16 (25,40%);20537
-IBB137 Project management 2021/2022 LP4-LP4;23 (25,56%);21837
-IEK313 Quality management 2021/2022 LP3-LP3;23 (33,82%);21353
-IEK313 Quality management 2022/2023 LP1-LP1;12 (22,64%);22448
-KBT121 Design and analysis of experiments 2022/2023 LP1-LP1;32 (30,77%);22684
-KKR073 Computational fluid dynamics for engineers (CFD) 2021/2022 LP4-LP4;32 (49,23%);21767
-MHA043 Material mechanics 2021/2022 LP4-LP4;9 (37,50%);22061
-MMA092 Rigid body dynamics 2021/2022 LP2-LP2;12 (37,50%);20409
-MMA163 Ship resistance and propulsion 2021/2022 LP3-LP3;7 (100,00%);21523
-MMA169 Structural engineering 2021/2022 LP2-LP2;8 (80,00%);20949
-MMF062 Vehicle motion engineering 2021/2022 LP2-LP2;16 (45,71%);20407
-MMK082 Materials characterisation and failure analysis 2021/2022 LP2-LP2;9 (23,68%);20819
-MMS050 Finite element simulations in design 2021/2022 LP2-LP2;38 (36,89%);20771
-MMS175 Aerospace propulsion 2021/2022 LP2-LP2;15 (53,57%);20989
-MMS180 Railway technology 2021/2022 LP2-LP2;8 (66,67%);20951
-MMS185 Stability and design basis for marine structures 2021/2022 LP2-LP2;7 (100,00%);20969
-MMS195 Introduction to propulsion and energy systems for transport 2021/2022 LP1-LP1;31 (35,23%);20252
-MMS195 Introduction to propulsion and energy systems for transport 2022/2023 LP1-LP1;42 (31,82%);22242
-MMS205 Naval architecture 2021/2022 LP3-LP3;7 (77,78%);21519
-MMS210 Connected fleets in data-driven engineering 2021/2022 LP4-LP4;27 (40,91%);22177
-MMS235 Aircraft design 2022/2023 LP1-LP1;5 (35,71%);22690
-MTF073 Computational fluid dynamics (CFD) 2021/2022 LP2-LP2;12 (24,49%);20527
-MTF236 Road vehicle aerodynamics 2021/2022 LP3-LP3;14 (36,84%);21321
-MTF242 Internal combustion engines 2021/2022 LP3-LP3;7 (36,84%);21415
-PPU085 Product planning - needs and opportunities 2021/2022 LP2-LP2;27 (38,03%);20869
-PPU231 Production and product service systems 2021/2022 LP3-LP3;11 (17,19%);21329
-SJO746 Wave loads and seakeeping 2021/2022 LP4-LP4;4 (50,00%);21807
-SJO825 Organisation and strategy 2021/2022 LP2-LP2;10 (38,46%);20643
-SSY130 Applied signal processing 2021/2022 LP2-LP2;63 (34,43%);20307
-SSY236 Decision-making for autonomous systems 2021/2022 LP2-LP2;14 (60,87%);20975
-SSY261 Applied mechatronics design 2021/2022 LP4-LP4;5 (21,74%);21769
-SSY285 Linear control system design 2021/2022 LP2-LP2;38 (29,23%);20853
-TEK285 Logistics and supply chain management 2021/2022 LP4-LP4;3 (27,27%);21727
-TME047 Chalmers formula student 2021/2022 LP1-LP4;14 (42,42%);21883
-TME085 Compressible flow 2021/2022 LP3-LP3;18 (48,65%);21159
-TME095 Electric and Hybrid Vehicles 2021/2022 LP2-LP2;26 (36,11%);20521
-TME102 Vehicle motion and control 2021/2022 LP4-LP4;9 (40,91%);21943
-TME141 Structural dynamics 2021/2022 LP2-LP2;21 (37,50%);20815
-TME146 Structural dynamics control 2021/2022 LP2-LP2;13 (72,22%);20627
-TME170 Powertrain mechanics 2021/2022 LP2-LP2;9 (28,13%);20837
-TME180 Automotive engineering project 2021/2022 LP1-LP2;16 (34,04%);20367
-TME192 Active safety 2021/2022 LP1-LP1;22 (44,00%);20154
-TME192 Active safety 2022/2023 LP1-LP1;21 (39,62%);22630
-TME196 Impact biomechanics 2021/2022 LP4-LP4;8 (36,36%);21897
-TME202 Vehicle and traffic safety 2021/2022 LP2-LP2;8 (26,67%);20495
-TME240 Composite mechanics 2021/2022 LP3-LP3;11 (31,43%);21179
-TME245 Finite element method - structures 2021/2022 LP3-LP3;30 (41,67%);21317
-TME260 Fatigue and fracture 2022/2023 LP1-LP1;15 (50,00%);22404
-VSM167 Finite element method - basics 2021/2022 LP2-LP2;15 (27,27%);20573
+programme;course_tag;report_id
+MPMOB;ACE095;22468
+MPMOB;DAT171;21237
+MPMOB;DAT295;20443
+MPMOB;DAT405;21247
+MPMOB;DAT405;22181
+MPMOB;DAT405;22350
+MPMOB;EEN016;20755
+MPMOB;EEN130;20264
+MPMOB;EEN130;22444
+MPMOB;EEN135;21517
+MPMOB;EEN140;22165
+MPMOB;IBB137;20537
+MPMOB;IBB137;21837
+MPMOB;IEK313;21353
+MPMOB;IEK313;22448
+MPMOB;KBT121;22684
+MPMOB;KKR073;21767
+MPMOB;MHA043;22061
+MPMOB;MMA092;20409
+MPMOB;MMA163;21523
+MPMOB;MMA169;20949
+MPMOB;MMF062;20407
+MPMOB;MMK082;20819
+MPMOB;MMS050;20771
+MPMOB;MMS175;20989
+MPMOB;MMS180;20951
+MPMOB;MMS185;20969
+MPMOB;MMS195;20252
+MPMOB;MMS195;22242
+MPMOB;MMS205;21519
+MPMOB;MMS210;22177
+MPMOB;MMS235;22690
+MPMOB;MTF073;20527
+MPMOB;MTF236;21321
+MPMOB;MTF242;21415
+MPMOB;PPU085;20869
+MPMOB;PPU231;21329
+MPMOB;SJO746;21807
+MPMOB;SJO825;20643
+MPMOB;SSY130;20307
+MPMOB;SSY236;20975
+MPMOB;SSY261;21769
+MPMOB;SSY285;20853
+MPMOB;TEK285;21727
+MPMOB;TME047;21883
+MPMOB;TME085;21159
+MPMOB;TME095;20521
+MPMOB;TME102;21943
+MPMOB;TME141;20815
+MPMOB;TME146;20627
+MPMOB;TME170;20837
+MPMOB;TME180;20367
+MPMOB;TME192;20154
+MPMOB;TME192;22630
+MPMOB;TME196;21897
+MPMOB;TME202;20495
+MPMOB;TME240;21179
+MPMOB;TME245;21317
+MPMOB;TME260;22404
+MPMOB;VSM167;20573

@@ -1,2 +1,3 @@
 data_*
 test.ipynb
+__pycache__

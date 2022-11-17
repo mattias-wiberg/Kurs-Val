@@ -1,48 +1,48 @@
-name;ans_freq;report_id
-ACE115 Project management in construction 2019/2020 LP1-LP1;20 (33,33%);15688
-ACE115 Project management in construction 2020/2021 LP1-LP1;27 (36,99%);17631
-ACE115 Project management in construction 2021/2022 LP1-LP1;16 (23,53%);19764
-ACE115 Project management in construction 2022/2023 LP1-LP1;27 (41,54%);22480
-ACE120 Methods and enquiry in organisations 2019/2020 LP1-LP1;18 (30,51%);15690
-ACE120 Methods and enquiry in organisations 2020/2021 LP1-LP1;27 (36,49%);17873
-ACE120 Methods and enquiry in organisations 2021/2022 LP1-LP1;18 (25,35%);19842
-ACE120 Methods and enquiry in organisations 2022/2023 LP1-LP1;21 (32,31%);22664
-ACE125 Real estate economics 2019/2020 LP1-LP1;19 (46,34%);15728
-ACE125 Real estate economics 2020/2021 LP1-LP1;9 (31,03%);17651
-ACE125 Real estate economics 2021/2022 LP1-LP1;16 (29,09%);19814
-ACE126 Market and value in real estate 2022/2023 LP1-LP1;12 (27,91%);22702
-ACE130 Construction logistics and supply chain management 2020/2021 LP1-LP1;11 (29,73%);17533
-ACE130 Construction logistics and supply chain management 2021/2022 LP1-LP1;18 (36,73%);20130
-ACE130 Construction logistics and supply chain management 2022/2023 LP1-LP1;11 (25,00%);22340
-BOM025 Construction, processes and management 2019/2020 LP4-LP4;11 (23,91%);17321
-BOM025 Construction, processes and management 2020/2021 LP4-LP4;9 (15,52%);19442
-BOM025 Construction, processes and management 2021/2022 LP4-LP4;12 (18,46%);21817
-BOM030 Leadership and communication 2020/2021 LP2-LP2;9 (19,57%);18045
-BOM030 Leadership and communication 2021/2022 LP2-LP2;19 (34,55%);20705
-BOM185 Design management 2019/2020 LP3-LP3;20 (34,48%);16506
-BOM186 Design management 2020/2021 LP3-LP3;11 (16,67%);19179
-BOM186 Design management 2021/2022 LP3-LP3;8 (15,69%);21233
-BOM250 Life cycle engineering 2019/2020 LP3-LP3;20 (45,45%);16594
-BOM250 Life cycle engineering 2020/2021 LP3-LP3;18 (36,00%);19117
-BOM250 Life cycle engineering 2021/2022 LP3-LP3;16 (25,40%);21421
-CLS045 Global and intercultural competence 2021/2022 LP3-LP4;14 (63,64%);21625
-ENM130 Managing stakeholders for sustainable development 2021/2022 LP2-LP2;15 (39,47%);20485
-IBY015 Service management for construction and facilities 2019/2020 LP2-LP2;10 (33,33%);16235
-IBY015 Service management for construction and facilities 2020/2021 LP2-LP2;8 (29,63%);18211
-IBY015 Service management for construction and facilities 2021/2022 LP2-LP2;10 (28,57%);20929
-LBT431 Financial and management accounting 2019/2020 LP2-LP2;16 (24,24%);15815
-LBT432 Financial and management accounting 2020/2021 LP2-LP2;16 (21,92%);18697
-LBT432 Financial and management accounting 2021/2022 LP2-LP2;16 (23,88%);20651
-SEE040 Leadership for sustainability transitions 2021/2022 LP1-LP1;25 (56,82%);20134
-SEE040 Leadership for sustainability transitions 2022/2023 LP1-LP1;18 (43,90%);22624
-TEK140 Construction contract relationships 2019/2020 LP2-LP2;15 (24,59%);15999
-TEK140 Construction contract relationships 2020/2021 LP2-LP2;17 (22,67%);18585
-TEK141 Construction contract relationships 2021/2022 LP2-LP2;17 (26,15%);20961
-TEK226 Technology and society 2021/2022 LP3-LP3;25 (20,49%);21345
-TEK600 Digitalisation and society 2021/2022 LP2-LP2;19 (50,00%);20777
-TEK660 Managing change in the construction industry 2019/2020 LP4-LP4;11 (22,00%);17401
-TEK660 Managing change in the construction industry 2020/2021 LP4-LP4;9 (16,67%);19566
-TEK660 Managing change in the construction industry 2021/2022 LP4-LP4;8 (14,29%);21751
-VMI035 Environmental management 2019/2020 LP3-LP3;13 (43,33%);16750
-VMI035 Environmental management 2020/2021 LP3-LP3;36 (36,36%);18939
-VMI035 Environmental management 2021/2022 LP3-LP3;28 (35,44%);21229
+programme;course_tag;report_id
+MPDCM;ACE115;15688
+MPDCM;ACE115;17631
+MPDCM;ACE115;19764
+MPDCM;ACE115;22480
+MPDCM;ACE120;15690
+MPDCM;ACE120;17873
+MPDCM;ACE120;19842
+MPDCM;ACE120;22664
+MPDCM;ACE125;15728
+MPDCM;ACE125;17651
+MPDCM;ACE125;19814
+MPDCM;ACE126;22702
+MPDCM;ACE130;17533
+MPDCM;ACE130;20130
+MPDCM;ACE130;22340
+MPDCM;BOM025;17321
+MPDCM;BOM025;19442
+MPDCM;BOM025;21817
+MPDCM;BOM030;18045
+MPDCM;BOM030;20705
+MPDCM;BOM185;16506
+MPDCM;BOM186;19179
+MPDCM;BOM186;21233
+MPDCM;BOM250;16594
+MPDCM;BOM250;19117
+MPDCM;BOM250;21421
+MPDCM;CLS045;21625
+MPDCM;ENM130;20485
+MPDCM;IBY015;16235
+MPDCM;IBY015;18211
+MPDCM;IBY015;20929
+MPDCM;LBT431;15815
+MPDCM;LBT432;18697
+MPDCM;LBT432;20651
+MPDCM;SEE040;20134
+MPDCM;SEE040;22624
+MPDCM;TEK140;15999
+MPDCM;TEK140;18585
+MPDCM;TEK141;20961
+MPDCM;TEK226;21345
+MPDCM;TEK600;20777
+MPDCM;TEK660;17401
+MPDCM;TEK660;19566
+MPDCM;TEK660;21751
+MPDCM;VMI035;16750
+MPDCM;VMI035;18939
+MPDCM;VMI035;21229
