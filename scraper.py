@@ -64,7 +64,7 @@ class Collector:
         with open(filename, 'w') as f:
             f.write(self.data.text)
             
-def get_report(report_id: int, save: bool = False):
+def get_report(report_id: int, save_location: str = None):
     """
         Gets the report html from the given report id and returns the html
         as a string.
@@ -73,26 +73,17 @@ def get_report(report_id: int, save: bool = False):
     print(f"Getting report {report_id}")
     r = requests.get(url, headers=HEADERS)
     if r.status_code == 200:
-        print("  Success")
-        if save:
-            with open(f"./data/bp/reports/{report_id}.html", 'w') as f:
-                f.write(r.text)
+        print("  Fetched")
+        if save_location:
+            with open(f"{save_location}{report_id}.html", 'w', encoding="utf-8") as f:
+                try:
+                    f.write(r.text)
+                except UnicodeEncodeError as e:
+                    print(f"  Error: {e}")
         return r.text
     else:
         print("  Failed")
         return None
-
-def get_reports(report_ids: list, save: bool = False):
-    """
-        Gets the report html from the given report ids and returns a list of
-        tuples containing the report id and the html.
-    """
-    reports = []
-    for report_id in report_ids:
-        report = get_report(report_id, save)
-        if report is not None:
-            reports.append((report_id, report))
-    return reports
 
 def update_courses(search_page: str, map_location: str):
     """
@@ -115,9 +106,34 @@ def update_courses(search_page: str, map_location: str):
             collector.export_html(location + str(i) + ".html")
             i += 1
 
-# Load the csv data
-update_courses(BP_URL, "./data/bp/")
-update_courses(MP_URL, "./data/mp/")
+def update_reports(map_file: str):
+    """
+        Fetches the reports found in the map and saves them.
+    """
+    reports = pd.read_csv(map_file, sep=";")["report_id"]
+    print(f"Found {len(reports)} reports!")
+
+    print(f'Dropping {len(reports[reports.isna()])} reports without report id.')
+    reports.dropna(inplace=True)
+    print(f'Dropping {len(reports)-reports.nunique()} duplicate report ids.')
+    reports.drop_duplicates(inplace=True)
+    reports.reset_index(drop=True, inplace=True)
+
+    print(f"Fetching {len(reports)} reports...")
+    for i, report_id in enumerate(reports):
+        report_id = int(report_id)
+        print(f"  Fetching {report_id} ({i+1}/{len(reports)})")
+        # check is report is already fetched
+        if not os.path.isfile(f"./reports/{report_id}.html"):
+            get_report(int(report_id), "./reports/")
+            print(f"    Saved to reports/{report_id}.html")
+
+#update_courses(BP_URL, "./data/bp/")
+#update_courses(MP_URL, "./data/mp/")
+update_reports("./data/bp/search/report_map.csv")
+update_reports("./data/mp/search/report_map.csv")
+
+
 #df = pd.read_csv(data_path+'data.csv')
 #collector = Collector()
 #collector.programmes = ['275','1477','147','224','162'] # MPALG

@@ -32,3 +32,4 @@ Since this is something done quite yearly I will allow it to be scuffed. Tried r
 The usual report url looks something like `https://course-eval.portal.chalmers.se/SR/Report/Token/2418/0/7adc3d81-2f29-4c0c-a3de-5cb8aeff74d8`
 the path consisting of `{course_id}/0/{session_id}` although the `session_id` seems to only be required to be a non null string. Leading to the following syntax given a course id `https://course-eval.portal.chalmers.se/SR/Report/Token/{course_id}/0/0`
 ## Data Parsing
+Parsing is done using BeautifulSoup 4.

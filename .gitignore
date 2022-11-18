@@ -1,3 +1,7 @@
 data_*
 test.ipynb
 __pycache__
+data/reports
+data/report.csv
+data/report.xlsx
+data/report.zip

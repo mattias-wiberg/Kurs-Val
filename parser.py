@@ -2,6 +2,7 @@ import os
 import re
 import pandas as pd
 import str_utils as str_utils
+from tqdm import tqdm
 
 from bs4 import BeautifulSoup
 
@@ -49,7 +50,7 @@ def parse_search(search_path: str, save: bool = False):
         
         print(f"  Done parsing directory {programme_dir}")
         if save:
-            data.to_csv(path+"/report_map.csv", index=False, sep=";")
+            data.to_csv(path+"/report_map.csv", index=False, sep=";") # Not really needed, but nice for debugging
         full_data = pd.concat([full_data, data])
 
     if save:
@@ -61,37 +62,66 @@ def update_searches():
     parse_search("./data/bp/search", save=True)
     parse_search("./data/mp/search", save=True)
 
+report_cols = ['course_tag', 'course_name', 'period', 'reading_period', 'report_id', 'answers_count', 'respondents_count', 'category', 'question', 'mean', 'median']
+
 def parse_report(report_id: int, report: str):
     """
         Parses the given report html and returns a dict with the parsed data.
     """
     soup = BeautifulSoup(report, 'html.parser')
-    cols = ['course_tag', 'course_name', 'period', 'reading_period', 'report_id', 'answers_count', 'respondents_count', 'category', 'question', 'mean', 'median']
-    report = pd.DataFrame(columns=cols)
+    report_cols = ['course_tag', 'course_name', 'period', 'reading_period', 'report_id', 'answers_count', 'respondents_count', 'category', 'question', 'mean', 'median']
+    df = pd.DataFrame(columns=report_cols)
+
+    # Check if the report is empty
+    if len(soup.find_all('div', {'class': 'artBaseTable'})) < 3:
+        print(f"Report {report_id} is empty")
+        return df
+
     course = soup.find('h1').text
     course_tag, course_name, period, reading_period = str_utils.parse_course_text(course)
-
     course_info = soup.find('p').text
     numbers = re.findall(r'\d+', course_info)
-    answers_count = int(numbers[0])
-    respondents_count = int(numbers[1])
+    answers_count = int(numbers[1])
+    respondents_count = int(numbers[0])
 
     categories_divs = soup.find_all('div', {'class': 'artBaseTable'})
-    for div in categories_divs[2:]:
-        category = " ".join(div.find('h3').text.split(' ')[1:]) # remove the number from the category name
+    for div in categories_divs:
+        if div.find('table') is None: # Category div no tables
+            continue
+
+        h3 = div.find('h3')
+        if h3 is not None:
+            category = h3.text.strip()
+        else:
+            category = div.find('div', {'class': 'srTextWrapper'}).text.strip()
+
+        category_start_index = re.search(r'[a-zA-ZåäöÅÄÖ]', category).start() # Find the first letter in the category
+        category = category[category_start_index:] # remove the number from the category name
+
         questions_tables = div.find_all('table')
         for table in questions_tables: # Skips the categories without any tables/"numerics" (ex: "Vad i kursen bör bevaras till nästa kursomgång?")
-            question_text = table.find('th', {'class': 'srtbl-rh'}).text
+            table_h1 = table.find('tr', {'class': 'srtbl-h1'})
+            if table_h1 is None: # Skip the table if it has no header
+                continue
+            table_title = table_h1.text
+            if table_title != "\xa0MeanMedian" and table_title != "\xa0MedelvärdeMedian": # Skip the table if it has no mean/median
+                continue
+            question_text = table.find('th', {'class': 'srtbl-rh'}).text.strip()
             stat_cells = table.find_all('td', {'class': 'srtbl-cell'})
-            question_mean = stat_cells[0].text
-            question_median = stat_cells[1].text
-            report = pd.concat([report, 
+            question_mean = stat_cells[0].text.strip()
+            question_median = stat_cells[1].text.strip()
+            df = pd.concat([df, 
                 pd.DataFrame(
-                    [[course_tag, course_name, period, reading_period, report_id, answers_count, respondents_count, category, question_text, question_mean, question_median]], columns=cols
+                    [[course_tag, course_name, period, reading_period, report_id, answers_count, respondents_count, category, question_text, question_mean, question_median]], columns=report_cols
                 )
             ])
+        
+        end_categories = ["Overall impression", "Sammanfattande intryck", "Vad är Ditt sammanfattande intryck av kursen?", "What is your overall impression of the course?"]
+        if category in end_categories:
+            # Stop parsing after the overall impression category since after that it is just very detailed questions
+            break
 
-    return report
+    return df
 
 def parse_reports(reports_path: str, save: bool = False):
     """
@@ -99,21 +129,68 @@ def parse_reports(reports_path: str, save: bool = False):
         parsed data.
     """
     print("Parsing reports")
-    for file in os.listdir(reports_path):
+    print(f"Found {len(os.listdir(reports_path))} directories")
+    reports = pd.DataFrame(columns=report_cols)
+    skipped = []
+    for file in tqdm(os.listdir(reports_path)):
         if file.endswith(".html"):
-            with open(os.path.join(reports_path, file), 'r') as f:
-                html = f.read()
-                report_id = file.split('.')[0]
-                print(f"  Parsing report {report_id}")
-                report = parse_report(report_id, html)
-
-                if save:
-                    report.to_csv(f"{os.path.join(reports_path, report_id)}.csv", index=False, sep=";")
+            try:
+                with open(os.path.join(reports_path, file), 'r') as f:
+                    html = f.read()
+                    report_id = file.split('.')[0]
+                    report = parse_report(report_id, html)
+                    reports = pd.concat([reports, report])
+            except UnicodeDecodeError as e:
+                print(f"Error parsing {file}: {e}")
+                skipped.append(file)
+    if save:
+        reports.to_csv(f"./data/report.csv", index=False, sep=";")
     print("Done parsing reports")
 
-def update_reports():
-    parse_reports("./data/bp/reports", save=True)
-    parse_reports("./data/mp/reports", save=True)
+def parse_form(data_path: str):
+    """
+        Parses the html and returns a dictionary of the input fields
+        and their ids and returns a list of data frames with the 
+        columns ['tag', 'name', 'sid'].
+    """
+    with open(os.path.join(data_path, "search.html"), 'r') as f:
+        soup = BeautifulSoup(f.read(), 'html.parser')
+        categories = {
+            "Programme": soup.find("div", {"id": "treeCategories1"}),
+            "Year": soup.find("div", {"id": "treeCategories2"}),
+            "LP": soup.find("div", {"id": "treeCategories3"})
+            }
+        fields = {}
 
-update_searches()
-update_reports()
+        for category, div in categories.items():
+            lis = div.find_all('li')
+            field = pd.DataFrame(columns=['tag', 'name', 'sid'])
+
+            for li in lis:
+                if li.text != "Markera alla":
+                    # Has to handle ZBASS- Tekniskt basår, TSLOG - Sjöfart och logistik, 2013/2014 or Läsperiod 1
+                    tag = li.text
+                    name = ""
+
+                    if "-" in li.text: 
+                        keys = li.text.split("-")
+                        tag = keys[0].strip()
+                        name = keys[1].strip()
+                    
+                    sid = li.find('input')['tag']
+                    # use concat to add a new row to the dataframe
+                    field = pd.concat([field, pd.DataFrame([[tag, name, sid]], columns=['tag', 'name', 'sid'])], ignore_index=True)
+            fields[category] = field
+
+        return fields
+
+def update_form_mapping():
+    fields = parse_form("./data/bp")
+    for category, field in fields.items():
+        field.to_csv(f"./data/bp/{category}.csv", index=False, sep=";")
+    fields = parse_form("./data/mp")
+    for category, field in fields.items():
+        field.to_csv(f"./data/mp/{category}.csv", index=False, sep=";")
+
+#update_searches()
+parse_reports("./data/reports", save=True)
